@@ -29,9 +29,16 @@ DATA_DIR = os.path.join(ROOT, "data")
 NOTICES_PATH = os.path.join(DATA_DIR, "notices.json")   # 공고 목록 (수집 성공했을 때만 덮어씀)
 STATUS_PATH = os.path.join(DATA_DIR, "status.json")     # 마지막 실행 결과 (항상 기록)
 
-# 공공데이터포털은 서비스 주소 끝의 버전 숫자를 종종 올립니다(...Service04 -> 05 ...).
-# 어떤 버전이 살아있는지 순서대로 찔러보고, 처음 성공하는 주소를 사용합니다.
+# 공공데이터포털 개발계정 화면의 실제 End Point는 중간에 'ad/' 경로가 들어갑니다.
+#   예) https://apis.data.go.kr/1230000/ad/BidPublicInfoService
+# 또한 서비스 주소 끝의 버전 숫자를 종종 올립니다(...Service04 -> 05 ...).
+# 어떤 조합이 살아있는지 순서대로 찔러보고, 처음 성공하는 주소를 사용합니다.
 SERVICE_NAMES = [
+    "ad/BidPublicInfoService",
+    "ad/BidPublicInfoService04",
+    "ad/BidPublicInfoService05",
+    "ad/BidPublicInfoService03",
+    "ad/BidPublicInfoService02",
     "BidPublicInfoService04",
     "BidPublicInfoService05",
     "BidPublicInfoService03",
