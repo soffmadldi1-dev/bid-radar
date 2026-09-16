@@ -1,0 +1,7 @@
+# 파이썬이 만드는 임시 파일
+__pycache__/
+*.pyc
+
+# 윈도우/맥이 만드는 잡파일
+Thumbs.db
+.DS_Store

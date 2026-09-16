@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>공고 레이더 | 나라장터 용역공고 모아보기</title>
+  <meta name="description" content="조달청 나라장터 용역 입찰공고를 키워드로 걸러 매일 아침 자동으로 모아 보여줍니다." />
+
+  <!-- 한글 폰트 Pretendard (무료, CDN에서 바로 불러옵니다) -->
+  <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+
+  <style>
+    /* ---------- 색상/기본값 한 곳에 모아두기 ---------- */
+    :root {
+      --bg: #f4f6fa;
+      --card: #ffffff;
+      --text: #1a1d24;
+      --text-sub: #626b7d;
+      --line: #e3e7ef;
+      --point: #2563eb;        /* 기본 포인트 색 (파랑) */
+      --point-soft: #eaf1ff;
+      --urgent: #dc2626;       /* 마감 임박 (빨강) */
+      --urgent-soft: #fdeaea;
+      --closed: #9aa3b2;       /* 마감됨 (회색) */
+      --warn-bg: #fff7e6;
+      --warn-line: #ffd48a;
+      --radius: 14px;
+    }
+
+    /* 어두운 화면을 쓰는 기기에서는 자동으로 다크 테마 */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14161b;
+        --card: #1c1f27;
+        --text: #eceef2;
+        --text-sub: #9aa3b2;
+        --line: #2b3039;
+        --point: #6f9dff;
+        --point-soft: #1e2a44;
+        --urgent: #ff7b7b;
+        --urgent-soft: #3a2020;
+        --warn-bg: #33290f;
+        --warn-line: #6b5518;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0 16px 64px;
+      background: var(--bg);
+      color: var(--text);
+      /* Pretendard를 첫 번째로, 없으면 기기 기본 한글 폰트 */
+      font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+                   'Malgun Gothic', 'Apple SD Gothic Neo', system-ui, sans-serif;
+      /* 한글이 단어 중간에서 어색하게 끊기지 않도록 */
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .wrap { max-width: 760px; margin: 0 auto; }
+
+    /* ---------- 머리말 ---------- */
+    header { padding: 28px 0 8px; }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin: 0 0 6px;
+    }
+
+    .sub { color: var(--text-sub); font-size: 14px; margin: 0; }
+
+    /* ---------- 안내 배너 (수집 실패 시에만 표시) ---------- */
+    .banner {
+      display: none;
+      margin: 14px 0 0;
+      padding: 12px 14px;
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-line);
+      border-radius: var(--radius);
+      font-size: 13px;
+    }
+
+    /* ---------- 검색창 ---------- */
+    .search {
+      width: 100%;
+      margin: 16px 0 10px;
+      padding: 12px 14px;
+      font-size: 15px;
+      font-family: inherit;
+      color: var(--text);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+    .search:focus { outline: 2px solid var(--point); outline-offset: 1px; }
+
+    /* ---------- 키워드 필터 버튼 ---------- */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .chip {
+      padding: 8px 14px;
+      font-size: 14px;
+      font-family: inherit;
+      font-weight: 600;
+      color: var(--text-sub);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    .chip:hover { border-color: var(--point); color: var(--point); }
+    .chip[aria-pressed="true"] {
+      background: var(--point);
+      border-color: var(--point);
+      color: #fff;
+    }
+
+    .count { font-size: 13px; color: var(--text-sub); margin: 0 0 10px; }
+
+    /* ---------- 공고 카드 ---------- */
+    .list { display: flex; flex-direction: column; gap: 12px; }
+
+    .card {
+      display: block;
+      padding: 16px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: inherit;
+      transition: 0.15s;
+    }
+    .card:hover { border-color: var(--point); transform: translateY(-1px); }
+    .card.is-closed { opacity: 0.55; }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .dday {
+      flex-shrink: 0;
+      padding: 3px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 999px;
+      background: var(--point-soft);
+      color: var(--point);
+    }
+    .dday.urgent { background: var(--urgent-soft); color: var(--urgent); }
+    .dday.closed { background: transparent; color: var(--closed); border: 1px solid var(--line); }
+
+    .tag {
+      padding: 3px 9px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 6px;
+      background: var(--point-soft);
+      color: var(--point);
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.45;
+      margin: 0 0 10px;
+    }
+
+    .meta {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 13px;
+      color: var(--text-sub);
+    }
+    .meta b { color: var(--text); font-weight: 600; }
+    .meta-label { display: inline-block; min-width: 56px; }
+
+    .empty {
+      padding: 48px 16px;
+      text-align: center;
+      color: var(--text-sub);
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 28px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--text-sub);
+      text-align: center;
+    }
+
+    /* PC 화면에서는 글씨를 조금 키웁니다 */
+    @media (min-width: 640px) {
+      h1 { font-size: 28px; }
+      .title { font-size: 17px; }
+      .meta { flex-direction: row; flex-wrap: wrap; gap: 4px 18px; }
+    }
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>📡 공고 레이더</h1>
+    <p class="sub">나라장터 용역 입찰공고를 키워드로 걸러 매일 아침 자동으로 모읍니다.</p>
+    <div class="banner" id="banner"></div>
+  </header>
+
+  <input type="search" class="search" id="search" placeholder="공고명·기관명으로 검색" />
+
+  <div class="filters" id="filters"></div>
+
+  <p class="count" id="count">불러오는 중…</p>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    <span id="updated">—</span><br />
+    데이터 출처: 조달청 나라장터 입찰공고정보서비스 (공공데이터포털)
+  </footer>
+
+</div>
+
+<script>
+/* =========================================================================
+   화면에 목록을 그리는 코드입니다.
+   data/notices.json 파일을 읽어와 카드 형태로 보여줍니다.
+   ========================================================================= */
+
+var allNotices = [];       // 전체 공고
+var activeKeyword = "전체"; // 지금 선택된 키워드 필터
+var searchText = "";        // 검색창에 입력한 글자
+
+/* 1) 예산 금액을 읽기 쉽게 바꿉니다. 예) 120000000 -> 1억 2,000만원 */
+function formatBudget(amount) {
+  if (!amount || amount <= 0) return "미공개";
+  var eok = Math.floor(amount / 100000000);          // 억
+  var man = Math.floor((amount % 100000000) / 10000); // 만
+  if (eok > 0) {
+    return man > 0
+      ? eok + "억 " + man.toLocaleString() + "만원"
+      : eok + "억원";
+  }
+  if (man > 0) return man.toLocaleString() + "만원";
+  return amount.toLocaleString() + "원";
+}
+
+/* 2) 마감일까지 며칠 남았는지 계산합니다. */
+function getDday(closeTs) {
+  if (!closeTs) return { text: "마감일 미정", cls: "closed", closed: false };
+
+  var nowSec = Date.now() / 1000;
+  var diffSec = closeTs - nowSec;
+  if (diffSec < 0) return { text: "마감", cls: "closed", closed: true };
+
+  var days = Math.floor(diffSec / 86400);
+  if (days === 0) {
+    var hours = Math.max(1, Math.floor(diffSec / 3600));
+    return { text: "오늘 마감 (" + hours + "시간)", cls: "urgent", closed: false };
+  }
+  return {
+    text: "D-" + days,
+    cls: days <= 3 ? "urgent" : "",   // 3일 이하는 빨간색으로 강조
+    closed: false
+  };
+}
+
+/* 3) HTML에 그대로 넣으면 위험한 글자를 안전하게 바꿉니다. */
+function escapeHtml(text) {
+  return String(text || "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
+/* 4) 키워드 필터 버튼을 만듭니다. */
+function renderFilters(keywords) {
+  var box = document.getElementById("filters");
+  var buttons = ["전체"].concat(keywords);
+
+  box.innerHTML = buttons.map(function (word) {
+    var on = word === activeKeyword ? "true" : "false";
+    return '<button class="chip" aria-pressed="' + on + '" data-word="' +
+           escapeHtml(word) + '">' + escapeHtml(word) + "</button>";
+  }).join("");
+
+  // 버튼을 누르면 해당 키워드만 보여줍니다.
+  box.querySelectorAll(".chip").forEach(function (button) {
+    button.addEventListener("click", function () {
+      activeKeyword = button.dataset.word;
+      renderFilters(keywords);
+      renderList();
+    });
+  });
+}
+
+/* 5) 지금 조건에 맞는 공고만 골라내고, 마감 임박순으로 정렬합니다.
+      (이미 마감된 공고는 맨 아래로 내립니다) */
+function getVisible() {
+  var nowSec = Date.now() / 1000;
+
+  var picked = allNotices.filter(function (notice) {
+    // (1) 키워드 버튼 조건
+    if (activeKeyword !== "전체") {
+      if (!notice.matched || notice.matched.indexOf(activeKeyword) === -1) return false;
+    }
+    // (2) 검색창 조건
+    if (searchText) {
+      var haystack = (notice.title + " " + notice.agency + " " + notice.demand_agency).toLowerCase();
+      if (haystack.indexOf(searchText) === -1) return false;
+    }
+    return true;
+  });
+
+  // 정렬 규칙: (1) 아직 안 끝난 공고 먼저  (2) 마감일이 빠른 순  (3) 마감일 미정은 뒤로
+  return picked.sort(function (a, b) {
+    var aTs = a.close_ts || 9999999999;
+    var bTs = b.close_ts || 9999999999;
+    var aDone = a.close_ts && a.close_ts < nowSec ? 1 : 0;
+    var bDone = b.close_ts && b.close_ts < nowSec ? 1 : 0;
+    if (aDone !== bDone) return aDone - bDone;
+    return aTs - bTs;
+  });
+}
+
+/* 6) 공고 카드를 화면에 그립니다. (마감 임박순은 이미 파이썬에서 정렬해 둡니다) */
+function renderList() {
+  var visible = getVisible();
+  var list = document.getElementById("list");
+  var count = document.getElementById("count");
+
+  count.textContent = "총 " + visible.length + "건" +
+    (activeKeyword === "전체" ? "" : " · '" + activeKeyword + "' 필터");
+
+  if (visible.length === 0) {
+    // 아직 한 번도 수집하지 않은 경우와, 필터 때문에 안 보이는 경우를 구분해서 안내합니다.
+    list.innerHTML = allNotices.length === 0
+      ? '<p class="empty">아직 수집된 공고가 없습니다.<br />GitHub 저장소의 <b>Actions</b> 탭에서 ' +
+        '<b>공고 수집 → Run workflow</b> 를 한 번 눌러주세요.</p>'
+      : '<p class="empty">조건에 맞는 공고가 없습니다.<br />다른 키워드를 눌러보세요.</p>';
+    return;
+  }
+
+  list.innerHTML = visible.map(function (notice) {
+    var dday = getDday(notice.close_ts);
+    var tags = (notice.matched || []).map(function (word) {
+      return '<span class="tag">' + escapeHtml(word) + "</span>";
+    }).join("");
+
+    return '' +
+      '<a class="card' + (dday.closed ? " is-closed" : "") + '" href="' +
+          escapeHtml(notice.link) + '" target="_blank" rel="noopener">' +
+        '<div class="card-top">' +
+          '<span class="dday ' + dday.cls + '">' + escapeHtml(dday.text) + "</span>" +
+          tags +
+        "</div>" +
+        '<p class="title">' + escapeHtml(notice.title) + "</p>" +
+        '<div class="meta">' +
+          '<span><span class="meta-label">발주기관</span><b>' + escapeHtml(notice.agency || "-") + "</b></span>" +
+          '<span><span class="meta-label">예산</span><b>' + escapeHtml(formatBudget(notice.budget)) + "</b></span>" +
+          '<span><span class="meta-label">마감일시</span><b>' + escapeHtml(notice.close_date || "미정") + "</b></span>" +
+        "</div>" +
+      "</a>";
+  }).join("");
+}
+
+/* 7) 수집이 실패했을 때 위쪽에 안내 배너를 띄웁니다. */
+function showBanner(message) {
+  var banner = document.getElementById("banner");
+  banner.innerHTML = message;
+  banner.style.display = "block";
+}
+
+/* 8) 페이지가 열리면 데이터 파일을 읽어옵니다. */
+function boot() {
+  // 주소 뒤에 시각을 붙여 브라우저가 옛날 파일을 보여주지 않게 합니다.
+  var bust = "?t=" + Date.now();
+
+  fetch("data/notices.json" + bust)
+    .then(function (response) {
+      if (!response.ok) throw new Error("데이터 파일을 찾을 수 없습니다.");
+      return response.json();
+    })
+    .then(function (data) {
+      allNotices = data.notices || [];
+      document.getElementById("updated").textContent = data.updated_at
+        ? "마지막 갱신: " + data.updated_at + " (한국시간)"
+        : "아직 수집 전입니다.";
+      renderFilters(data.keywords || []);
+      renderList();
+    })
+    .catch(function (error) {
+      document.getElementById("count").textContent = "";
+      document.getElementById("list").innerHTML =
+        '<p class="empty">아직 수집된 데이터가 없습니다.<br />' +
+        'GitHub Actions에서 <b>공고 수집</b>을 한 번 실행해 주세요.</p>';
+    });
+
+  // 수집 실패 여부도 함께 확인합니다. (실패해도 위 목록은 이전 데이터가 그대로 보입니다)
+  fetch("data/status.json" + bust)
+    .then(function (response) { return response.ok ? response.json() : null; })
+    .then(function (status) {
+      if (status && status.ok === false) {
+        showBanner("⚠️ 최근 자동 수집이 실패했습니다 (" + escapeHtml(status.checked_at) +
+                   ").<br />아래 목록은 마지막으로 성공했던 데이터입니다.<br />사유: " +
+                   escapeHtml(status.message));
+      }
+    })
+    .catch(function () { /* status.json이 없어도 문제없습니다 */ });
+}
+
+/* 검색창에 글자를 칠 때마다 목록을 다시 그립니다. */
+document.getElementById("search").addEventListener("input", function (event) {
+  searchText = event.target.value.trim().toLowerCase();
+  renderList();
+});
+
+boot();
+</script>
+</body>
+</html>
