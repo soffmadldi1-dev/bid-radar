@@ -1,7 +1,7 @@
 {
-  "ok": true,
-  "message": "정상 수집",
-  "count": 49,
-  "endpoint": "ad/BidPublicInfoService/getBidPblancListInfoServc",
-  "checked_at": "2026-09-20 08:56:21"
+  "ok": false,
+  "message": "<urlopen error _ssl.c:999: The handshake operation timed out>",
+  "count": null,
+  "endpoint": "",
+  "checked_at": "2026-09-21 08:53:48"
 }
