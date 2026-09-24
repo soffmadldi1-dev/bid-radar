@@ -3,5 +3,5 @@
   "message": "모든 API 주소 후보가 실패했습니다. 마지막 오류: BidPublicInfoService/getBidPblancListInfoServcPPSSrch -> <urlopen error timed out>",
   "count": null,
   "endpoint": "",
-  "checked_at": "2026-09-23 09:13:02"
+  "checked_at": "2026-09-24 09:25:58"
 }
