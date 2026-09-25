@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20 08:56:21",
+  "updated_at": "2026-09-25 09:18:52",
   "keywords": [
     "취업",
     "관광",
@@ -14,212 +14,36 @@
     "시스템 구축"
   ],
   "total_fetched": 2000,
-  "count": 49,
+  "count": 60,
   "notices": [
     {
-      "id": "R26BK01730333-000",
-      "title": "데이터허브 시범솔루션 발굴사업「경남AI관광서비스 플랫폼 구축」감리용역(2단계)",
-      "agency": "경상남도",
-      "demand_agency": "경상남도",
-      "budget": 99489490,
-      "notice_no": "R26BK01730333",
-      "notice_date": "2026-09-15 14:12",
-      "close_date": "2026-09-21 10:00",
-      "close_ts": 1789952400,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730333&bidPbancOrd=000",
-      "matched": [
-        "관광"
-      ]
-    },
-    {
-      "id": "R26BK01726123-000",
-      "title": "익산문화관광재단 SNS 운영 및 온라인 콘텐츠 제작 용역",
-      "agency": "재단법인익산문화관광재단",
-      "demand_agency": "재단법인익산문화관광재단",
-      "budget": 18000000,
-      "notice_no": "R26BK01726123",
-      "notice_date": "2026-09-15 13:30",
-      "close_date": "2026-09-21 10:00",
-      "close_ts": 1789952400,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01726123&bidPbancOrd=000",
-      "matched": [
-        "관광"
-      ]
-    },
-    {
-      "id": "R26BK01726123-001",
-      "title": "익산문화관광재단 SNS 운영 및 온라인 콘텐츠 제작 용역",
-      "agency": "재단법인익산문화관광재단",
-      "demand_agency": "재단법인익산문화관광재단",
-      "budget": 18000000,
-      "notice_no": "R26BK01726123",
-      "notice_date": "2026-09-15 15:51",
-      "close_date": "2026-09-21 10:00",
-      "close_ts": 1789952400,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01726123&bidPbancOrd=001",
-      "matched": [
-        "관광"
-      ]
-    },
-    {
-      "id": "R26BK01730926-000",
-      "title": "익산문화관광재단 SNS 운영 및 온라인 콘텐츠 제작 용역",
-      "agency": "재단법인익산문화관광재단",
-      "demand_agency": "재단법인익산문화관광재단",
-      "budget": 18000000,
-      "notice_no": "R26BK01730926",
-      "notice_date": "2026-09-15 15:59",
-      "close_date": "2026-09-21 10:00",
-      "close_ts": 1789952400,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730926&bidPbancOrd=000",
-      "matched": [
-        "관광"
-      ]
-    },
-    {
-      "id": "R26BK01723226-001",
-      "title": "한양대학교 산학협력단 2026년 글로벌 AI 인재양성 해외협력 프로그램 총괄 운영지원 용역",
-      "agency": "한양대학교 산학협력단",
-      "demand_agency": "한양대학교 산학협력단",
-      "budget": 80000000,
-      "notice_no": "R26BK01723226",
-      "notice_date": "2026-09-18 08:29",
-      "close_date": "2026-09-21 17:00",
-      "close_ts": 1789977600,
+      "id": "R26BK01673211-002",
+      "title": "키르기즈공화국 전통공예 기술과 디지털 마케팅 역량강화를 통한 문화관광산업 활성화 국제개발협력사업 ODA 백서 발간 및 종료 평가",
+      "agency": "유네스코아태무형유산센터",
+      "demand_agency": "유네스코아태무형유산센터",
+      "budget": 52000000,
+      "notice_no": "R26BK01673211",
+      "notice_date": "2026-09-23 11:37",
+      "close_date": "2026-09-28 17:00",
+      "close_ts": 1790582400,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01723226&bidPbancOrd=001",
-      "matched": [
-        "인재양성"
-      ]
-    },
-    {
-      "id": "R26BK01735418-000",
-      "title": "2026 스마트생태공장 구축사업 - 컨설팅",
-      "agency": "(주)아즈텍더블유비이",
-      "demand_agency": "(주)아즈텍더블유비이",
-      "budget": 22000000,
-      "notice_no": "R26BK01735418",
-      "notice_date": "2026-09-17 16:18",
-      "close_date": "2026-09-23 16:00",
-      "close_ts": 1790146800,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01735418&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01728602-000",
-      "title": "[LP5-2-12] 2026학년도 취업성공수기 공모전",
-      "agency": "숭실대학교",
-      "demand_agency": "숭실대학교",
-      "budget": 13000000,
-      "notice_no": "R26BK01728602",
-      "notice_date": "2026-09-14 16:30",
-      "close_date": "2026-09-28 10:00",
-      "close_ts": 1790557200,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01728602&bidPbancOrd=000",
-      "matched": [
-        "취업"
-      ]
-    },
-    {
-      "id": "R26BK01728010-000",
-      "title": "관광 AI 거버넌스 및 민관 협력체계 구축 방안 연구용역",
-      "agency": "한국관광공사",
-      "demand_agency": "한국관광공사",
-      "budget": 77942000,
-      "notice_no": "R26BK01728010",
-      "notice_date": "2026-09-14 14:58",
-      "close_date": "2026-09-28 10:00",
-      "close_ts": 1790557200,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01728010&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01673211&bidPbancOrd=002",
       "matched": [
         "관광"
       ]
     },
     {
-      "id": "R26BK01731637-000",
-      "title": "한국장애인개발원 조직진단 컨설팅",
-      "agency": "한국장애인개발원",
-      "demand_agency": "한국장애인개발원",
-      "budget": 100000000,
-      "notice_no": "R26BK01731637",
-      "notice_date": "2026-09-16 08:25",
-      "close_date": "2026-09-28 10:00",
-      "close_ts": 1790557200,
+      "id": "R26BK01737598-000",
+      "title": "2026 진주시 문화사업가 시장분석 및 컨설팅 운영 용역",
+      "agency": "경상남도 진주시",
+      "demand_agency": "경상남도 진주시",
+      "budget": 148800000,
+      "notice_no": "R26BK01737598",
+      "notice_date": "2026-09-18 18:22",
+      "close_date": "2026-09-29 10:00",
+      "close_ts": 1790643600,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01731637&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01734002-000",
-      "title": "특성화고 스마트물류 인재양성 온라인 콘텐츠 제작",
-      "agency": "경북보건대학교 산학협력단",
-      "demand_agency": "경북보건대학교 산학협력단",
-      "budget": 1100,
-      "notice_no": "R26BK01734002",
-      "notice_date": "2026-09-17 09:27",
-      "close_date": "2026-09-28 12:00",
-      "close_ts": 1790564400,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734002&bidPbancOrd=000",
-      "matched": [
-        "인재양성"
-      ]
-    },
-    {
-      "id": "R26BK01733057-000",
-      "title": "국유재산관리기금 성과평가 및 자산운용 컨설팅",
-      "agency": "한국자산관리공사 국유재산관리기금",
-      "demand_agency": "한국자산관리공사 국유재산관리기금",
-      "budget": 40000000,
-      "notice_no": "R26BK01733057",
-      "notice_date": "2026-09-16 16:18",
-      "close_date": "2026-09-28 14:00",
-      "close_ts": 1790571600,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01733057&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01727961-000",
-      "title": "[국립한국해양대학교] 해양 특성화 기반 융복합 미래 인재 양성을 위한 혁신 전략 및 성과 관리 고도화 연구 용역",
-      "agency": "한국해양대학교",
-      "demand_agency": "한국해양대학교",
-      "budget": 50000000,
-      "notice_no": "R26BK01727961",
-      "notice_date": "2026-09-14 14:59",
-      "close_date": "2026-09-28 18:00",
-      "close_ts": 1790586000,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01727961&bidPbancOrd=000",
-      "matched": [
-        "인재양성"
-      ]
-    },
-    {
-      "id": "R26BK01731950-000",
-      "title": "범부처재생의료기술개발사업 투자유치 컨설팅 지원사업 용역",
-      "agency": "(재)범부처재생의료기술개발사업단",
-      "demand_agency": "(재)범부처재생의료기술개발사업단",
-      "budget": 33000000,
-      "notice_no": "R26BK01731950",
-      "notice_date": "2026-09-16 10:38",
-      "close_date": "2026-09-28 18:00",
-      "close_ts": 1790586000,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01731950&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737598&bidPbancOrd=000",
       "matched": [
         "컨설팅"
       ]
@@ -241,67 +65,35 @@
       ]
     },
     {
-      "id": "R26BK01734009-000",
-      "title": "정보보호 및 개인정보보호 관리체계 (ISMS-P) 인증 컨설팅",
-      "agency": "공무원연금공단",
-      "demand_agency": "공무원연금공단",
-      "budget": 104976885,
-      "notice_no": "R26BK01734009",
-      "notice_date": "2026-09-17 18:07",
+      "id": "R26BK01737213-000",
+      "title": "2026년 한양대학교 사업화 지원 프로그램 「IP R&D 컨설팅」 운영 용역",
+      "agency": "한양대학교 산학협력단",
+      "demand_agency": "한양대학교 산학협력단",
+      "budget": 30000000,
+      "notice_no": "R26BK01737213",
+      "notice_date": "2026-09-18 15:44",
       "close_date": "2026-09-29 10:00",
       "close_ts": 1790643600,
       "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734009&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737213&bidPbancOrd=000",
       "matched": [
         "컨설팅"
       ]
     },
     {
-      "id": "R26BK01732545-000",
-      "title": "공군 NCS 직무표준화 교육 및 컨설팅 위탁용역",
-      "agency": "공군본부",
-      "demand_agency": "공군본부",
-      "budget": 38150000,
-      "notice_no": "R26BK01732545",
-      "notice_date": "2026-09-16 13:36",
-      "close_date": "2026-09-29 11:00",
-      "close_ts": 1790647200,
+      "id": "R26BK01736966-000",
+      "title": "공주시 열기구 관광 기본 구상 및 사업 타당성 조사 용역(협상)",
+      "agency": "충청남도 공주시",
+      "demand_agency": "충청남도 공주시",
+      "budget": 100000000,
+      "notice_no": "R26BK01736966",
+      "notice_date": "2026-09-18 14:58",
+      "close_date": "2026-09-29 10:00",
+      "close_ts": 1790643600,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01732545&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736966&bidPbancOrd=000",
       "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01727814-000",
-      "title": "국가 망 보안체계(N2SF) 적용 기반 마련 및 중장기 정보보안 체계 수립 컨설팅 용역",
-      "agency": "한국식품산업클러스터진흥원",
-      "demand_agency": "한국식품산업클러스터진흥원",
-      "budget": 150000000,
-      "notice_no": "R26BK01727814",
-      "notice_date": "2026-09-14 14:52",
-      "close_date": "2026-09-29 11:00",
-      "close_ts": 1790647200,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01727814&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01728060-000",
-      "title": "2026학년도 앵커사업 외국인 유학생 취업진로역량강화캠프 용역 업체선정 공고",
-      "agency": "수성대학교 산학협력단",
-      "demand_agency": "수성대학교 산학협력단",
-      "budget": 44000000,
-      "notice_no": "R26BK01728060",
-      "notice_date": "2026-09-14 17:43",
-      "close_date": "2026-09-29 12:00",
-      "close_ts": 1790650800,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01728060&bidPbancOrd=000",
-      "matched": [
-        "취업"
+        "관광"
       ]
     },
     {
@@ -316,22 +108,6 @@
       "close_ts": 1790650800,
       "contract_method": "제한경쟁",
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736114&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01727177-000",
-      "title": "3D 스캐너 활용 수리조선업 역설계 교육 및 컨설팅 용역",
-      "agency": "재단법인부산테크노파크",
-      "demand_agency": "재단법인부산테크노파크",
-      "budget": 65000000,
-      "notice_no": "R26BK01727177",
-      "notice_date": "2026-09-14 11:10",
-      "close_date": "2026-09-29 14:00",
-      "close_ts": 1790658000,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01727177&bidPbancOrd=000",
       "matched": [
         "컨설팅"
       ]
@@ -353,22 +129,6 @@
       ]
     },
     {
-      "id": "R26BK01732187-000",
-      "title": "2026 국악공연 관광상품 개발 마케팅 용역",
-      "agency": "재단법인 전통공연예술진흥재단",
-      "demand_agency": "재단법인 전통공연예술진흥재단",
-      "budget": 60000000,
-      "notice_no": "R26BK01732187",
-      "notice_date": "2026-09-16 14:55",
-      "close_date": "2026-09-29 16:00",
-      "close_ts": 1790665200,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01732187&bidPbancOrd=000",
-      "matched": [
-        "관광"
-      ]
-    },
-    {
       "id": "R26BK01736703-000",
       "title": "2026 완슐랭 : 완주의 맛을 찾아라! 체류형 미식관광 축제 프로그램 운영",
       "agency": "우석대학교산학협력단",
@@ -382,118 +142,6 @@
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736703&bidPbancOrd=000",
       "matched": [
         "관광"
-      ]
-    },
-    {
-      "id": "R26BK01730321-000",
-      "title": "2026년 서부지방산림청 유아숲체험원 정기 위험성평가 컨설팅 용역",
-      "agency": "산림청 서부지방산림청",
-      "demand_agency": "산림청 서부지방산림청",
-      "budget": 24695000,
-      "notice_no": "R26BK01730321",
-      "notice_date": "2026-09-16 10:31",
-      "close_date": "2026-09-30 10:00",
-      "close_ts": 1790730000,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730321&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01733933-000",
-      "title": "PnC PKI 인증체계 및 전기차 충전기 보안강화 컨설팅",
-      "agency": "조달청 인천지방조달청",
-      "demand_agency": "한국환경공단",
-      "budget": 181678000,
-      "notice_no": "R26BK01733933",
-      "notice_date": "2026-09-17 14:26",
-      "close_date": "2026-09-30 10:00",
-      "close_ts": 1790730000,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01733933&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01729679-000",
-      "title": "공공 공연시설 유통 역량 강화 컨설팅 운영",
-      "agency": "조달청 서울지방조달청",
-      "demand_agency": "(재)예술경영지원센터",
-      "budget": 252210000,
-      "notice_no": "R26BK01729679",
-      "notice_date": "2026-09-15 10:42",
-      "close_date": "2026-09-30 10:00",
-      "close_ts": 1790730000,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01729679&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01725852-000",
-      "title": "남해안 관광 UAM 시범사업을 위한 공간정보 구축 용역",
-      "agency": "조달청 경남지방조달청",
-      "demand_agency": "재단법인 경남테크노파크",
-      "budget": 129282800,
-      "notice_no": "R26BK01725852",
-      "notice_date": "2026-09-15 09:19",
-      "close_date": "2026-09-30 10:00",
-      "close_ts": 1790730000,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01725852&bidPbancOrd=000",
-      "matched": [
-        "관광"
-      ]
-    },
-    {
-      "id": "R26BK01729940-000",
-      "title": "(재공고)동아대학교 마이크로모듈제 교육과정 개편 전략 수립 컨설팅 용역",
-      "agency": "동아대학교",
-      "demand_agency": "동아대학교",
-      "budget": 109800000,
-      "notice_no": "R26BK01729940",
-      "notice_date": "2026-09-15 13:02",
-      "close_date": "2026-09-30 11:00",
-      "close_ts": 1790733600,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01729940&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01734257-000",
-      "title": "2026년 K-MEDI 글로벌 인재양성 및 통합 실무지원사업 수출상담회 개최 및 글로벌 마케터 운영 용역",
-      "agency": "재단법인 환동해산업연구원",
-      "demand_agency": "재단법인 환동해산업연구원",
-      "budget": 70000000,
-      "notice_no": "R26BK01734257",
-      "notice_date": "2026-09-17 10:35",
-      "close_date": "2026-09-30 14:00",
-      "close_ts": 1790744400,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734257&bidPbancOrd=000",
-      "matched": [
-        "인재양성"
-      ]
-    },
-    {
-      "id": "R26BK01734437-000",
-      "title": "[재공고] [GYU 워크솔루션] 강릉영동대학교 중장기 발전계획 CARE+2030 Rolling  및 경영성과관리 컨설팅 용역",
-      "agency": "강릉영동대학 산학협력단",
-      "demand_agency": "강릉영동대학 산학협력단",
-      "budget": 40000000,
-      "notice_no": "R26BK01734437",
-      "notice_date": "2026-09-17 11:14",
-      "close_date": "2026-09-30 14:00",
-      "close_ts": 1790744400,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734437&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
       ]
     },
     {
@@ -513,67 +161,19 @@
       ]
     },
     {
-      "id": "R26BK01728497-000",
-      "title": "양자내성암호(PQC)기반 V2X OBU 복호화 서버 실증 및 컨설팅 용역",
-      "agency": "재단법인 차세대융합기술연구원",
-      "demand_agency": "재단법인 차세대융합기술연구원",
-      "budget": 80000000,
-      "notice_no": "R26BK01728497",
-      "notice_date": "2026-09-14 16:25",
-      "close_date": "2026-10-01 12:00",
-      "close_ts": 1790823600,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01728497&bidPbancOrd=000",
+      "id": "R26BK01742813-000",
+      "title": "2026년 중앙소방학교 교육훈련용 소방차량 엔진 정비 용역",
+      "agency": "소방청 중앙소방학교",
+      "demand_agency": "소방청 중앙소방학교",
+      "budget": 27242270,
+      "notice_no": "R26BK01742813",
+      "notice_date": "2026-09-23 09:43",
+      "close_date": "2026-10-01 10:00",
+      "close_ts": 1790816400,
+      "contract_method": "수의계약",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742813&bidPbancOrd=000",
       "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01728747-000",
-      "title": "양자내성암호(PQC)기반 V2X OBU 복호화 서버 실증 및 컨설팅 용역 사전규격 공개",
-      "agency": "재단법인 차세대융합기술연구원",
-      "demand_agency": "재단법인 차세대융합기술연구원",
-      "budget": 100000000,
-      "notice_no": "R26BK01728747",
-      "notice_date": "2026-09-14 17:10",
-      "close_date": "2026-10-01 12:00",
-      "close_ts": 1790823600,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01728747&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01731180-000",
-      "title": "[건국대학교 산학협력단] 민감계층 이용시설 맞춤형 실내공기질 개선 및 관리 컨설팅",
-      "agency": "건국대학교 산학협력단",
-      "demand_agency": "건국대학교 산학협력단",
-      "budget": 210000000,
-      "notice_no": "R26BK01731180",
-      "notice_date": "2026-09-15 17:05",
-      "close_date": "2026-10-01 14:00",
-      "close_ts": 1790830800,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01731180&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01726578-000",
-      "title": "(재)익산문화관광재단 홈페이지 리뉴얼 구축 사업 용역 입찰 공고",
-      "agency": "재단법인익산문화관광재단",
-      "demand_agency": "재단법인익산문화관광재단",
-      "budget": 99000000,
-      "notice_no": "R26BK01726578",
-      "notice_date": "2026-09-14 09:56",
-      "close_date": "2026-10-01 16:00",
-      "close_ts": 1790838000,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01726578&bidPbancOrd=000",
-      "matched": [
-        "관광"
+        "교육훈련"
       ]
     },
     {
@@ -593,67 +193,179 @@
       ]
     },
     {
-      "id": "R26BK01732147-000",
-      "title": "베트남 하노이 국립이비인후과병원 의료기기 관리운영체계 강화사업 2차 컨설팅 위탁용역",
-      "agency": "조달청 서울지방조달청",
-      "demand_agency": "한국국제보건의료재단",
-      "budget": 202837600,
-      "notice_no": "R26BK01732147",
-      "notice_date": "2026-09-16 15:32",
+      "id": "R26BK01736601-000",
+      "title": "2026학년도 경남관광고등학교 경남형 직업계고 해외인턴십 운영 위탁 용역",
+      "agency": "경상남도교육청 경남관광고등학교",
+      "demand_agency": "경상남도교육청 경남관광고등학교",
+      "budget": 79994170,
+      "notice_no": "R26BK01736601",
+      "notice_date": "2026-09-21 10:18",
       "close_date": "2026-10-02 10:00",
       "close_ts": 1790902800,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01732147&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736601&bidPbancOrd=000",
+      "matched": [
+        "관광"
+      ]
+    },
+    {
+      "id": "R26BK01738415-000",
+      "title": "달천철장 홍보관 무장애 관광 콘텐츠 개발 용역",
+      "agency": "재단법인울산문화관광재단",
+      "demand_agency": "재단법인울산문화관광재단",
+      "budget": 80000000,
+      "notice_no": "R26BK01738415",
+      "notice_date": "2026-09-21 11:37",
+      "close_date": "2026-10-02 10:00",
+      "close_ts": 1790902800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738415&bidPbancOrd=000",
+      "matched": [
+        "관광"
+      ]
+    },
+    {
+      "id": "R26BK01739528-000",
+      "title": "뿌리산업 BIZ플랫폼 기반의 기업분석체계 개발 및 현장 컨설팅",
+      "agency": "한국생산기술연구원",
+      "demand_agency": "한국생산기술연구원",
+      "budget": 90000000,
+      "notice_no": "R26BK01739528",
+      "notice_date": "2026-09-21 15:47",
+      "close_date": "2026-10-02 10:00",
+      "close_ts": 1790902800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01739528&bidPbancOrd=000",
       "matched": [
         "컨설팅"
       ]
     },
     {
-      "id": "R26BK01727065-000",
-      "title": "2026학년도 「실전 취업 캠프」 위탁운영",
-      "agency": "영남이공대학교",
-      "demand_agency": "영남이공대학교",
-      "budget": 51000000,
-      "notice_no": "R26BK01727065",
-      "notice_date": "2026-09-14 10:34",
-      "close_date": "2026-10-02 12:00",
-      "close_ts": 1790910000,
+      "id": "R26BK01739883-000",
+      "title": "충주시 탄소모니터링 실증시스템 상세 설계 및 컨설팅 용역",
+      "agency": "재단법인 충북과학기술혁신원",
+      "demand_agency": "재단법인 충북과학기술혁신원",
+      "budget": 40000000,
+      "notice_no": "R26BK01739883",
+      "notice_date": "2026-09-21 17:10",
+      "close_date": "2026-10-02 10:00",
+      "close_ts": 1790902800,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01727065&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01739883&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01740037-000",
+      "title": "환경R&D 특허성과 활용 조달진출을 위한 컨설팅 지원사업",
+      "agency": "한국환경산업기술원",
+      "demand_agency": "한국환경산업기술원",
+      "budget": 70000000,
+      "notice_no": "R26BK01740037",
+      "notice_date": "2026-09-21 17:43",
+      "close_date": "2026-10-02 10:00",
+      "close_ts": 1790902800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740037&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01738261-000",
+      "title": "고온 배터리용 다공성 양극재 기술의 IP 고도화 및 기술이전 컨설팅 용역",
+      "agency": "중앙대학교 산학협력단",
+      "demand_agency": "중앙대학교 산학협력단",
+      "budget": 34835000,
+      "notice_no": "R26BK01738261",
+      "notice_date": "2026-09-21 10:28",
+      "close_date": "2026-10-02 11:00",
+      "close_ts": 1790906400,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738261&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01738261-001",
+      "title": "고온 배터리용 다공성 양극재 기술의 IP 고도화 및 기술이전 컨설팅 용역",
+      "agency": "중앙대학교 산학협력단",
+      "demand_agency": "중앙대학교 산학협력단",
+      "budget": 34835000,
+      "notice_no": "R26BK01738261",
+      "notice_date": "2026-09-21 11:09",
+      "close_date": "2026-10-02 11:00",
+      "close_ts": 1790906400,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738261&bidPbancOrd=001",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01738527-000",
+      "title": "고온 배터리용 다공성 양극재 기술의 IP 고도화 및 기술이전 컨설팅 용역",
+      "agency": "중앙대학교 산학협력단",
+      "demand_agency": "중앙대학교 산학협력단",
+      "budget": 34835000,
+      "notice_no": "R26BK01738527",
+      "notice_date": "2026-09-21 11:24",
+      "close_date": "2026-10-02 11:00",
+      "close_ts": 1790906400,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738527&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01739887-000",
+      "title": "첫 2,000만 돌파 방한관광객 유치 기념행사 운영",
+      "agency": "한국관광공사",
+      "demand_agency": "한국관광공사",
+      "budget": 99647000,
+      "notice_no": "R26BK01739887",
+      "notice_date": "2026-09-21 17:11",
+      "close_date": "2026-10-02 11:00",
+      "close_ts": 1790906400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01739887&bidPbancOrd=000",
+      "matched": [
+        "관광"
+      ]
+    },
+    {
+      "id": "R26BK01743550-000",
+      "title": "2026학년도 DU-앵커 취업박람회 행사 용역",
+      "agency": "대구대학교 산학협력단",
+      "demand_agency": "대구대학교 산학협력단",
+      "budget": 80000000,
+      "notice_no": "R26BK01743550",
+      "notice_date": "2026-09-23 12:05",
+      "close_date": "2026-10-02 14:00",
+      "close_ts": 1790917200,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743550&bidPbancOrd=000",
       "matched": [
         "취업"
       ]
     },
     {
-      "id": "R26BK01734593-000",
-      "title": "주요정보통신기반시설 취약점 분석 평가 및 ISMS 인증(최초심사) 정보보안 컨설팅 사업",
-      "agency": "강원대학교병원",
-      "demand_agency": "강원대학교병원",
-      "budget": 250000000,
-      "notice_no": "R26BK01734593",
-      "notice_date": "2026-09-17 11:57",
+      "id": "R26BK01739832-000",
+      "title": "제20차 UN Tourism 아태지역 중견공무원 관광정책 연수 및 제38차 아태·남아시아 공동지역위원회 기획 및 운영",
+      "agency": "한국관광공사",
+      "demand_agency": "한국관광공사",
+      "budget": 699823000,
+      "notice_no": "R26BK01739832",
+      "notice_date": "2026-09-21 17:03",
       "close_date": "2026-10-02 15:00",
       "close_ts": 1790920800,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734593&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01739832&bidPbancOrd=000",
       "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01735613-000",
-      "title": "AI반도체 기반 AX 디바이스 기술․사업화 조사 분석 및 컨설팅 용역",
-      "agency": "한국정보통신기술협회",
-      "demand_agency": "한국정보통신기술협회",
-      "budget": 200000000,
-      "notice_no": "R26BK01735613",
-      "notice_date": "2026-09-17 17:20",
-      "close_date": "2026-10-02 16:00",
-      "close_ts": 1790924400,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01735613&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
+        "관광"
       ]
     },
     {
@@ -705,67 +417,483 @@
       ]
     },
     {
-      "id": "R26BK01729297-000",
-      "title": "왕의 시장 테마관광(2차 연도) 용역(협상에 의한 계약)",
-      "agency": "수원도시재단",
-      "demand_agency": "수원도시재단",
-      "budget": 130000000,
-      "notice_no": "R26BK01729297",
-      "notice_date": "2026-09-15 09:28",
+      "id": "R26BK01740161-000",
+      "title": "한양대학교 산학협력단 2026년 글로벌 AI 인재양성 해외 파견 프로그램 지원 용역",
+      "agency": "한양대학교 산학협력단",
+      "demand_agency": "한양대학교 산학협력단",
+      "budget": 70000000,
+      "notice_no": "R26BK01740161",
+      "notice_date": "2026-09-21 18:37",
+      "close_date": "2026-10-02 17:00",
+      "close_ts": 1790928000,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740161&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01739452-000",
+      "title": "2026 하반기 도·시군 공동 관광마케팅(해외) 행사 용역",
+      "agency": "전북특별자치도",
+      "demand_agency": "전북특별자치도",
+      "budget": 82600000,
+      "notice_no": "R26BK01739452",
+      "notice_date": "2026-09-21 16:00",
+      "close_date": "2026-10-02 18:00",
+      "close_ts": 1790931600,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01739452&bidPbancOrd=000",
+      "matched": [
+        "관광"
+      ]
+    },
+    {
+      "id": "R26BK01739554-000",
+      "title": "2026. 김해생명과학고등학교 경남형 직업계고 해외인턴십(해외취업연계형)운영 위탁 용역 입찰 재공고",
+      "agency": "경상남도교육청 김해생명과학고등학교",
+      "demand_agency": "경상남도교육청 김해생명과학고등학교",
+      "budget": 105809280,
+      "notice_no": "R26BK01739554",
+      "notice_date": "2026-09-21 16:23",
+      "close_date": "2026-10-06 10:00",
+      "close_ts": 1791248400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01739554&bidPbancOrd=000",
+      "matched": [
+        "취업"
+      ]
+    },
+    {
+      "id": "R26BK01739315-000",
+      "title": "2026년 재정지원 일자리사업 컨설팅 사업",
+      "agency": "한국고용정보원",
+      "demand_agency": "한국고용정보원",
+      "budget": 98000000,
+      "notice_no": "R26BK01739315",
+      "notice_date": "2026-09-21 15:07",
+      "close_date": "2026-10-06 10:00",
+      "close_ts": 1791248400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01739315&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01742138-000",
+      "title": "2026년 지역성장 인재양성체계(ANCHOR) 해외 거점 네트워크 구축-한·중앙아시아 승강기산업  교육 교류 및 글로벌 인재양성 네트워크 구축 위탁 용역",
+      "agency": "한국승강기대학교 산학협력단",
+      "demand_agency": "한국승강기대학교 산학협력단",
+      "budget": 96800000,
+      "notice_no": "R26BK01742138",
+      "notice_date": "2026-09-22 16:57",
+      "close_date": "2026-10-06 10:00",
+      "close_ts": 1791248400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742138&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01742138-001",
+      "title": "2026년 지역성장 인재양성체계(ANCHOR) 해외 거점 네트워크 구축-한·중앙아시아 승강기산업  교육 교류 및 글로벌 인재양성 네트워크 구축 위탁 용역",
+      "agency": "한국승강기대학교 산학협력단",
+      "demand_agency": "한국승강기대학교 산학협력단",
+      "budget": 96800000,
+      "notice_no": "R26BK01742138",
+      "notice_date": "2026-09-23 11:13",
+      "close_date": "2026-10-06 10:00",
+      "close_ts": 1791248400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742138&bidPbancOrd=001",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01742379-000",
+      "title": "2026년 희망리턴패키지 재기사업화 (광주.호남.제주권역)  컨설팅 후속지원 온라인 MKT 분야",
+      "agency": "한국생산성본부",
+      "demand_agency": "한국생산성본부",
+      "budget": 30400000,
+      "notice_no": "R26BK01742379",
+      "notice_date": "2026-09-22 17:48",
+      "close_date": "2026-10-06 10:30",
+      "close_ts": 1791250200,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742379&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01743487-000",
+      "title": "2026 부천대학교 AI·DX취업박람회 시행 용역",
+      "agency": "부천대학교 산학협력단",
+      "demand_agency": "부천대학교 산학협력단",
+      "budget": 50000000,
+      "notice_no": "R26BK01743487",
+      "notice_date": "2026-09-23 13:20",
+      "close_date": "2026-10-06 11:00",
+      "close_ts": 1791252000,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743487&bidPbancOrd=000",
+      "matched": [
+        "취업"
+      ]
+    },
+    {
+      "id": "R26BK01740898-000",
+      "title": "국제공동 R&D 특허·지식재산(IP) 전문 컨설팅 지원 용역",
+      "agency": "한국산업기술기획평가원",
+      "demand_agency": "한국산업기술기획평가원",
+      "budget": 100000000,
+      "notice_no": "R26BK01740898",
+      "notice_date": "2026-09-22 10:50",
+      "close_date": "2026-10-06 11:00",
+      "close_ts": 1791252000,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740898&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01742910-000",
+      "title": "2026학년도 지피지기 취업불패 취업캠프(간호학과) 운영 용역",
+      "agency": "경북보건대학교 산학협력단",
+      "demand_agency": "경북보건대학교 산학협력단",
+      "budget": 1100,
+      "notice_no": "R26BK01742910",
+      "notice_date": "2026-09-23 09:26",
+      "close_date": "2026-10-06 12:00",
+      "close_ts": 1791255600,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742910&bidPbancOrd=000",
+      "matched": [
+        "취업"
+      ]
+    },
+    {
+      "id": "R26BK01743955-000",
+      "title": "[재공고] 의료영상 분석 소프트웨어의 사이버보안 컨설팅 및 사이버보안 시험 용역",
+      "agency": "주식회사 크레스콤",
+      "demand_agency": "주식회사 크레스콤",
+      "budget": 80850000,
+      "notice_no": "R26BK01743955",
+      "notice_date": "2026-09-23 14:42",
+      "close_date": "2026-10-06 12:00",
+      "close_ts": 1791255600,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743955&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01742827-000",
+      "title": "연암대학교 충청남도 지역성장 인재양성체계(앵커) 사업 충남형 K-스마트팜 직업교육 통합관리 플랫폼 고도화 업체선정 입찰",
+      "agency": "연암대학교 산학협력단",
+      "demand_agency": "연암대학교 산학협력단",
+      "budget": 35000000,
+      "notice_no": "R26BK01742827",
+      "notice_date": "2026-09-23 09:08",
+      "close_date": "2026-10-06 14:00",
+      "close_ts": 1791262800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742827&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01744071-000",
+      "title": "증권데이터 상품관리 및 수수료체계 수립 컨설팅 용역",
+      "agency": "한국예탁결제원",
+      "demand_agency": "한국예탁결제원",
+      "budget": 300000000,
+      "notice_no": "R26BK01744071",
+      "notice_date": "2026-09-23 17:11",
+      "close_date": "2026-10-06 14:00",
+      "close_ts": 1791262800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744071&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01743184-000",
+      "title": "마약류 중독자 관리 업무 개인정보 보호 컨설팅",
+      "agency": "한국마약퇴치운동본부",
+      "demand_agency": "한국마약퇴치운동본부",
+      "budget": 54000000,
+      "notice_no": "R26BK01743184",
+      "notice_date": "2026-09-23 13:59",
+      "close_date": "2026-10-06 15:00",
+      "close_ts": 1791266400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743184&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01741086-000",
+      "title": "부산역 쇼핑관광 거점 공간기획·콘텐츠 전시연출 및 운영 활성화",
+      "agency": "부산관광공사",
+      "demand_agency": "부산관광공사",
+      "budget": 180000000,
+      "notice_no": "R26BK01741086",
+      "notice_date": "2026-09-22 11:45",
+      "close_date": "2026-10-06 15:00",
+      "close_ts": 1791266400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01741086&bidPbancOrd=000",
+      "matched": [
+        "관광"
+      ]
+    },
+    {
+      "id": "R26BK01743880-000",
+      "title": "청년 봄! 청년이 취업하기 좋은 환경 만들기(공기업 NCS 준비반 운영)",
+      "agency": "우석대학교산학협력단",
+      "demand_agency": "우석대학교산학협력단",
+      "budget": 60000000,
+      "notice_no": "R26BK01743880",
+      "notice_date": "2026-09-23 14:25",
       "close_date": "2026-10-06 17:00",
       "close_ts": 1791273600,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01729297&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743880&bidPbancOrd=000",
+      "matched": [
+        "취업"
+      ]
+    },
+    {
+      "id": "R26BK01742063-000",
+      "title": "2026년 보훈병원 고객만족 서비스 컨설팅 용역(재공고)",
+      "agency": "한국보훈복지의료공단",
+      "demand_agency": "한국보훈복지의료공단",
+      "budget": 110000000,
+      "notice_no": "R26BK01742063",
+      "notice_date": "2026-09-22 18:14",
+      "close_date": "2026-10-07 10:00",
+      "close_ts": 1791334800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742063&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01743919-000",
+      "title": "2026년 재난긴급대응단 교육훈련",
+      "agency": "행정안전부",
+      "demand_agency": "행정안전부",
+      "budget": 30000000,
+      "notice_no": "R26BK01743919",
+      "notice_date": "2026-09-23 16:56",
+      "close_date": "2026-10-07 10:00",
+      "close_ts": 1791334800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743919&bidPbancOrd=000",
+      "matched": [
+        "교육훈련"
+      ]
+    },
+    {
+      "id": "R26BK01743425-000",
+      "title": "2026년 지역성장 인재양성체계(ANCHOR) 해외 거점 네트워크 구축-한·중앙아시아 승강기산업 교육 교류 및 글로벌 인재양성 네트워크 구축 위탁 용역",
+      "agency": "한국승강기대학교 산학협력단",
+      "demand_agency": "한국승강기대학교 산학협력단",
+      "budget": 96800000,
+      "notice_no": "R26BK01743425",
+      "notice_date": "2026-09-23 11:26",
+      "close_date": "2026-10-07 10:00",
+      "close_ts": 1791334800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743425&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01738133-000",
+      "title": "한국한의학연구원 역할체계 방향성 수립 기획 컨설팅 용역",
+      "agency": "한국한의학연구원",
+      "demand_agency": "한국한의학연구원",
+      "budget": 50000000,
+      "notice_no": "R26BK01738133",
+      "notice_date": "2026-09-22 07:32",
+      "close_date": "2026-10-07 11:00",
+      "close_ts": 1791338400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738133&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01743933-000",
+      "title": "앵커사업단 황룡강생태길30 스마트관광지도 구축용역",
+      "agency": "호남대학교 산학협력단",
+      "demand_agency": "호남대학교 산학협력단",
+      "budget": 29000000,
+      "notice_no": "R26BK01743933",
+      "notice_date": "2026-09-23 14:34",
+      "close_date": "2026-10-07 14:00",
+      "close_ts": 1791349200,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743933&bidPbancOrd=000",
       "matched": [
         "관광"
       ]
     },
     {
-      "id": "R26BK01724158-000",
-      "title": "글로벌 K-관광개발 계획 수립 연구",
-      "agency": "조달청",
-      "demand_agency": "문화체육관광부",
-      "budget": 297552000,
-      "notice_no": "R26BK01724158",
-      "notice_date": "2026-09-16 10:25",
+      "id": "R26BK01738056-000",
+      "title": "AI 암치유센터 실증사업 수요조사·수행 적합성 및 연구 프로세스 설계 컨설팅 용역",
+      "agency": "강원대학교병원",
+      "demand_agency": "강원대학교병원",
+      "budget": 60000000,
+      "notice_no": "R26BK01738056",
+      "notice_date": "2026-09-21 11:10",
+      "close_date": "2026-10-07 15:00",
+      "close_ts": 1791352800,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738056&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01740906-000",
+      "title": "금융권 공동 정보화 사업의 활성화 및 발전 방향 컨설팅",
+      "agency": "한국은행",
+      "demand_agency": "한국은행",
+      "budget": 108800000,
+      "notice_no": "R26BK01740906",
+      "notice_date": "2026-09-22 11:21",
+      "close_date": "2026-10-07 15:00",
+      "close_ts": 1791352800,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740906&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01740459-000",
+      "title": "2026년 지방공기업 내부고객만족도 제고를 위한 컨설팅 용역",
+      "agency": "지방공기업평가원",
+      "demand_agency": "지방공기업평가원",
+      "budget": 120000000,
+      "notice_no": "R26BK01740459",
+      "notice_date": "2026-09-22 09:32",
+      "close_date": "2026-10-07 16:00",
+      "close_ts": 1791356400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740459&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01743748-000",
+      "title": "월미관광특구 진흥 5개년 종합계획 수립 용역(긴급공고)",
+      "agency": "인천광역시 제물포구",
+      "demand_agency": "인천광역시 제물포구",
+      "budget": 110000000,
+      "notice_no": "R26BK01743748",
+      "notice_date": "2026-09-23 14:31",
+      "close_date": "2026-10-07 17:00",
+      "close_ts": 1791360000,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743748&bidPbancOrd=000",
+      "matched": [
+        "관광"
+      ]
+    },
+    {
+      "id": "R26BK01740776-000",
+      "title": "[3-3] 지역 연고 주축 산업 맞춤형 인재양성 교육 프로그램 운영",
+      "agency": "경북대학교 산학협력단",
+      "demand_agency": "경북대학교 산학협력단",
+      "budget": 60000000,
+      "notice_no": "R26BK01740776",
+      "notice_date": "2026-09-22 15:33",
       "close_date": "2026-10-08 10:00",
       "close_ts": 1791421200,
-      "contract_method": "일반경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01724158&bidPbancOrd=000",
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740776&bidPbancOrd=000",
       "matched": [
-        "관광"
+        "인재양성"
       ]
     },
     {
-      "id": "R26BK01725443-000",
-      "title": "제조창업활성화 사업 성과관리 체계 고도화 컨설팅 용역",
-      "agency": "창업진흥원",
-      "demand_agency": "창업진흥원",
-      "budget": 60000000,
-      "notice_no": "R26BK01725443",
-      "notice_date": "2026-09-17 12:19",
-      "close_date": "2026-10-08 15:00",
-      "close_ts": 1791439200,
+      "id": "R26BK01740919-000",
+      "title": "충전기 통신 프로토콜 및 데이터 고도화 컨설팅",
+      "agency": "조달청 인천지방조달청",
+      "demand_agency": "한국환경공단",
+      "budget": 121222000,
+      "notice_no": "R26BK01740919",
+      "notice_date": "2026-09-23 08:52",
+      "close_date": "2026-10-08 10:00",
+      "close_ts": 1791421200,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01725443&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740919&bidPbancOrd=000",
       "matched": [
         "컨설팅"
       ]
     },
     {
-      "id": "R26BK01734596-000",
-      "title": "2026년 안동원도심상권 포장패키지 개발 및 컨설팅 위탁용역",
-      "agency": "안동시 상권활성화 추진단",
-      "demand_agency": "안동시 상권활성화 추진단",
-      "budget": 92000000,
-      "notice_no": "R26BK01734596",
-      "notice_date": "2026-09-17 12:14",
-      "close_date": "2026-10-12 17:00",
-      "close_ts": 1791792000,
+      "id": "R26BK01741970-000",
+      "title": "탄자니아 국립공중보건실험실 감염병 사업 2차 컨설팅",
+      "agency": "조달청 서울지방조달청",
+      "demand_agency": "한국국제보건의료재단",
+      "budget": 252210000,
+      "notice_no": "R26BK01741970",
+      "notice_date": "2026-09-22 17:04",
+      "close_date": "2026-10-08 10:00",
+      "close_ts": 1791421200,
       "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734596&bidPbancOrd=000",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01741970&bidPbancOrd=000",
       "matched": [
         "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01737514-000",
+      "title": "전역(예정)장병 취업역량 강화를 위한 온라인 현직자 멘토링 서비스",
+      "agency": "국방전직교육원",
+      "demand_agency": "국방전직교육원",
+      "budget": 150000000,
+      "notice_no": "R26BK01737514",
+      "notice_date": "2026-09-18 17:29",
+      "close_date": "2026-10-08 18:00",
+      "close_ts": 1791450000,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737514&bidPbancOrd=000",
+      "matched": [
+        "취업"
+      ]
+    },
+    {
+      "id": "R26BK01737533-000",
+      "title": "취업역량강화 AI역량검사 및 취업지원플랫폼 운영 용역",
+      "agency": "국방전직교육원",
+      "demand_agency": "국방전직교육원",
+      "budget": 111000000,
+      "notice_no": "R26BK01737533",
+      "notice_date": "2026-09-18 17:41",
+      "close_date": "2026-10-08 18:00",
+      "close_ts": 1791450000,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737533&bidPbancOrd=000",
+      "matched": [
+        "취업"
       ]
     },
     {
@@ -785,19 +913,67 @@
       ]
     },
     {
-      "id": "R26BK01732901-000",
-      "title": "26-27 동계스포츠관광 활성화",
-      "agency": "한국관광공사",
-      "demand_agency": "한국관광공사",
-      "budget": 365136000,
-      "notice_no": "R26BK01732901",
-      "notice_date": "2026-09-16 15:07",
-      "close_date": "2026-10-27 15:00",
-      "close_ts": 1793080800,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01732901&bidPbancOrd=000",
+      "id": "R26BK01737992-000",
+      "title": "[혁신지원사업]2026학년도 글로벌 서일 인재 양성 프로그램(해외전공연수) 위탁 운영",
+      "agency": "서일대학교 산학협력단",
+      "demand_agency": "서일대학교 산학협력단",
+      "budget": 145000000,
+      "notice_no": "R26BK01737992",
+      "notice_date": "2026-09-21 09:20",
+      "close_date": "2026-10-13 10:00",
+      "close_ts": 1791853200,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737992&bidPbancOrd=000",
       "matched": [
-        "관광"
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01741837-000",
+      "title": "정보보호 및 개인정보보호 관리체계 인증(ISMS-P)  컨설팅 용역",
+      "agency": "중소기업중앙회",
+      "demand_agency": "중소기업중앙회",
+      "budget": 290000000,
+      "notice_no": "R26BK01741837",
+      "notice_date": "2026-09-22 15:42",
+      "close_date": "2026-11-02 12:00",
+      "close_ts": 1793588400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01741837&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
+      "id": "R26BK01743439-000",
+      "title": "2026학년도 국립부경대학교 자유전공학부 프론티어 인재 양성 해외탐방 프로그램 수행 용역",
+      "agency": "부경대학교 산학협력단",
+      "demand_agency": "부경대학교 산학협력단",
+      "budget": 92500000,
+      "notice_no": "R26BK01743439",
+      "notice_date": "2026-09-23 11:28",
+      "close_date": "2026-11-03 10:00",
+      "close_ts": 1793667600,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743439&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01738961-000",
+      "title": "스리랑카 미래인재 양성을 위한 AI 기반 한국어 및 한국문화 프로젝트봉사단 사업(26-29) PMC 용역",
+      "agency": "한국국제협력단",
+      "demand_agency": "한국국제협력단",
+      "budget": 1599936235,
+      "notice_no": "R26BK01738961",
+      "notice_date": "2026-09-23 13:44",
+      "close_date": "2026-11-03 15:00",
+      "close_ts": 1793685600,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738961&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
       ]
     }
   ]
