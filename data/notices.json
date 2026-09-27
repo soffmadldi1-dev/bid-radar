@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26 09:24:34",
+  "updated_at": "2026-09-27 09:18:47",
   "keywords": [
     "취업",
     "관광",
@@ -14,7 +14,7 @@
     "시스템 구축"
   ],
   "total_fetched": 2000,
-  "count": 45,
+  "count": 46,
   "notices": [
     {
       "id": "R26BK01673211-002",
@@ -318,6 +318,22 @@
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742138&bidPbancOrd=001",
       "matched": [
         "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01744707-000",
+      "title": "2026년 한국생명공학연구원 대전본원 보건관리 컨설팅 용역",
+      "agency": "한국생명공학연구원",
+      "demand_agency": "한국생명공학연구원",
+      "budget": 42675999,
+      "notice_no": "R26BK01744707",
+      "notice_date": "2026-09-26 17:35",
+      "close_date": "2026-10-06 10:00",
+      "close_ts": 1791248400,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744707&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
       ]
     },
     {
