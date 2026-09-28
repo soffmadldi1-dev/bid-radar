@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27 09:18:47",
+  "updated_at": "2026-09-28 09:20:06",
   "keywords": [
     "취업",
     "관광",
@@ -14,7 +14,7 @@
     "시스템 구축"
   ],
   "total_fetched": 2000,
-  "count": 46,
+  "count": 48,
   "notices": [
     {
       "id": "R26BK01673211-002",
@@ -689,6 +689,22 @@
       ]
     },
     {
+      "id": "R26BK01743667-000",
+      "title": "수소엔진 및 기자재 육상실증 플랫폼 구축 관련 안전설계 및 인허가 컨설팅",
+      "agency": "(재)한국조선해양기자재연구원",
+      "demand_agency": "(재)한국조선해양기자재연구원",
+      "budget": 99200000,
+      "notice_no": "R26BK01743667",
+      "notice_date": "2026-09-27 12:12",
+      "close_date": "2026-10-08 14:00",
+      "close_ts": 1791435600,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743667&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
       "id": "R26BK01737992-000",
       "title": "[혁신지원사업]2026학년도 글로벌 서일 인재 양성 프로그램(해외전공연수) 위탁 운영",
       "agency": "서일대학교 산학협력단",
@@ -750,6 +766,22 @@
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01738961&bidPbancOrd=000",
       "matched": [
         "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01736492-000",
+      "title": "KDB AI 거버넌스 수립 컨설팅",
+      "agency": "한국산업은행",
+      "demand_agency": "한국산업은행",
+      "budget": 495000000,
+      "notice_no": "R26BK01736492",
+      "notice_date": "2026-09-28 09:09",
+      "close_date": "2026-11-09 17:00",
+      "close_ts": 1794211200,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736492&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
       ]
     }
   ]
