@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 10:19:53",
+  "updated_at": "2026-10-04 09:23:37",
   "keywords": [
     "취업",
     "관광",
@@ -14,24 +14,8 @@
     "시스템 구축"
   ],
   "total_fetched": 2000,
-  "count": 47,
+  "count": 48,
   "notices": [
-    {
-      "id": "R26BK01740161-001",
-      "title": "한양대학교 산학협력단 2026년 글로벌 AI 인재양성 해외 파견 프로그램 지원 용역",
-      "agency": "한양대학교 산학협력단",
-      "demand_agency": "한양대학교 산학협력단",
-      "budget": 70000000,
-      "notice_no": "R26BK01740161",
-      "notice_date": "2026-09-29 15:41",
-      "close_date": "2026-10-02 17:00",
-      "close_ts": 1790928000,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740161&bidPbancOrd=001",
-      "matched": [
-        "인재양성"
-      ]
-    },
     {
       "id": "R26BK01736206-001",
       "title": "2026 강릉 초당 K-푸드로드 문화관광 융복합 거점거리 조성사업 행사 대행 용역",
@@ -49,17 +33,17 @@
       ]
     },
     {
-      "id": "R26BK01744707-000",
-      "title": "2026년 한국생명공학연구원 대전본원 보건관리 컨설팅 용역",
-      "agency": "한국생명공학연구원",
-      "demand_agency": "한국생명공학연구원",
-      "budget": 42675999,
-      "notice_no": "R26BK01744707",
-      "notice_date": "2026-09-26 17:35",
+      "id": "R26BK01754517-000",
+      "title": "장호UP 지역활력 프로젝트 상권활성화 컨설팅 용역",
+      "agency": "경기도 이천시",
+      "demand_agency": "경기도 이천시",
+      "budget": 39100000,
+      "notice_no": "R26BK01754517",
+      "notice_date": "2026-10-02 10:38",
       "close_date": "2026-10-06 10:00",
       "close_ts": 1791248400,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01744707&bidPbancOrd=000",
+      "contract_method": "수의계약",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01754517&bidPbancOrd=000",
       "matched": [
         "컨설팅"
       ]
@@ -206,6 +190,38 @@
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01745027&bidPbancOrd=000",
       "matched": [
         "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01755020-000",
+      "title": "2026학년도 말산업 전문인력양성기관 취업역량강화를 위한 교원 및 학생 국외 체험연수 위탁용역",
+      "agency": "제주특별자치도교육청 서귀포산업과학고등학교",
+      "demand_agency": "제주특별자치도교육청 서귀포산업과학고등학교",
+      "budget": 85025000,
+      "notice_no": "R26BK01755020",
+      "notice_date": "2026-10-02 14:08",
+      "close_date": "2026-10-12 10:00",
+      "close_ts": 1791766800,
+      "contract_method": "수의계약",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755020&bidPbancOrd=000",
+      "matched": [
+        "취업"
+      ]
+    },
+    {
+      "id": "R26BK01755140-000",
+      "title": "2026학년도 말산업 전문인력양성기관 취업역량강화를 위한 교원 및 학생 국외 체험연수 위탁용역",
+      "agency": "제주특별자치도교육청 서귀포산업과학고등학교",
+      "demand_agency": "제주특별자치도교육청 서귀포산업과학고등학교",
+      "budget": 85025000,
+      "notice_no": "R26BK01755140",
+      "notice_date": "2026-10-02 14:33",
+      "close_date": "2026-10-12 10:00",
+      "close_ts": 1791766800,
+      "contract_method": "수의계약",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755140&bidPbancOrd=000",
+      "matched": [
+        "취업"
       ]
     },
     {
