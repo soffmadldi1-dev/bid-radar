@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04 09:23:37",
+  "updated_at": "2026-10-05 09:29:33",
   "keywords": [
     "취업",
     "관광",
@@ -14,7 +14,7 @@
     "시스템 구축"
   ],
   "total_fetched": 2000,
-  "count": 48,
+  "count": 47,
   "notices": [
     {
       "id": "R26BK01736206-001",
@@ -126,22 +126,6 @@
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01752687&bidPbancOrd=000",
       "matched": [
         "관광"
-      ]
-    },
-    {
-      "id": "R26BK01743667-000",
-      "title": "수소엔진 및 기자재 육상실증 플랫폼 구축 관련 안전설계 및 인허가 컨설팅",
-      "agency": "(재)한국조선해양기자재연구원",
-      "demand_agency": "(재)한국조선해양기자재연구원",
-      "budget": 99200000,
-      "notice_no": "R26BK01743667",
-      "notice_date": "2026-09-27 12:12",
-      "close_date": "2026-10-08 14:00",
-      "close_ts": 1791435600,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743667&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
       ]
     },
     {
@@ -689,6 +673,22 @@
       ]
     },
     {
+      "id": "R26BK01755266-000",
+      "title": "[건국대학교 산학협력단] 민감계층 이용시설 맞춤형 실내공기질 개선 및 관리 컨설팅",
+      "agency": "건국대학교 산학협력단",
+      "demand_agency": "건국대학교 산학협력단",
+      "budget": 210000000,
+      "notice_no": "R26BK01755266",
+      "notice_date": "2026-10-02 14:54",
+      "close_date": "2026-10-20 14:00",
+      "close_ts": 1792472400,
+      "contract_method": "일반경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755266&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
       "id": "R26BK01744594-001",
       "title": "계획공모형 지역관광 개발사업 기본계획 수립용역(협상)",
       "agency": "충청남도 공주시",
@@ -734,22 +734,6 @@
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01745687&bidPbancOrd=000",
       "matched": [
         "관광"
-      ]
-    },
-    {
-      "id": "R26BK01736492-000",
-      "title": "KDB AI 거버넌스 수립 컨설팅",
-      "agency": "한국산업은행",
-      "demand_agency": "한국산업은행",
-      "budget": 495000000,
-      "notice_no": "R26BK01736492",
-      "notice_date": "2026-09-28 09:09",
-      "close_date": "2026-11-09 17:00",
-      "close_ts": 1794211200,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736492&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
       ]
     },
     {
