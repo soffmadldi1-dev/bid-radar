@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11 09:43:03",
+  "updated_at": "2026-10-12 10:03:50",
   "keywords": [
     "취업",
     "관광",
@@ -14,7 +14,7 @@
     "시스템 구축"
   ],
   "total_fetched": 2000,
-  "count": 40,
+  "count": 43,
   "notices": [
     {
       "id": "R26BK01755020-001",
@@ -577,6 +577,22 @@
       ]
     },
     {
+      "id": "R26BK01764196-000",
+      "title": "한국뇌연구원 2026회계연도 회계교육(컨설팅) 및 결산 지원 용역",
+      "agency": "한국뇌연구원",
+      "demand_agency": "한국뇌연구원",
+      "budget": 55000000,
+      "notice_no": "R26BK01764196",
+      "notice_date": "2026-10-12 09:01",
+      "close_date": "2026-10-23 10:00",
+      "close_ts": 1792717200,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01764196&bidPbancOrd=000",
+      "matched": [
+        "컨설팅"
+      ]
+    },
+    {
       "id": "R26BK01758995-000",
       "title": "2026 글로벌 AI 인재 양성 및 교육 포럼, 부대행사 행사대행",
       "agency": "(사)에이펙국제교육협력원",
@@ -588,6 +604,38 @@
       "close_ts": 1792728000,
       "contract_method": "제한경쟁",
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758995&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01764242-000",
+      "title": "미래전략산업 전문인력 양성과정 (신중년 인재양성 아카데미)",
+      "agency": "고려대학교 세종산학협력단",
+      "demand_agency": "고려대학교 세종산학협력단",
+      "budget": 60000000,
+      "notice_no": "R26BK01764242",
+      "notice_date": "2026-10-12 09:10",
+      "close_date": "2026-10-26 17:00",
+      "close_ts": 1793001600,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01764242&bidPbancOrd=000",
+      "matched": [
+        "인재양성"
+      ]
+    },
+    {
+      "id": "R26BK01764235-000",
+      "title": "2026 JBSC 이니셔티브 인재양성 글로벌 해외 선진지 견학 프로그램 운영 위탁 용역",
+      "agency": "전북과학대학교 산학협력단",
+      "demand_agency": "전북과학대학교 산학협력단",
+      "budget": 44000000,
+      "notice_no": "R26BK01764235",
+      "notice_date": "2026-10-12 09:28",
+      "close_date": "2026-10-30 16:00",
+      "close_ts": 1793343600,
+      "contract_method": "제한경쟁",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01764235&bidPbancOrd=000",
       "matched": [
         "인재양성"
       ]
