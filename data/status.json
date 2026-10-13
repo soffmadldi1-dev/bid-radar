@@ -1,7 +1,7 @@
 {
   "ok": true,
   "message": "정상 수집",
-  "count": 43,
+  "count": 42,
   "endpoint": "ad/BidPublicInfoService/getBidPblancListInfoServc",
-  "checked_at": "2026-10-12 10:03:50"
+  "checked_at": "2026-10-13 11:52:22"
 }
