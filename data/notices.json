@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 09:07:48",
+  "updated_at": "2026-10-17 09:11:46",
   "keywords": [
     "취업",
     "관광",
@@ -14,72 +14,8 @@
     "시스템 구축"
   ],
   "total_fetched": 2000,
-  "count": 44,
+  "count": 39,
   "notices": [
-    {
-      "id": "R26BK01772125-000",
-      "title": "안전보건관리체계 구축을 위한 근골격계 질환 예방 컨설팅",
-      "agency": "소방청",
-      "demand_agency": "소방청",
-      "budget": 41500000,
-      "notice_no": "R26BK01772125",
-      "notice_date": "2026-10-15 09:27",
-      "close_date": "2026-10-15 11:00",
-      "close_ts": 1792029600,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01772125&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01771075-000",
-      "title": "초대형 모듈러 기반 미디어 파사드 및 DOOH(디지털 옥외광고)사업의 경제성, 수익모델 분석 전략컨설팅 용역 계약",
-      "agency": "한국광기술원",
-      "demand_agency": "한국광기술원",
-      "budget": 3000000,
-      "notice_no": "R26BK01771075",
-      "notice_date": "2026-10-14 16:05",
-      "close_date": "2026-10-15 11:00",
-      "close_ts": 1792029600,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01771075&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01771234-000",
-      "title": "초대형 모듈러 디스플레이 음향익사이터 기술가치 분석 전략컨설팅 용역",
-      "agency": "한국광기술원",
-      "demand_agency": "한국광기술원",
-      "budget": 5000000,
-      "notice_no": "R26BK01771234",
-      "notice_date": "2026-10-14 16:10",
-      "close_date": "2026-10-15 11:00",
-      "close_ts": 1792029600,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01771234&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
-      "id": "R26BK01772380-000",
-      "title": "2026학년도 조기취업형 계약학과 커리어 매칭데이 운영",
-      "agency": "서울특별시 서울시립대학교 산학협력단",
-      "demand_agency": "서울특별시 서울시립대학교 산학협력단",
-      "budget": 22000000,
-      "notice_no": "R26BK01772380",
-      "notice_date": "2026-10-15 10:13",
-      "close_date": "2026-10-15 12:00",
-      "close_ts": 1792033200,
-      "contract_method": "수의계약",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01772380&bidPbancOrd=000",
-      "matched": [
-        "취업"
-      ]
-    },
     {
       "id": "R26BK01773899-000",
       "title": "2026년 계양구인재양성장학교육재단 통합 그룹웨어 교체 용역",
@@ -113,22 +49,6 @@
       ]
     },
     {
-      "id": "R26BK01763956-000",
-      "title": "2026년 한국생명공학연구원 대전본원 보건관리 컨설팅 용역(재공고)",
-      "agency": "한국생명공학연구원",
-      "demand_agency": "한국생명공학연구원",
-      "budget": 42676000,
-      "notice_no": "R26BK01763956",
-      "notice_date": "2026-10-09 18:35",
-      "close_date": "2026-10-19 10:00",
-      "close_ts": 1792371600,
-      "contract_method": "제한경쟁",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763956&bidPbancOrd=000",
-      "matched": [
-        "컨설팅"
-      ]
-    },
-    {
       "id": "R26BK01758489-001",
       "title": "2026년도 하반기 온라인평생교육원 교육훈련 프로그램  운영 용역",
       "agency": "한국기술교육대학교",
@@ -152,8 +72,8 @@
       "budget": 401327740,
       "notice_no": "R26BK01771063",
       "notice_date": "2026-10-14 17:16",
-      "close_date": "2026-10-20 10:00",
-      "close_ts": 1792458000,
+      "close_date": "2026-10-19 14:00",
+      "close_ts": 1792386000,
       "contract_method": "수의계약",
       "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01771063&bidPbancOrd=000",
       "matched": [
