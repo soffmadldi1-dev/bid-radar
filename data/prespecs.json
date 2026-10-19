@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 13:40:13",
+  "updated_at": "2026-10-19 19:01:34",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,97 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3018,
-  "count": 54,
+  "total_fetched": 3267,
+  "count": 57,
   "prespecs": [
+    {
+      "id": "R26BD00287092",
+      "title": "2027~2028 서울 등산관광센터 3개소 관리 용역",
+      "agency": "재단법인 서울관광재단",
+      "demand_agency": "재단법인 서울관광재단",
+      "region": "서울",
+      "budget": 2150280000,
+      "notice_no": "R26BD00287092",
+      "notice_date": "2026-10-19 18:10",
+      "notice_ts": 1792401033,
+      "close_date": "2026-10-24 23:59",
+      "close_ts": 1792853940,
+      "delivery_date": "2028-12-31 00:00",
+      "officer": "김동찬 02-3788-0804",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287092&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287092&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287092&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-19 19:01",
+      "first_seen_ts": 1792404060
+    },
+    {
+      "id": "R26BD00286758",
+      "title": "금강 국가관광도로 조성사업 기본 및 실시설계용역",
+      "agency": "조달청",
+      "demand_agency": "충청남도 공주시",
+      "region": "충남",
+      "budget": 300000000,
+      "notice_no": "R26BD00286758",
+      "notice_date": "2026-10-19 14:41",
+      "notice_ts": 1792388501,
+      "close_date": "2026-10-24 23:59",
+      "close_ts": 1792853940,
+      "delivery_date": "",
+      "officer": "이종웅 042-724-7356",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286758&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-19 19:01",
+      "first_seen_ts": 1792404060
+    },
+    {
+      "id": "R26BD00286688",
+      "title": "AI OCR 고도화 기술 컨설팅 용역",
+      "agency": "(주)리빗",
+      "demand_agency": "(주)리빗",
+      "region": "전국·기타",
+      "budget": 55000000,
+      "notice_no": "R26BD00286688",
+      "notice_date": "2026-10-19 13:50",
+      "notice_ts": 1792385440,
+      "close_date": "2026-10-22 23:59",
+      "close_ts": 1792681140,
+      "delivery_date": "",
+      "officer": "김재현",
+      "bid_nos": "R26BK01778307",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-19 19:01",
+      "first_seen_ts": 1792404060
+    },
     {
       "id": "R26BD00286541",
       "title": "인재양성사업 성과분석 및 발전방안 수립",
@@ -800,7 +888,7 @@
       "close_ts": 1792162740,
       "delivery_date": "2027-06-18 00:00",
       "officer": "강혜인",
-      "bid_nos": "",
+      "bid_nos": "R26BK01778998",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1181,7 +1269,7 @@
       "close_ts": 1791903540,
       "delivery_date": "2027-02-26 00:00",
       "officer": "진보라",
-      "bid_nos": "",
+      "bid_nos": "R26BK01778953",
       "files": [
         {
           "name": "첨부파일 1",

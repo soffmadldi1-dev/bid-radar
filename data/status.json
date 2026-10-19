@@ -1,13 +1,13 @@
 {
-  "ok": false,
-  "message": "API 서버 접속 실패(4회 시도): <urlopen error timed out>",
-  "count": null,
-  "endpoint": "",
+  "ok": true,
+  "message": "정상 수집",
+  "count": 49,
+  "endpoint": "ad/BidPublicInfoService/getBidPblancListInfoServc",
   "prespec": {
-    "ok": false,
-    "message": "API 서버 접속 실패(4회 시도): <urlopen error timed out>",
-    "count": null,
-    "endpoint": ""
+    "ok": true,
+    "message": "정상 수집",
+    "count": 57,
+    "endpoint": "ao/HrcspSsstndrdInfoService/getPublicPrcureThngInfoServc"
   },
-  "checked_at": "2026-10-19 18:36:40"
+  "checked_at": "2026-10-19 19:01:34"
 }
