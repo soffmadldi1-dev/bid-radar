@@ -201,12 +201,30 @@ def file_ext(name):
     return name.rsplit(".", 1)[-1].lower() if "." in name else ""
 
 
+# 판단에 거의 도움이 안 되는 공통 안내문·서식은 맨 뒤로 보냅니다.
+LOW_VALUE_WORDS = ["상생결제", "성과공유", "청렴", "서약", "서식", "확약", "위임장", "동의서", "안내문",
+                   "윤리", "보안각서", "사용인감", "하도급", "산출내역", "내역서"]
+NOTICE_WORDS = ["공고", "입찰안내", "견적"]
+
+
+def file_rank(f):
+    """제안요청서 계열 0 -> 입찰공고문 1 -> 기타 2 -> 공통 안내문·서식 3"""
+    name = re.sub(r"\s+", "", f["name"])
+    if f.get("rfp"):
+        return 0
+    if any(word in name for word in LOW_VALUE_WORDS):
+        return 3
+    if any(word in name for word in NOTICE_WORDS):
+        return 1
+    return 2
+
+
 def pick_files(files):
     """제안요청서 계열 -> 나머지 순서로, 읽을 수 있는 형식만 최대 MAX_FILES개.
     같은 문서가 HWP와 PDF로 둘 다 올라온 경우가 많아, 이름(확장자 제외)이 같으면 하나만 고릅니다."""
     picked, seen_stems = [], set()
     preference = {"hwpx": 0, "hwp": 1, "pdf": 2, "txt": 3}
-    ordered = sorted(files, key=lambda f: (not f.get("rfp"), preference.get(file_ext(f["name"]), 9)))
+    ordered = sorted(files, key=lambda f: (file_rank(f), preference.get(file_ext(f["name"]), 9)))
     for f in ordered:
         ext = file_ext(f["name"])
         if ext not in SUPPORTED and not f["name"].startswith(("첨부파일", "규격서")):
