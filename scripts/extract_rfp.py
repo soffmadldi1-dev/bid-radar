@@ -42,7 +42,8 @@ RFP_DIR = os.path.join(DATA_DIR, "rfp")
 MAX_FILES = 4                 # 공고 하나당 최대 몇 개 파일을 읽을지 (제안요청서 계열 우선)
 MAX_FILE_BYTES = 15_000_000   # 이보다 큰 파일은 건너뜁니다 (15MB)
 MAX_TEXT_CHARS = 150_000      # 공고 하나당 저장할 최대 글자 수 (약 10만 토큰)
-DOWNLOAD_TIMEOUT = 40
+DOWNLOAD_TIMEOUT = 25
+MAX_NETWORK_FAILURES = 8      # 접속 실패가 이만큼 쌓이면(나라장터 서버 불통) 이번 실행은 멈추고 다음에 다시 합니다
 WORKERS = 6                   # 동시에 처리할 공고 수
 TIME_BUDGET_SEC = 12 * 60     # 이 시간이 지나면 남은 공고는 다음 실행으로 미룹니다 (워크플로 제한 20분 안쪽)
 SUPPORTED = ("hwp", "hwpx", "pdf", "txt")
@@ -217,10 +218,14 @@ def pick_files(files):
     return picked
 
 
+class NetworkError(RuntimeError):
+    """서버 접속 문제(시간 초과 등). 파일 자체 문제와 달리 다음 실행 때 다시 시도합니다."""
+
+
 def download(url):
     request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (bid-radar)"})
     last = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             with urllib.request.urlopen(request, timeout=DOWNLOAD_TIMEOUT) as response:
                 data = response.read(MAX_FILE_BYTES + 1)
@@ -232,7 +237,7 @@ def download(url):
         except Exception as e:      # 일시적인 접속 오류는 잠시 쉬었다 다시
             last = e
             time.sleep(3 * (attempt + 1))
-    raise RuntimeError("내려받기 실패: %s" % last)
+    raise NetworkError("내려받기 실패: %s" % last)
 
 
 def signature(files):
@@ -249,21 +254,34 @@ def process(kind, item):
     if os.path.exists(path):
         try:
             with open(path, encoding="utf-8") as f:
-                if json.load(f).get("signature") == sig:
-                    return path, "cached"
+                saved = json.load(f)
+            # 같은 첨부파일 목록이고, 접속 문제로 통째로 실패한 기록이 아니면 다시 받지 않습니다.
+            network_only = not any(r.get("ok") for r in saved.get("files", [])) and \
+                any("내려받기 실패" in (r.get("error") or "") for r in saved.get("files", []))
+            if saved.get("signature") == sig and not network_only:
+                return path, "cached"
         except Exception:
             pass
 
-    parts, results = [], []
+    parts, results, network_failed = [], [], False
     for f in files:
         entry = {"name": f["name"], "rfp": bool(f.get("rfp")), "ok": False, "chars": 0}
         try:
             text = clean(extract_text(f["name"], download(f["url"])))
             entry.update(ok=True, chars=len(text))
             parts.append("===== 첨부파일: %s =====\n%s" % (f["name"], text))
+        except NetworkError as e:
+            entry["error"] = str(e)[:200]
+            network_failed = True
         except Exception as e:
             entry["error"] = str(e)[:200]
         results.append(entry)
+
+    if network_failed and not parts:
+        # 접속 문제로 하나도 못 받았으면 저장하지 않습니다 -> 다음 실행 때 다시 시도
+        if os.path.exists(path):
+            os.remove(path)
+        raise NetworkError(results[0].get("error", "내려받기 실패"))
 
     full = "\n\n".join(parts)
     payload = {
@@ -300,11 +318,18 @@ def main():
     counts = {}
     started = time.time()
 
+    network_failures = [0]
+
     def run(kind, item):
         if time.time() - started > TIME_BUDGET_SEC:
             return "deferred"            # 시간 초과: 다음 실행 때 이어서 합니다
+        if network_failures[0] >= MAX_NETWORK_FAILURES:
+            return "deferred"            # 나라장터 서버 불통: 다음 실행 때 이어서 합니다
         try:
             return process(kind, item)[1]
+        except NetworkError as e:
+            network_failures[0] += 1
+            return "network %s" % e
         except Exception as e:           # 예상 못 한 오류도 이 공고만 건너뜁니다
             return "error %s" % e
 
@@ -325,6 +350,8 @@ def main():
             os.remove(os.path.join(RFP_DIR, name))
             removed += 1
     log("완료: %s, 정리 %d건" % (counts, removed))
+    if network_failures[0] >= MAX_NETWORK_FAILURES:
+        log("※ 나라장터 첨부파일 서버 접속이 계속 실패해 중단했습니다. 다음 실행 때 이어서 받습니다.")
     return 0
 
 

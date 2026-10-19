@@ -35,7 +35,14 @@ jobs:
       - name: 공고 수집 실행
         env:
           SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
-        run: python scripts/collect.py
+        # 공공데이터포털 서버가 해외(GitHub) 접속에 가끔 응답하지 않아, 실패하면 5분 쉬고 한 번 더 시도합니다.
+        run: |
+          python scripts/collect.py
+          if ! python -c "import json,sys; s=json.load(open('data/status.json', encoding='utf-8')); sys.exit(0 if s.get('ok') else 1)"; then
+            echo "수집 실패 - 5분 뒤 한 번 더 시도합니다."
+            sleep 300
+            python scripts/collect.py
+          fi
 
       # 3-1) 제안요청서·과업지시서 등 첨부파일 본문을 뽑아 둡니다. (AI 의사결정 브리프용)
       #      이 단계가 실패해도 공고 수집 결과는 그대로 저장됩니다.
