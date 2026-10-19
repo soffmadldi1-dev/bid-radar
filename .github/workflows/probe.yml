@@ -2,11 +2,16 @@ name: probe
 on:
   push:
     branches: [probe-api]
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - env:
-          SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
-        run: python scripts/probe.py
+        with: { fetch-depth: 0 }
+      - run: git show origin/main:data/notices.json > /tmp/n.json && python scripts/probe.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add samples && git commit -m "probe samples" && git push || true
