@@ -22,6 +22,7 @@ import time
 import urllib.request
 import zipfile
 import zlib
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 
 try:
@@ -42,6 +43,8 @@ MAX_FILES = 4                 # 공고 하나당 최대 몇 개 파일을 읽을
 MAX_FILE_BYTES = 15_000_000   # 이보다 큰 파일은 건너뜁니다 (15MB)
 MAX_TEXT_CHARS = 150_000      # 공고 하나당 저장할 최대 글자 수 (약 10만 토큰)
 DOWNLOAD_TIMEOUT = 40
+WORKERS = 6                   # 동시에 처리할 공고 수
+TIME_BUDGET_SEC = 12 * 60     # 이 시간이 지나면 남은 공고는 다음 실행으로 미룹니다 (워크플로 제한 20분 안쪽)
 SUPPORTED = ("hwp", "hwpx", "pdf", "txt")
 
 
@@ -292,19 +295,28 @@ def main():
     targets = [("bid", n) for n in load_items("notices.json", "notices")] + \
               [("spec", s) for s in load_items("prespecs.json", "prespecs")]
 
-    keep = set()
+    # 지워도 되는지 판단하려고, 현재 목록에 있는 공고의 파일 이름을 먼저 모두 적어 둡니다.
+    keep = {"%s-%s.json" % (kind, re.sub(r"[^\w-]", "_", item["id"])) for kind, item in targets}
     counts = {}
-    for kind, item in targets:
+    started = time.time()
+
+    def run(kind, item):
+        if time.time() - started > TIME_BUDGET_SEC:
+            return "deferred"            # 시간 초과: 다음 실행 때 이어서 합니다
         try:
-            path, result = process(kind, item)
+            return process(kind, item)[1]
         except Exception as e:           # 예상 못 한 오류도 이 공고만 건너뜁니다
-            path, result = None, "error %s" % e
-        if path:
-            keep.add(os.path.basename(path))
-        key = result.split(" ")[0]
-        counts[key] = counts.get(key, 0) + 1
-        if key not in ("cached", "skip"):
-            log("%s %s: %s" % (kind, item.get("id"), result))
+            return "error %s" % e
+
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        futures = {pool.submit(run, kind, item): (kind, item) for kind, item in targets}
+        for future in as_completed(futures):
+            kind, item = futures[future]
+            result = future.result()
+            key = result.split(" ")[0]
+            counts[key] = counts.get(key, 0) + 1
+            if key not in ("cached", "skip", "deferred"):
+                log("%s %s: %s" % (kind, item.get("id"), result))
 
     # 목록에서 빠진 공고의 추출본은 지웁니다.
     removed = 0
