@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>공고 레이더 | 나라장터 용역공고 모아보기</title>
   <meta name="description" content="조달청 나라장터 용역 입찰공고·사전규격을 키워드로 걸러 매일 아침 자동으로 모아 보여줍니다." />
+  <meta name="author" content="홍요셉 (북크리에이션)" />
 
   <!-- 한글 폰트 Pretendard (무료, CDN에서 바로 불러옵니다) -->
   <link rel="stylesheet" as="style" crossorigin
@@ -371,6 +372,24 @@
     }
     .backup { margin-top: 10px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 
+    /* 제작자 표시 + 문의처 */
+    .credit {
+      margin-top: 22px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+      line-height: 1.9;
+    }
+    .credit-name { color: var(--text-sub); }
+    .credit-name b { color: var(--text); font-weight: 700; }
+    .credit-contact a {
+      color: var(--point);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .credit-contact a:hover { text-decoration: underline; }
+    .credit-contact .bar { margin: 0 8px; color: var(--line); }
+
     /* PC 화면에서는 글씨를 조금 키웁니다 */
     @media (min-width: 640px) {
       h1 { font-size: 28px; }
@@ -421,6 +440,16 @@
       <button class="mini-btn" id="export">관심 공고 백업 내려받기</button>
       <button class="mini-btn" id="import">백업 불러오기</button>
       <input type="file" id="import-file" accept="application/json,.json" hidden />
+    </div>
+
+    <div class="credit">
+      <div class="credit-name">Made by <b>홍요셉</b> (북크리에이션)</div>
+      <div class="credit-contact">
+        문의 :
+        <a href="https://open.kakao.com/me/yosepAI" target="_blank" rel="noopener">카카오 오픈채팅</a>
+        <span class="bar" aria-hidden="true">|</span>
+        <a href="https://hongyosep-profile.vercel.app/" target="_blank" rel="noopener">홍요셉 공식홈페이지</a>
+      </div>
     </div>
   </footer>
 
