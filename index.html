@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>공고 레이더 | 나라장터 용역공고 모아보기</title>
-  <meta name="description" content="조달청 나라장터 용역 입찰공고·사전규격을 키워드로 걸러 매일 아침 자동으로 모아 보여줍니다." />
+  <title>나라장터 입찰공고 퀵 브리핑</title>
+  <meta name="description" content="키워드로 걸러 매일 아침 빠르게 받아보는 맞춤 입찰·사전규격" />
   <meta name="author" content="홍요셉 (북크리에이션)" />
 
   <!-- 한글 폰트 Pretendard (무료, CDN에서 바로 불러옵니다) -->
@@ -84,6 +84,7 @@
     }
 
     .sub { color: var(--text-sub); font-size: 14px; margin: 0; }
+    .nowrap { white-space: nowrap; }
 
     /* ---------- 안내 배너 (수집 실패 시에만 표시) ---------- */
     .banner {
@@ -408,8 +409,8 @@
 <div class="wrap">
 
   <header>
-    <h1>📡 공고 레이더</h1>
-    <p class="sub">나라장터 용역 입찰공고·사전규격을 키워드로 걸러 매일 아침 자동으로 모읍니다.</p>
+    <h1>📡 나라장터 입찰공고 퀵 브리핑</h1>
+    <p class="sub">키워드로 걸러 매일 아침 빠르게 받아보는 <span class="nowrap">맞춤 입찰·사전규격</span></p>
     <div class="banner" id="banner"></div>
   </header>
 
@@ -875,7 +876,7 @@ function exportBackup() {
   var blob = new Blob([JSON.stringify({ favs: store.favs }, null, 2)], { type: "application/json" });
   var a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "공고레이더_관심공고_" + new Date().toISOString().slice(0, 10) + ".json";
+  a.download = "입찰공고퀵브리핑_관심공고_" + new Date().toISOString().slice(0, 10) + ".json";
   document.body.appendChild(a);
   a.click();
   setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
