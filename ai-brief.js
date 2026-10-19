@@ -329,7 +329,9 @@
     else if (kind === "hwpx") text = await textFromHwpx(bytes);
     else if (kind === "txt") text = new TextDecoder("utf-8").decode(bytes);
     else throw new Error("지원하지 않는 형식입니다. HWP·HWPX·PDF·TXT 파일을 올려 주세요.");
-    text = text.replace(/[ \t　]+/g, " ").replace(/\n{3,}/g, "\n\n").trim();
+    text = text
+      .replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(^|[^\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "$1")  // 짝 잃은 특수문자 조각 제거
+      .replace(/[ \t　]+/g, " ").replace(/\n{3,}/g, "\n\n").trim();
     if (text.length < 30) throw new Error("파일에서 글자를 거의 찾지 못했습니다. PDF로 저장해 올려 주세요.");
     return { kind: "text", name: file.name, text: text };
   }

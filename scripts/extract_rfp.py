@@ -184,6 +184,9 @@ def extract_text(name, data):
 
 
 def clean(text):
+    # HWP 글자는 UTF-16이라, 짝이 맞는 특수문자(이모지 등)는 하나로 합치고 짝 잃은 조각은 버립니다.
+    # (짝 잃은 조각이 남아 있으면 파일 저장이 중간에 실패합니다)
+    text = text.encode("utf-16", "surrogatepass").decode("utf-16", "replace").replace("\ufffd", "")
     text = text.replace("\r", "")
     text = re.sub(r"[ \t　]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -294,8 +297,12 @@ def process(kind, item):
         "truncated": len(full) > MAX_TEXT_CHARS,
         "text": full[:MAX_TEXT_CHARS],
     }
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False)
+    # 다 만든 뒤 한 번에 바꿔 끼웁니다. (저장 도중 오류가 나도 반쯤 쓴 파일이 남지 않게)
+    body = json.dumps(payload, ensure_ascii=False)
+    temp = path + ".tmp"
+    with open(temp, "w", encoding="utf-8") as f:
+        f.write(body)
+    os.replace(temp, path)
     ok = sum(1 for r in results if r["ok"])
     return path, "ok %d/%d (%d자)" % (ok, len(results), len(full))
 
@@ -346,7 +353,7 @@ def main():
     # 목록에서 빠진 공고의 추출본은 지웁니다.
     removed = 0
     for name in os.listdir(RFP_DIR):
-        if name.endswith(".json") and name not in keep:
+        if name.endswith(".tmp") or (name.endswith(".json") and name not in keep):
             os.remove(os.path.join(RFP_DIR, name))
             removed += 1
     log("완료: %s, 정리 %d건" % (counts, removed))
