@@ -909,7 +909,7 @@ function renderCard(type, item, opts) {
   if (item.kind && item.kind !== "등록공고") {
     tags += '<span class="tag ' + (item.kind.indexOf("취소") > -1 ? "warn" : "gray") + '">' + escapeHtml(item.kind) + "</span>";
   }
-  if (item.renotice) tags += '<span class="tag gray">재공고</span>';
+  if (item.renotice && (item.kind || "").indexOf("재공고") === -1) tags += '<span class="tag gray">재공고</span>';
 
   var link = safeUrl(item.link);
   var title = link
