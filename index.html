@@ -30,6 +30,11 @@
       --star-soft: #fff6e0;
       --new: #059669;          /* 새 공고 (초록) */
       --new-soft: #e3f7ee;
+      --ai: #7c3aed;           /* AI 브리프 (보라) */
+      --ai-soft: #f1eafe;
+      --go: #047857;  --go-soft: #e3f7ee;      /* 추진 적극 권장 */
+      --cond: #b45309; --cond-soft: #fff4e0;   /* 조건부 추진 */
+      --nogo: #b91c1c; --nogo-soft: #fdeaea;   /* 입찰 비권장 */
       --radius: 14px;
     }
 
@@ -51,6 +56,11 @@
         --star-soft: #3a2f12;
         --new: #34d399;
         --new-soft: #133328;
+        --ai: #b69cff;
+        --ai-soft: #2a2145;
+        --go: #34d399;  --go-soft: #133328;
+        --cond: #fbbf24; --cond-soft: #3a2f12;
+        --nogo: #ff8a8a; --nogo-soft: #3a2020;
       }
     }
 
@@ -372,6 +382,189 @@
       text-align: center;
     }
     .backup { margin-top: 10px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+
+    /* ---------- AI 의사결정 브리프 ---------- */
+    .brief-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .ai-btn {
+      padding: 7px 12px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--ai);
+      background: var(--ai-soft);
+      border: 1px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .ai-btn:hover { border-color: var(--ai); }
+    .verdict-chip { padding: 3px 9px; font-size: 12px; font-weight: 700; border-radius: 6px; }
+    .v-go   { --v: var(--go);   --v-soft: var(--go-soft); }
+    .v-cond { --v: var(--cond); --v-soft: var(--cond-soft); }
+    .v-nogo { --v: var(--nogo); --v-soft: var(--nogo-soft); }
+    .verdict-chip { color: var(--v); background: var(--v-soft); }
+
+    .brief-modal {
+      width: min(720px, calc(100vw - 24px));
+      max-height: calc(100vh - 32px);
+      padding: 0;
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+    }
+    .brief-modal::backdrop { background: rgba(10, 12, 18, 0.55); }
+    .brief-head {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px 18px 12px;
+      background: var(--card);
+      border-bottom: 1px solid var(--line);
+    }
+    .brief-kicker { margin: 0 0 2px; font-size: 12px; font-weight: 700; color: var(--ai); }
+    .brief-head h3 { margin: 0; font-size: 16px; line-height: 1.4; }
+    .brief-close {
+      flex-shrink: 0;
+      width: 34px; height: 34px;
+      font-size: 16px;
+      color: var(--text-sub);
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .brief-body { padding: 16px 18px 20px; }
+    .brief-section {
+      margin-bottom: 14px;
+      padding: 14px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+    .brief-section h4 { display: inline; margin: 0; font-size: 15px; }
+    .brief-section > h4 { display: block; margin-bottom: 10px; }
+    .brief-settings summary { cursor: pointer; list-style: none; }
+    .brief-settings summary::-webkit-details-marker { display: none; }
+    .brief-settings summary small { margin-left: 8px; color: var(--text-sub); }
+    .brief-settings[open] summary { margin-bottom: 12px; }
+    .brief-option {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 9px 4px;
+      cursor: pointer;
+      border-top: 1px solid var(--line);
+    }
+    .brief-option:first-of-type { border-top: 0; }
+    .brief-option input { margin-top: 5px; accent-color: var(--ai); }
+    .brief-option span { display: flex; flex-direction: column; }
+    .brief-option small { color: var(--text-sub); font-size: 12px; }
+    .brief-option:has(input:disabled) { opacity: 0.6; cursor: default; }
+    .brief-panel { margin: 2px 0 8px 28px; }
+    .brief-drop {
+      padding: 18px 12px;
+      font-size: 13px;
+      color: var(--text-sub);
+      text-align: center;
+      border: 2px dashed var(--line);
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .brief-drop:hover, .brief-drop.is-over { border-color: var(--ai); color: var(--ai); background: var(--ai-soft); }
+    .brief-textarea, .brief-field input {
+      width: 100%;
+      padding: 10px 12px;
+      font: inherit;
+      font-size: 14px;
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      resize: vertical;
+    }
+    .brief-field { display: block; margin-bottom: 10px; font-size: 13px; font-weight: 600; }
+    .brief-field > span { display: block; margin-bottom: 4px; }
+    .brief-field small { font-weight: 400; color: var(--text-sub); }
+    .brief-field .select { width: 100%; }
+    .brief-hint { margin: 6px 0 0; font-size: 12px; color: var(--text-sub); }
+    .brief-hint a { color: var(--point); }
+    .brief-error {
+      margin: 0 0 12px;
+      padding: 10px 12px;
+      font-size: 13px;
+      color: var(--urgent);
+      background: var(--urgent-soft);
+      border-radius: 10px;
+    }
+    .brief-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 4px; }
+    .brief-primary {
+      padding: 12px 22px;
+      font: inherit;
+      font-size: 15px;
+      font-weight: 800;
+      color: #fff;
+      background: var(--ai);
+      border: 0;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .brief-loading { padding: 36px 8px; text-align: center; }
+    .brief-loading p { margin: 6px 0; }
+    .brief-loading .mini-btn { margin-top: 14px; }
+    .brief-spinner {
+      width: 38px; height: 38px;
+      margin: 0 auto 14px;
+      border: 4px solid var(--ai-soft);
+      border-top-color: var(--ai);
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .brief-spinner { animation-duration: 3s; } }
+
+    .brief-verdict {
+      margin-bottom: 12px;
+      padding: 14px 16px;
+      background: var(--v-soft);
+      border: 1px solid var(--v);
+      border-radius: var(--radius);
+    }
+    .brief-verdict span { font-size: 12px; font-weight: 700; color: var(--v); }
+    .brief-verdict strong { display: block; font-size: 22px; color: var(--v); letter-spacing: -0.02em; }
+    .brief-verdict p { margin: 4px 0 0; font-size: 14px; }
+    .brief-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .brief-card {
+      padding: 13px 14px;
+      font-size: 14px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+    .brief-card h5 { margin: 0 0 8px; font-size: 14px; color: var(--ai); }
+    .brief-card h6 { margin: 0 0 4px; font-size: 13px; color: var(--text-sub); }
+    .brief-card p { margin: 0 0 6px; }
+    .brief-card ul { margin: 0; padding-left: 18px; }
+    .brief-card li { margin: 2px 0; }
+    .brief-wide { grid-column: 1 / -1; }
+    .brief-two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .brief-check { background: var(--warn-bg); border-color: var(--warn-line); }
+    .brief-check h5 { color: var(--text); }
+    .brief-mm { font-size: 16px; font-weight: 800; }
+    .brief-muted { color: var(--text-sub); font-size: 13px; }
+    .brief-level { padding: 2px 8px; font-size: 12px; font-weight: 800; border-radius: 6px; }
+    .l-hard { color: var(--nogo); background: var(--nogo-soft); }
+    .l-mid  { color: var(--cond); background: var(--cond-soft); }
+    .l-easy { color: var(--go);   background: var(--go-soft); }
+    .brief-meta { margin: 12px 0 0; font-size: 12px; color: var(--text-sub); line-height: 1.7; }
+    @media (max-width: 560px) {
+      .brief-grid, .brief-two { grid-template-columns: 1fr; }
+      .brief-modal { width: 100vw; max-width: 100vw; max-height: 100dvh; height: 100dvh; border-radius: 0; }
+    }
 
     /* 제작자 표시 + 문의처 */
     .credit {
@@ -775,8 +968,19 @@ function renderCard(type, item, opts) {
       '<div class="meta">' + meta + "</div>" +
       renderFiles(type, item) +
       linked +
+      renderBriefBar(type, item) +
       favBox +
     "</article>";
+}
+
+/* AI 의사결정 브리프 버튼 (+ 이미 분석했으면 판정 배지) */
+function renderBriefBar(type, item) {
+  var verdict = window.AIBrief ? window.AIBrief.verdictOf(type, item.id) : null;
+  return '<div class="brief-bar">' +
+    '<button class="ai-btn" data-act="brief" data-type="' + type + '" data-id="' + escapeHtml(item.id) + '">' +
+      (verdict ? "🤖 AI 브리프 보기" : "🤖 AI 의사결정 브리프") + "</button>" +
+    (verdict ? '<span class="verdict-chip v-' + verdict.cls + '">AI 판정: ' + escapeHtml(verdict.verdict) + "</span>" : "") +
+  "</div>";
 }
 
 /* ---------- 7) 구역(관심 / 새 공고 / 전체) ---------- */
@@ -949,6 +1153,11 @@ document.getElementById("list").addEventListener("click", function (event) {
   if (!target) return;
   var act = target.dataset.act;
   if (act === "star") toggleFav(target.dataset.type, target.dataset.id);
+  else if (act === "brief") {
+    var briefItem = findItem(target.dataset.type, target.dataset.id) ||
+      (store.favs[target.dataset.type + ":" + target.dataset.id] || {}).item;
+    if (briefItem && window.AIBrief) window.AIBrief.open(target.dataset.type, briefItem);
+  }
   else if (act === "ack") ackAll();
   else if (act === "open") {
     // 링크는 그대로 새 창으로 열리고, NEW 표시는 다음 화면 갱신 때 사라집니다.
@@ -1031,7 +1240,15 @@ function boot() {
     });
 }
 
+/* AI 브리프 창을 닫으면 카드의 판정 배지를 새로 그립니다. (스크롤 위치 유지) */
+window.onBriefChanged = function () {
+  var y = window.scrollY;
+  render();
+  window.scrollTo(0, y);
+};
+
 boot();
 </script>
+<script src="ai-brief.js"></script>
 </body>
 </html>
