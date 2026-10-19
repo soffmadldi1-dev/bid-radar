@@ -23,5 +23,14 @@
   "max_pages": 40,
 
   "_keep_closed_days_설명": "마감된 공고를 며칠간 목록에 남겨둘지 (0 = 마감 즉시 제외)",
-  "keep_closed_days": 1
+  "keep_closed_days": 1,
+
+  "_prespec_설명": "사전규격(본공고 전에 미리 공개되는 규격안)도 같은 키워드로 모을지 (true = 모음, false = 안 모음)",
+  "prespec_enabled": true,
+
+  "_prespec_days_back_설명": "사전규격을 며칠 전 공개분까지 훑어올지",
+  "prespec_days_back": 14,
+
+  "_prespec_keep_days_설명": "공개된 지 며칠까지 목록에 남겨둘지 (본공고가 나올 때까지 지켜보기 위함)",
+  "prespec_keep_days": 30
 }

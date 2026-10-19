@@ -1,4 +1,4 @@
-# 매일 아침 7시(한국시간)에 나라장터 공고를 수집해서 저장소에 저장하는 자동화 설정입니다.
+# 매일 아침 7시(한국시간)에 나라장터 입찰공고·사전규격을 수집해서 저장소에 저장하는 자동화 설정입니다.
 # 이 파일은 GitHub가 읽어서 알아서 실행합니다. 내 컴퓨터가 꺼져 있어도 돌아갑니다.
 
 name: 공고 수집
@@ -64,8 +64,16 @@ jobs:
 
           status = json.load(open("data/status.json", encoding="utf-8"))
           print("상태:", status)
+
+          # 사전규격은 실패해도 경고만 남깁니다. (입찰공고 수집이 핵심이므로)
+          spec = status.get("prespec") or {}
+          if spec.get("ok") is False:
+              print("::warning::사전규격 수집 실패 - " + str(spec.get("message")))
+          elif spec.get("ok"):
+              print("사전규격 수집 성공: %s건" % spec.get("count"))
+
           if not status.get("ok"):
               print("::error::공고 수집 실패 - " + str(status.get("message")))
               sys.exit(1)
-          print("수집 성공: %s건" % status.get("count"))
+          print("입찰공고 수집 성공: %s건" % status.get("count"))
           EOF
