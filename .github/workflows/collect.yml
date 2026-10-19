@@ -21,11 +21,11 @@ jobs:
     steps:
       # 1) 내 저장소 코드를 작업용 컴퓨터로 내려받습니다.
       - name: 저장소 내려받기
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # 2) 파이썬을 설치합니다. (추가 라이브러리 설치는 필요 없습니다)
       - name: 파이썬 준비
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 

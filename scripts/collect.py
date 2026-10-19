@@ -11,8 +11,10 @@ config.json의 키워드로 걸러낸 뒤 data/notices.json 으로 저장하는 
 import json
 import os
 import re
+import socket
 import ssl
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -54,6 +56,7 @@ OPERATIONS = [
 
 API_HOST = "apis.data.go.kr/1230000"
 TIMEOUT = 30          # 한 번 요청할 때 최대 대기 시간(초)
+RETRY_WAITS = [5, 15, 30]   # 네트워크 오류 시 몇 초 쉬고 다시 시도할지 (최대 3번 재시도)
 ROWS_PER_PAGE = 100   # 한 페이지에 받아올 공고 수 (API 최대치)
 
 
@@ -129,16 +132,39 @@ def encode_service_key(raw_key):
 # 2. API 호출
 # ---------------------------------------------------------------------------
 
-def fetch_json(url):
-    """주소를 호출해 JSON으로 돌려줍니다. 실패하면 예외를 던집니다."""
+class NetworkError(RuntimeError):
+    """서버 접속 자체가 안 될 때(시간 초과, 연결 끊김 등) 쓰는 오류. 주소가 틀린 것과 구분합니다."""
+
+
+def open_url(url):
+    """주소를 한 번 호출해 응답 본문을 돌려줍니다."""
     request = urllib.request.Request(url, headers={"User-Agent": "bid-radar/1.0"})
     context = ssl.create_default_context()
-    try:
-        with urllib.request.urlopen(request, timeout=TIMEOUT, context=context) as response:
-            body = response.read().decode("utf-8", errors="replace")
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace")
-        raise RuntimeError("HTTP %s 응답: %s" % (e.code, body[:300]))
+    with urllib.request.urlopen(request, timeout=TIMEOUT, context=context) as response:
+        return response.read().decode("utf-8", errors="replace")
+
+
+def fetch_json(url):
+    """주소를 호출해 JSON으로 돌려줍니다. 실패하면 예외를 던집니다.
+    공공데이터포털 서버가 순간적으로 응답이 늦을 때가 있어서,
+    접속 오류(시간 초과 등)는 잠시 쉬었다가 다시 시도합니다."""
+    for attempt in range(len(RETRY_WAITS) + 1):
+        try:
+            body = open_url(url)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code < 500:   # 4xx = 주소/키 문제 -> 다시 해도 소용없음
+                body = e.read().decode("utf-8", errors="replace")
+                raise RuntimeError("HTTP %s 응답: %s" % (e.code, body[:300]))
+            error = "HTTP %s 서버 오류" % e.code
+        except (urllib.error.URLError, socket.timeout, ConnectionError, ssl.SSLError) as e:
+            error = str(e)
+
+        if attempt == len(RETRY_WAITS):
+            raise NetworkError("API 서버 접속 실패(%d회 시도): %s" % (attempt + 1, error))
+        wait = RETRY_WAITS[attempt]
+        log("  접속 오류(%s) - %d초 후 다시 시도합니다 (%d/%d)" % (error, wait, attempt + 1, len(RETRY_WAITS)))
+        time.sleep(wait)
 
     # 키가 잘못됐거나 서비스가 없으면 JSON이 아니라 XML 오류문이 돌아옵니다.
     try:
@@ -201,6 +227,8 @@ def collect_raw(key, days_back, max_pages):
             try:
                 first_url = build_url(service, operation, key, 1, begin_dt, end_dt)
                 items, total = read_page(fetch_json(first_url))
+            except NetworkError:       # 서버 접속 자체가 안 되면 다른 주소를 찔러봐도 소용없습니다.
+                raise
             except Exception as e:     # 이 주소는 안 되는구나 -> 다음 후보로
                 last_error = "%s/%s -> %s" % (service, operation, e)
                 continue
