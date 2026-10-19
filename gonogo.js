@@ -1,15 +1,15 @@
 /* =========================================================================
-   🤖 RFP(제안요청서) AI 의사결정 브리프 - claude.ai 복사용
+   🧭 Go / No-Go 판단 프롬프트
    -------------------------------------------------------------------------
-   흐름
-   1) 매일 아침 GitHub Actions가 첨부파일 본문을 data/rfp/<bid|spec>-<번호>.json 으로 뽑아 둡니다.
-      (브라우저는 나라장터 파일을 직접 못 받기 때문 - 보안 정책(CORS))
-   2) 카드의 [🤖 AI 의사결정 브리프] 버튼 -> 자료를 고르고 [📋 claude.ai용으로 복사]
-      - 자동 추출본 / 파일 직접 올리기(HWP·HWPX·TXT는 글자 추출, PDF는 채팅에 직접 첨부) / 붙여넣기 / 공고 정보만
-   3) 복사된 지시문(분석 기준 + 출력 형식 + 공고정보 + 회사 프로필 + RFP 본문)을
-      claude.ai 새 채팅에 붙여넣으면, 내 Claude 요금제 안에서 분석합니다. (API 키·추가 비용 없음)
+   관심 있는 공고를 발견했을 때만 쓰는 도구입니다. (매일 자동으로 돌지 않습니다)
+   1) 제안요청서·공고문 내용을 붙여넣거나 파일을 올립니다.
+      - HWP·HWPX·TXT: 이 브라우저에서 글자를 뽑아 입력란에 채워 줍니다. (서버로 보내지 않음)
+      - PDF: 글자를 뽑지 않고, claude.ai 채팅에 파일을 직접 첨부하도록 안내합니다.
+   2) [📋 프롬프트 + 내용 복사] -> claude.ai 새 채팅에 붙여넣기 -> 보내기
+      또는 [📋 프롬프트만 복사] -> claude.ai 채팅에 파일을 직접 첨부하고 함께 보내기
+   3) 내 Claude 요금제 안에서 분석합니다. (API 키·추가 비용 없음)
 
-   index.html 의 전역 함수(escapeHtml, formatBudget, safeUrl)를 함께 씁니다.
+   index.html 의 전역 함수(escapeHtml, formatBudget)를 함께 씁니다.
    ========================================================================= */
 
 (function () {
@@ -19,7 +19,7 @@
   var JSZIP_URL = "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";
   var CFB_URL = "https://cdn.jsdelivr.net/npm/cfb@1.2.2/dist/cfb.min.js";
   var CLAUDE_NEW_CHAT = "https://claude.ai/new";
-  var MAX_INPUT_CHARS = 150000;          // 붙여넣기·업로드 글자 상한 (채팅에 한 번에 넣기 좋은 분량)
+  var MAX_INPUT_CHARS = 150000;          // 입력란 글자 상한 (채팅에 한 번에 넣기 좋은 분량)
 
   var PROFILE_KEY = "bidRadar.profile.v1";
   var OLD_SETTINGS_KEY = "bidRadar.ai.v1";   // 예전 API 방식 설정 (키는 지우고 회사 프로필만 옮깁니다)
@@ -57,6 +57,7 @@
     "> 확인 필요: 자료에서 확인할 수 없는 항목"
   ].join("\n");
 
+
   /* ---------- 2) 브라우저 저장소 (회사 프로필만 저장) ---------- */
   function getProfile() {
     try {
@@ -76,6 +77,7 @@
   function saveProfile(profile) {
     try { localStorage.setItem(PROFILE_KEY, profile); return true; } catch (e) { return false; }
   }
+
 
   var scriptPromises = {};
   function loadScript(url, globalName) {
@@ -209,7 +211,7 @@
   async function readUpload(file) {
     var bytes = new Uint8Array(await file.arrayBuffer());
     var kind = fileKind(file.name, bytes);
-    if (kind === "pdf") return { kind: "pdf", name: file.name };
+    if (kind === "pdf") return { kind: "pdf", name: file.name };   // PDF는 claude.ai 채팅에 직접 첨부
     var text;
     if (kind === "hwp") text = await textFromHwp(bytes);
     else if (kind === "hwpx") text = await textFromHwpx(bytes);
@@ -222,17 +224,7 @@
     return { kind: "text", name: file.name, text: text };
   }
 
-  /* ---------- 4) 자동 추출본 불러오기 ---------- */
-  function rfpPath(type, id) {
-    return "data/rfp/" + type + "-" + String(id).replace(/[^\w-]/g, "_") + ".json";
-  }
-  function loadExtracted(type, id) {
-    return fetch(rfpPath(type, id) + "?t=" + Date.now())
-      .then(function (r) { return r.ok ? r.json() : null; })
-      .catch(function () { return null; });
-  }
-
-  /* ---------- 5) 복사할 지시문 만들기 ---------- */
+  /* ---------- 4) 프롬프트 만들기 ---------- */
   function noticeFacts(type, item) {
     var lines = [
       "구분: " + (type === "spec" ? "사전규격(본공고 전 규격 공개)" : "입찰공고"),
@@ -253,15 +245,18 @@
     return lines.join("\n");
   }
 
-  function buildChatPrompt(type, item, source, profile) {
-    var parts = [RULES, "", "[출력 형식]", CHAT_TEMPLATE, "", "<공고정보>", noticeFacts(type, item), "</공고정보>"];
+
+  /* mode: "full" = 지시문 + 붙여넣은 내용 / "prompt" = 지시문만 (파일은 채팅에 직접 첨부) */
+  function buildPrompt(notice, content, profile, mode) {
+    var parts = [RULES, "", "[출력 형식]", CHAT_TEMPLATE];
+    if (notice) parts.push("", "<공고정보>", noticeFacts(notice.type, notice.item), "</공고정보>");
     if (profile) parts.push("", "<회사프로필>", profile, "</회사프로필>");
-    if (source.kind === "text") {
-      parts.push("", "<원문 자료=\"" + source.label + "\">", source.text, "</원문>");
-    } else if (source.kind === "pdf") {
-      parts.push("", "원문은 함께 첨부한 PDF(" + source.name + ")입니다.");
+    if (mode === "full" && content) {
+      parts.push("", "<원문>", content, "</원문>");
+    } else if (mode === "prompt") {
+      parts.push("", "원문은 이 메시지에 함께 첨부한 파일(제안요청서·과업지시서·공고문)입니다.");
     } else {
-      parts.push("", "원문 첨부 없이 공고 정보만으로 판단합니다. 원문이 없어 확인할 수 없는 항목은 '확인 필요'에 적어 주세요.");
+      parts.push("", "원문 없이 공고 정보만으로 판단합니다. 원문이 없어 확인할 수 없는 항목은 '확인 필요'에 적어 주세요.");
     }
     return parts.join("\n");
   }
@@ -286,38 +281,41 @@
     return ok;
   }
 
-  /* ---------- 6) 화면 (모달 창) ---------- */
-  var dialog, bodyEl, titleEl;
-  var current = null;   // { type, item, extracted, upload }
+  /* ---------- 5) 화면 (모달 창) ---------- */
+  var dialog, bodyEl;
+  var notice = null;   // 관심 공고 카드에서 열었으면 { type, item }, 맨 위 버튼에서 열었으면 null
 
   function ensureDialog() {
     if (dialog) return;
     dialog = document.createElement("dialog");
     dialog.className = "brief-modal";
-    dialog.setAttribute("aria-labelledby", "brief-title");
+    dialog.setAttribute("aria-labelledby", "gng-title");
     dialog.innerHTML =
       '<div class="brief-head">' +
-        '<div><p class="brief-kicker">🤖 RFP 3분 의사결정 브리프</p><h3 id="brief-title"></h3></div>' +
-        '<button class="brief-close" data-brief="close" aria-label="닫기">✕</button>' +
+        '<div><p class="brief-kicker">🧭 Go / No-Go 판단 프롬프트</p><h3 id="gng-title"></h3></div>' +
+        '<button class="brief-close" data-gng="close" aria-label="닫기">✕</button>' +
       "</div>" +
-      '<div class="brief-body" id="brief-body"></div>';
+      '<div class="brief-body" id="gng-body"></div>';
     document.body.appendChild(dialog);
-    bodyEl = dialog.querySelector("#brief-body");
-    titleEl = dialog.querySelector("#brief-title");
+    bodyEl = dialog.querySelector("#gng-body");
 
     dialog.addEventListener("click", function (event) {
       if (event.target === dialog) { close(); return; }        // 바깥(어두운 곳) 클릭 시 닫기
-      var el = event.target.closest("[data-brief]");
+      var el = event.target.closest("[data-gng]");
       if (!el) return;
-      var act = el.dataset.brief;
+      var act = el.dataset.gng;
       if (act === "close") close();
-      else if (act === "chat-copy") copyForChat(el);
-      else if (act === "pick-file") bodyEl.querySelector("#brief-file").click();
+      else if (act === "copy-full") copyPrompt(el, "full");
+      else if (act === "copy-prompt") copyPrompt(el, "prompt");
+      else if (act === "pick-file") bodyEl.querySelector("#gng-file").click();
+      else if (act === "clear") { bodyEl.querySelector("#gng-content").value = ""; updateCount(); }
     });
     dialog.addEventListener("change", function (event) {
-      if (event.target.id === "brief-file" && event.target.files[0]) handleFile(event.target.files[0]);
-      if (event.target.name === "brief-source") updateSourcePanels();
-      if (event.target.id === "brief-profile") saveProfile(event.target.value.trim());
+      if (event.target.id === "gng-file" && event.target.files[0]) handleFile(event.target.files[0]);
+      if (event.target.id === "gng-profile") saveProfile(event.target.value.trim());
+    });
+    dialog.addEventListener("input", function (event) {
+      if (event.target.id === "gng-content") updateCount();
     });
     dialog.addEventListener("dragover", function (event) {
       var drop = event.target.closest(".brief-drop");
@@ -338,9 +336,9 @@
 
   function open(type, item) {
     ensureDialog();
-    current = { type: type, item: item, extracted: undefined, upload: null };
-    titleEl.textContent = item.title;
-    renderSetup();
+    notice = item ? { type: type, item: item } : null;
+    dialog.querySelector("#gng-title").textContent = item ? item.title : "관심 공고의 입찰 참여 여부를 판단합니다";
+    render();
     if (!dialog.open) dialog.showModal();
   }
 
@@ -348,180 +346,111 @@
     if (dialog && dialog.open) dialog.close();
   }
 
-  function renderSetup() {
-    var item = current.item;
-    var files = (item.files || []).map(function (f) {
-      var url = safeUrl(f.url);
-      return url ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + escapeHtml(f.name) + "</a>" : "";
-    }).filter(Boolean).join(" · ");
+  function render() {
+    var facts = notice
+      ? '<section class="brief-section"><h4>공고 정보 <small>(프롬프트에 자동 포함)</small></h4>' +
+          '<p class="gng-facts">' + escapeHtml(notice.item.agency || "-") + " · 예산 " + escapeHtml(formatBudget(notice.item.budget)) +
+          " · " + (notice.type === "spec" ? "의견마감 " : "마감 ") + escapeHtml(notice.item.close_date || "-") + "</p></section>"
+      : "";
 
     bodyEl.innerHTML =
+      facts +
       '<section class="brief-section">' +
-        "<h4>1. 분석할 자료</h4>" +
-        '<label class="brief-option"><input type="radio" name="brief-source" value="auto" />' +
-          '<span><b>📄 자동 추출본</b><small id="brief-auto-status">확인 중…</small></span></label>' +
-        '<label class="brief-option"><input type="radio" name="brief-source" value="file" />' +
-          "<span><b>📎 파일 직접 올리기</b><small>HWP · HWPX · TXT는 글자를 뽑아 함께 복사 · PDF는 채팅에 직접 첨부</small></span></label>" +
-        '<div class="brief-panel" data-panel="file">' +
-          '<div class="brief-drop" data-brief="pick-file" tabindex="0">' +
-            '<span id="brief-file-label">여기로 파일을 끌어 놓거나 눌러서 선택하세요</span>' +
-          "</div>" +
-          '<input type="file" id="brief-file" accept=".hwp,.hwpx,.pdf,.txt,.md" hidden />' +
-          (files ? '<p class="brief-hint">원문 받기: ' + files + "</p>" : "") +
+        "<h4>1. 원문 내용 <small>(제안요청서·과업지시서·공고문)</small></h4>" +
+        '<textarea id="gng-content" class="brief-textarea" rows="9" ' +
+          'placeholder="제안요청서·공고문 내용을 붙여넣으세요. (전체를 붙여넣어도 되고, 과업 내용·참가자격·평가기준 부분만 골라 넣어도 됩니다)"></textarea>' +
+        '<div class="gng-row">' +
+          '<span class="brief-hint" id="gng-count">0자</span>' +
+          '<button class="mini-btn" data-gng="clear">지우기</button>' +
         "</div>" +
-        '<label class="brief-option"><input type="radio" name="brief-source" value="paste" />' +
-          "<span><b>✍️ 텍스트 붙여넣기</b><small>RFP에서 필요한 부분을 복사해 붙여넣기</small></span></label>" +
-        '<div class="brief-panel" data-panel="paste">' +
-          '<textarea id="brief-paste" class="brief-textarea" rows="7" placeholder="제안요청서·과업지시서 내용을 붙여넣으세요"></textarea>' +
+        '<div class="brief-drop" data-gng="pick-file" tabindex="0">' +
+          '<span id="gng-file-label">📎 HWP · HWPX · TXT 파일을 끌어 놓거나 눌러서 선택하면 글자를 뽑아 위 칸에 채웁니다</span>' +
         "</div>" +
-        '<label class="brief-option"><input type="radio" name="brief-source" value="meta" />' +
-          "<span><b>📋 공고 정보만으로</b><small>원문 없이 빠르게 1차 판단 (정확도 낮음)</small></span></label>" +
+        '<input type="file" id="gng-file" accept=".hwp,.hwpx,.txt,.md,.pdf" hidden />' +
+        '<p class="brief-hint">PDF는 아래 <b>프롬프트만 복사</b>를 누른 뒤 claude.ai 채팅에 파일을 직접 첨부해 주세요.</p>' +
       "</section>" +
 
       '<section class="brief-section">' +
         '<label class="brief-field"><span>2. 우리 회사 프로필 <small>(선택 · Go/No-Go 판단에 반영 · 이 브라우저에 자동 저장)</small></span>' +
-          '<textarea id="brief-profile" class="brief-textarea" rows="3" maxlength="1500" ' +
+          '<textarea id="gng-profile" class="brief-textarea" rows="3" maxlength="1500" ' +
           'placeholder="예) HRD 교육기획 14년, 정부지원 인재양성 사업 운영 실적 5건, 상시 인력 4명, 직접생산확인 교육서비스 보유">' +
           escapeHtml(getProfile()) + "</textarea></label>" +
       "</section>" +
 
-      '<p class="brief-error" id="brief-error" hidden></p>' +
-      '<p class="brief-info" id="brief-info" hidden></p>' +
+      '<p class="brief-error" id="gng-error" hidden></p>' +
+      '<p class="brief-info" id="gng-info" hidden></p>' +
       '<div class="brief-actions">' +
-        '<button class="brief-primary" data-brief="chat-copy">📋 claude.ai용으로 복사</button>' +
+        '<button class="brief-primary" data-gng="copy-full">📋 프롬프트 + 내용 복사</button>' +
+        '<button class="mini-btn" data-gng="copy-prompt">📋 프롬프트만 복사 (파일 직접 첨부용)</button>' +
         '<a class="mini-btn" href="' + CLAUDE_NEW_CHAT + '" target="_blank" rel="noopener">claude.ai 새 채팅 열기 ↗</a>' +
       "</div>" +
-      '<p class="brief-hint">복사한 내용을 claude.ai 새 채팅에 붙여넣고(Ctrl+V) 보내면 분석 결과가 나옵니다. 추가 비용 없이 내 Claude 요금제 안에서 처리됩니다.</p>';
-
-    setSource("auto");
-    if (current.extracted === undefined) {
-      loadExtracted(current.type, current.item.id).then(function (data) {
-        current.extracted = data;
-        showAutoStatus();
-      });
-    } else {
-      showAutoStatus();
-    }
+      '<p class="brief-hint">복사한 내용을 claude.ai 새 채팅에 붙여넣고(Ctrl+V) 보내면 5개 항목 브리프와 Go/No-Go 의견이 나옵니다. 추가 비용 없이 내 Claude 요금제 안에서 처리됩니다.</p>';
   }
 
-  function showAutoStatus() {
-    var status = bodyEl.querySelector("#brief-auto-status");
-    if (!status) return;
-    var data = current.extracted;
-    var radio = bodyEl.querySelector('input[value="auto"]');
-    if (data && data.text) {
-      var okFiles = data.files.filter(function (f) { return f.ok; });
-      var failed = data.files.length - okFiles.length;
-      status.textContent = okFiles.map(function (f) { return f.name; }).join(", ") + " · " +
-        Math.round(data.total_chars / 1000) + "천 자" +
-        (data.truncated ? " (분량이 많아 앞부분 " + Math.round(data.text.length / 1000) + "천 자만 사용)" : "") +
-        (failed ? " · " + failed + "개 파일은 읽지 못함" : "");
-      radio.disabled = false;
-    } else {
-      status.textContent = data
-        ? "첨부파일을 읽지 못했습니다(" + (data.files[0] && data.files[0].error || "형식 문제") + "). 파일을 직접 올려 주세요."
-        : (current.item.files && current.item.files.length
-            ? "아직 추출본이 없습니다. 매일 아침 수집 때 만들어집니다. 지금은 파일을 직접 올려 주세요."
-            : "이 공고에는 첨부파일이 없습니다. 공고 정보만으로 판단하거나 원문을 올려 주세요.");
-      radio.disabled = true;
-      if (radio.checked) setSource(current.item.files && current.item.files.length ? "file" : "meta");
-    }
-  }
-
-  function setSource(value) {
-    var radio = bodyEl.querySelector('input[name="brief-source"][value="' + value + '"]');
-    if (radio) radio.checked = true;
-    updateSourcePanels();
-  }
-
-  function selectedSource() {
-    var checked = bodyEl.querySelector('input[name="brief-source"]:checked');
-    return checked ? checked.value : "auto";
-  }
-
-  function updateSourcePanels() {
-    var value = selectedSource();
-    bodyEl.querySelectorAll(".brief-panel").forEach(function (panel) {
-      panel.hidden = panel.dataset.panel !== value;
-    });
+  function updateCount() {
+    var len = (bodyEl.querySelector("#gng-content").value || "").length;
+    bodyEl.querySelector("#gng-count").textContent = len.toLocaleString() + "자" +
+      (len > MAX_INPUT_CHARS ? " · 너무 길어 앞부분 " + (MAX_INPUT_CHARS / 1000) + "천 자만 복사됩니다" : "");
   }
 
   async function handleFile(file) {
-    var label = bodyEl.querySelector("#brief-file-label");
-    setSource("file");
-    showError("");
+    var label = bodyEl.querySelector("#gng-file-label");
+    var defaultLabel = "📎 HWP · HWPX · TXT 파일을 끌어 놓거나 눌러서 선택하면 글자를 뽑아 위 칸에 채웁니다";
+    showMessage("", "");
     label.textContent = "⏳ " + file.name + " 읽는 중…";
     try {
-      current.upload = await readUpload(file);
-      label.textContent = "✅ " + file.name + (current.upload.kind === "pdf"
-        ? " (PDF는 복사되지 않으니 채팅에 직접 첨부해 주세요)"
-        : " · " + Math.round(current.upload.text.length / 1000) + "천 자 추출");
+      var result = await readUpload(file);
+      if (result.kind === "pdf") {
+        label.textContent = defaultLabel;
+        showMessage("", "PDF(" + escapeHtml(file.name) + ")는 글자를 뽑지 않습니다. <b>프롬프트만 복사</b>를 누른 뒤 claude.ai 채팅에 이 파일을 직접 첨부해 주세요.");
+        return;
+      }
+      var box = bodyEl.querySelector("#gng-content");
+      var before = box.value.trim();
+      box.value = (before ? before + "\n\n" : "") + "===== " + file.name + " =====\n" + result.text;
+      updateCount();
+      label.textContent = "✅ " + file.name + " · " + Math.round(result.text.length / 1000) + "천 자를 위 칸에 채웠습니다 (파일을 더 올리면 이어 붙입니다)";
     } catch (e) {
-      current.upload = null;
-      label.textContent = "여기로 파일을 끌어 놓거나 눌러서 선택하세요";
-      showError(e.message);
+      label.textContent = defaultLabel;
+      showMessage(e.message, "");
     }
   }
 
-  function showError(message) {
-    var el = bodyEl.querySelector("#brief-error");
-    if (!el) return;
-    el.textContent = message;
-    el.hidden = !message;
+  function showMessage(error, infoHtml) {
+    var err = bodyEl.querySelector("#gng-error");
+    var info = bodyEl.querySelector("#gng-info");
+    err.textContent = error;
+    err.hidden = !error;
+    info.innerHTML = infoHtml;
+    info.hidden = !infoHtml;
   }
 
-  function showInfo(html) {
-    var el = bodyEl.querySelector("#brief-info");
-    if (!el) return;
-    el.innerHTML = html;
-    el.hidden = !html;
-  }
-
-  function collectSource() {
-    var value = selectedSource();
-    if (value === "auto") {
-      var data = current.extracted;
-      if (!data || !data.text) throw new Error("자동 추출본이 없습니다. 다른 자료를 골라 주세요.");
-      var names = data.files.filter(function (f) { return f.ok; }).map(function (f) { return f.name; });
-      return { kind: "text", text: data.text, label: names.join(", ") };
-    }
-    if (value === "file") {
-      if (!current.upload) throw new Error("먼저 파일을 올려 주세요.");
-      var up = current.upload;
-      if (up.kind === "pdf") return { kind: "pdf", name: up.name };
-      return { kind: "text", text: up.text.slice(0, MAX_INPUT_CHARS), label: up.name };
-    }
-    if (value === "paste") {
-      var text = (bodyEl.querySelector("#brief-paste").value || "").trim();
-      if (text.length < 30) throw new Error("붙여넣은 내용이 너무 짧습니다.");
-      return { kind: "text", text: text.slice(0, MAX_INPUT_CHARS), label: "붙여넣은 텍스트" };
-    }
-    return { kind: "meta" };
-  }
-
-  function copyForChat(button) {
-    showError("");
-    showInfo("");
-    var source;
-    try { source = collectSource(); } catch (e) { showError(e.message); return; }
-    var profile = (bodyEl.querySelector("#brief-profile").value || "").trim();
+  function copyPrompt(button, mode) {
+    var content = (bodyEl.querySelector("#gng-content").value || "").trim();
+    var profile = (bodyEl.querySelector("#gng-profile").value || "").trim();
     saveProfile(profile);
-    var text = buildChatPrompt(current.type, current.item, source, profile);
+    if (mode === "full" && content.length < 30 && !notice) {
+      showMessage("원문 내용을 붙여넣거나 파일을 올려 주세요. (PDF라면 '프롬프트만 복사'를 쓰세요)", "");
+      return;
+    }
+    var text = buildPrompt(notice, content.slice(0, MAX_INPUT_CHARS), profile, mode);
+    var label = button.textContent;
     copyText(text).then(function (ok) {
-      if (!ok) { showError("복사하지 못했습니다. 브라우저의 클립보드 권한을 확인해 주세요."); return; }
+      if (!ok) { showMessage("복사하지 못했습니다. 브라우저의 클립보드 권한을 확인해 주세요.", ""); return; }
       button.textContent = "✅ 복사됨";
-      setTimeout(function () { button.textContent = "📋 claude.ai용으로 복사"; }, 2000);
-      showInfo("✅ " + Math.round(text.length / 1000) + "천 자 분량을 복사했습니다. " +
+      setTimeout(function () { button.textContent = label; }, 2000);
+      showMessage("", "✅ " + (text.length >= 1000 ? Math.round(text.length / 1000) + "천" : text.length) + " 자 분량을 복사했습니다. " +
         '<a href="' + CLAUDE_NEW_CHAT + '" target="_blank" rel="noopener">claude.ai 새 채팅</a>을 열어 붙여넣기(Ctrl+V) 후 보내세요.' +
-        (source.kind === "pdf" ? "<br />PDF는 복사되지 않으니 채팅창에 파일을 직접 첨부해 주세요." : "") +
+        (mode === "prompt" ? "<br />보내기 전에 제안요청서·공고문 파일을 채팅창에 첨부해 주세요." : "") +
+        (mode === "full" && content.length < 30 ? "<br />원문 없이 공고 정보만으로 판단하는 프롬프트입니다." : "") +
         (text.length > 100000 ? "<br />분량이 많아 채팅창에서 첨부파일 형태로 바뀔 수 있습니다. 그대로 보내면 됩니다." : ""));
     });
   }
 
-  /* ---------- 7) 바깥(index.html)에서 쓰는 것 ---------- */
-  window.AIBrief = {
+  /* ---------- 6) 바깥(index.html)에서 쓰는 것 ---------- */
+  window.GoNoGo = {
     open: open,
     // 시험용으로만 씁니다.
-    _internals: { buildChatPrompt: buildChatPrompt, readUpload: readUpload }
+    _internals: { buildPrompt: buildPrompt, readUpload: readUpload }
   };
 })();

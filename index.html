@@ -377,7 +377,7 @@
     }
     .backup { margin-top: 10px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 
-    /* ---------- AI 의사결정 브리프 ---------- */
+    /* ---------- Go/No-Go 판단 프롬프트 ---------- */
     .brief-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
     .ai-btn {
       padding: 7px 12px;
@@ -496,6 +496,25 @@
     }
     .brief-info a { color: var(--point); font-weight: 700; }
     a.mini-btn { display: inline-block; text-decoration: none; }
+    .brief-section h4 small { font-size: 12px; font-weight: 400; color: var(--text-sub); }
+    .gng-facts { margin: 0; font-size: 13px; color: var(--text-sub); }
+    .gng-row { display: flex; align-items: center; justify-content: space-between; margin: 6px 0 10px; }
+    .gng-row .brief-hint { margin: 0; }
+    .gng-open {
+      margin-top: 12px;
+      padding: 9px 14px;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--ai);
+      background: var(--ai-soft);
+      border: 1px solid transparent;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: left;
+    }
+    .gng-open:hover { border-color: var(--ai); }
+    .gng-open small { font-weight: 400; color: var(--text-sub); }
     .brief-primary {
       padding: 12px 22px;
       font: inherit;
@@ -549,6 +568,7 @@
   <header>
     <h1>📰 나라장터 입찰공고 퀵 브리핑</h1>
     <p class="sub">키워드로 걸러 매일 아침 빠르게 받아보는 <span class="nowrap">맞춤 입찰·사전규격</span></p>
+    <button class="gng-open" id="gng-open">🧭 Go/No-Go 판단 프롬프트 <small>· 관심 공고 원문을 붙여넣어 claude.ai로 판단</small></button>
     <div class="banner" id="banner"></div>
   </header>
 
@@ -913,16 +933,17 @@ function renderCard(type, item, opts) {
       '<div class="meta">' + meta + "</div>" +
       renderFiles(type, item) +
       linked +
-      renderBriefBar(type, item) +
+      renderGoNoGoBar(type, item) +
       favBox +
     "</article>";
 }
 
-/* AI 의사결정 브리프 버튼 (claude.ai에 붙여넣을 지시문을 만들어 줍니다) */
-function renderBriefBar(type, item) {
+/* 관심 공고 카드의 Go/No-Go 판단 버튼 (claude.ai에 붙여넣을 프롬프트를 만들어 줍니다) */
+function renderGoNoGoBar(type, item) {
+  if (!store.favs[keyOf(type, item)]) return "";      // 관심 공고에만 보여줍니다
   return '<div class="brief-bar">' +
-    '<button class="ai-btn" data-act="brief" data-type="' + type + '" data-id="' + escapeHtml(item.id) + '">' +
-      "🤖 AI 의사결정 브리프</button>" +
+    '<button class="ai-btn" data-act="gonogo" data-type="' + type + '" data-id="' + escapeHtml(item.id) + '">' +
+      "🧭 Go/No-Go 판단 프롬프트</button>" +
   "</div>";
 }
 
@@ -969,7 +990,7 @@ function render() {
 
   list.innerHTML =
     renderSection("⭐ 관심 공고", favs.length, favHtml,
-      "공고 카드 오른쪽 위 ☆를 누르면 여기에 고정됩니다. 진행 상태와 메모도 남길 수 있습니다.") +
+      "공고 카드 오른쪽 위 ☆를 누르면 여기에 고정됩니다. 진행 상태·메모를 남기고, Go/No-Go 판단 프롬프트도 쓸 수 있습니다.") +
     renderSection("🆕 새로 나온 공고", fresh.length,
       fresh.map(function (item) { return renderCard(type, item); }).join(""),
       "마지막으로 확인한 뒤 새로 나온 공고가 없습니다.",
@@ -1096,10 +1117,10 @@ document.getElementById("list").addEventListener("click", function (event) {
   if (!target) return;
   var act = target.dataset.act;
   if (act === "star") toggleFav(target.dataset.type, target.dataset.id);
-  else if (act === "brief") {
-    var briefItem = findItem(target.dataset.type, target.dataset.id) ||
+  else if (act === "gonogo") {
+    var gngItem = findItem(target.dataset.type, target.dataset.id) ||
       (store.favs[target.dataset.type + ":" + target.dataset.id] || {}).item;
-    if (briefItem && window.AIBrief) window.AIBrief.open(target.dataset.type, briefItem);
+    if (gngItem && window.GoNoGo) window.GoNoGo.open(target.dataset.type, gngItem);
   }
   else if (act === "ack") ackAll();
   else if (act === "open") {
@@ -1119,6 +1140,10 @@ document.getElementById("list").addEventListener("change", function (event) {
   if (!target) return;
   if (target.dataset.act === "status") updateFav(target.dataset.key, "status", target.value);
   if (target.dataset.act === "memo") updateFav(target.dataset.key, "memo", target.value.trim());
+});
+
+document.getElementById("gng-open").addEventListener("click", function () {
+  if (window.GoNoGo) window.GoNoGo.open();
 });
 
 document.getElementById("export").addEventListener("click", exportBackup);
@@ -1185,6 +1210,6 @@ function boot() {
 
 boot();
 </script>
-<script src="ai-brief.js"></script>
+<script src="gonogo.js"></script>
 </body>
 </html>

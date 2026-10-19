@@ -23,7 +23,7 @@ jobs:
       - name: 저장소 내려받기
         uses: actions/checkout@v5
 
-      # 2) 파이썬을 설치합니다. (첨부파일 본문 추출용 라이브러리는 3-1 단계에서 설치)
+      # 2) 파이썬을 설치합니다. (추가 라이브러리 설치는 필요 없습니다)
       - name: 파이썬 준비
         uses: actions/setup-python@v6
         with:
@@ -43,15 +43,6 @@ jobs:
             sleep 300
             python scripts/collect.py
           fi
-
-      # 3-1) 제안요청서·과업지시서 등 첨부파일 본문을 뽑아 둡니다. (AI 의사결정 브리프용)
-      #      이 단계가 실패해도 공고 수집 결과는 그대로 저장됩니다.
-      - name: 제안요청서 본문 추출
-        continue-on-error: true
-        timeout-minutes: 20
-        run: |
-          pip install --quiet olefile==0.47 pypdf==5.1.0
-          python scripts/extract_rfp.py
 
       # 4) 결과가 달라졌으면 저장소에 커밋합니다.
       #    달라진 게 없으면 아무 일도 하지 않습니다.
