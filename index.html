@@ -32,9 +32,6 @@
       --new-soft: #e3f7ee;
       --ai: #7c3aed;           /* AI 브리프 (보라) */
       --ai-soft: #f1eafe;
-      --go: #047857;  --go-soft: #e3f7ee;      /* 추진 적극 권장 */
-      --cond: #b45309; --cond-soft: #fff4e0;   /* 조건부 추진 */
-      --nogo: #b91c1c; --nogo-soft: #fdeaea;   /* 입찰 비권장 */
       --radius: 14px;
     }
 
@@ -58,9 +55,6 @@
         --new-soft: #133328;
         --ai: #b69cff;
         --ai-soft: #2a2145;
-        --go: #34d399;  --go-soft: #133328;
-        --cond: #fbbf24; --cond-soft: #3a2f12;
-        --nogo: #ff8a8a; --nogo-soft: #3a2020;
       }
     }
 
@@ -397,11 +391,6 @@
       cursor: pointer;
     }
     .ai-btn:hover { border-color: var(--ai); }
-    .verdict-chip { padding: 3px 9px; font-size: 12px; font-weight: 700; border-radius: 6px; }
-    .v-go   { --v: var(--go);   --v-soft: var(--go-soft); }
-    .v-cond { --v: var(--cond); --v-soft: var(--cond-soft); }
-    .v-nogo { --v: var(--nogo); --v-soft: var(--nogo-soft); }
-    .verdict-chip { color: var(--v); background: var(--v-soft); }
 
     .brief-modal {
       width: min(720px, calc(100vw - 24px));
@@ -448,10 +437,6 @@
     }
     .brief-section h4 { display: inline; margin: 0; font-size: 15px; }
     .brief-section > h4 { display: block; margin-bottom: 10px; }
-    .brief-settings summary { cursor: pointer; list-style: none; }
-    .brief-settings summary::-webkit-details-marker { display: none; }
-    .brief-settings summary small { margin-left: 8px; color: var(--text-sub); }
-    .brief-settings[open] summary { margin-bottom: 12px; }
     .brief-option {
       display: flex;
       align-items: flex-start;
@@ -502,76 +487,27 @@
       border-radius: 10px;
     }
     .brief-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 4px; }
-    .brief-alt { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); }
     .brief-info {
       margin: 0 0 12px;
       padding: 10px 12px;
       font-size: 13px;
-      background: var(--go-soft);
+      background: var(--new-soft);
       border-radius: 10px;
     }
     .brief-info a { color: var(--point); font-weight: 700; }
+    a.mini-btn { display: inline-block; text-decoration: none; }
     .brief-primary {
       padding: 12px 22px;
       font: inherit;
       font-size: 15px;
       font-weight: 800;
-      color: #fff;
+      color: var(--card);      /* 라이트: 흰 글자 / 다크: 어두운 글자 (밝은 보라 바탕에서 잘 보이게) */
       background: var(--ai);
       border: 0;
       border-radius: 12px;
       cursor: pointer;
     }
-    .brief-loading { padding: 36px 8px; text-align: center; }
-    .brief-loading p { margin: 6px 0; }
-    .brief-loading .mini-btn { margin-top: 14px; }
-    .brief-spinner {
-      width: 38px; height: 38px;
-      margin: 0 auto 14px;
-      border: 4px solid var(--ai-soft);
-      border-top-color: var(--ai);
-      border-radius: 50%;
-      animation: spin 0.9s linear infinite;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    @media (prefers-reduced-motion: reduce) { .brief-spinner { animation-duration: 3s; } }
-
-    .brief-verdict {
-      margin-bottom: 12px;
-      padding: 14px 16px;
-      background: var(--v-soft);
-      border: 1px solid var(--v);
-      border-radius: var(--radius);
-    }
-    .brief-verdict span { font-size: 12px; font-weight: 700; color: var(--v); }
-    .brief-verdict strong { display: block; font-size: 22px; color: var(--v); letter-spacing: -0.02em; }
-    .brief-verdict p { margin: 4px 0 0; font-size: 14px; }
-    .brief-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .brief-card {
-      padding: 13px 14px;
-      font-size: 14px;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-    }
-    .brief-card h5 { margin: 0 0 8px; font-size: 14px; color: var(--ai); }
-    .brief-card h6 { margin: 0 0 4px; font-size: 13px; color: var(--text-sub); }
-    .brief-card p { margin: 0 0 6px; }
-    .brief-card ul { margin: 0; padding-left: 18px; }
-    .brief-card li { margin: 2px 0; }
-    .brief-wide { grid-column: 1 / -1; }
-    .brief-two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .brief-check { background: var(--warn-bg); border-color: var(--warn-line); }
-    .brief-check h5 { color: var(--text); }
-    .brief-mm { font-size: 16px; font-weight: 800; }
-    .brief-muted { color: var(--text-sub); font-size: 13px; }
-    .brief-level { padding: 2px 8px; font-size: 12px; font-weight: 800; border-radius: 6px; }
-    .l-hard { color: var(--nogo); background: var(--nogo-soft); }
-    .l-mid  { color: var(--cond); background: var(--cond-soft); }
-    .l-easy { color: var(--go);   background: var(--go-soft); }
-    .brief-meta { margin: 12px 0 0; font-size: 12px; color: var(--text-sub); line-height: 1.7; }
     @media (max-width: 560px) {
-      .brief-grid, .brief-two { grid-template-columns: 1fr; }
       .brief-modal { width: 100vw; max-width: 100vw; max-height: 100dvh; height: 100dvh; border-radius: 0; }
     }
 
@@ -982,13 +918,11 @@ function renderCard(type, item, opts) {
     "</article>";
 }
 
-/* AI 의사결정 브리프 버튼 (+ 이미 분석했으면 판정 배지) */
+/* AI 의사결정 브리프 버튼 (claude.ai에 붙여넣을 지시문을 만들어 줍니다) */
 function renderBriefBar(type, item) {
-  var verdict = window.AIBrief ? window.AIBrief.verdictOf(type, item.id) : null;
   return '<div class="brief-bar">' +
     '<button class="ai-btn" data-act="brief" data-type="' + type + '" data-id="' + escapeHtml(item.id) + '">' +
-      (verdict ? "🤖 AI 브리프 보기" : "🤖 AI 의사결정 브리프") + "</button>" +
-    (verdict ? '<span class="verdict-chip v-' + verdict.cls + '">AI 판정: ' + escapeHtml(verdict.verdict) + "</span>" : "") +
+      "🤖 AI 의사결정 브리프</button>" +
   "</div>";
 }
 
@@ -1248,13 +1182,6 @@ function boot() {
       render();
     });
 }
-
-/* AI 브리프 창을 닫으면 카드의 판정 배지를 새로 그립니다. (스크롤 위치 유지) */
-window.onBriefChanged = function () {
-  var y = window.scrollY;
-  render();
-  window.scrollTo(0, y);
-};
 
 boot();
 </script>
