@@ -359,7 +359,7 @@
       "지역(기관명 기준 추정): " + (item.region || "-")
     ];
     if (item.contract_method) lines.push("계약방법: " + item.contract_method);
-    if (item.kind) lines.push("공고 종류: " + item.kind + (item.renotice ? " (재공고)" : ""));
+    if (item.kind) lines.push("공고 종류: " + item.kind + (item.renotice && item.kind.indexOf("재공고") === -1 ? " (재공고)" : ""));
     if (item.delivery_date) lines.push("사업(납품) 기한: " + item.delivery_date);
     if (item.files && item.files.length) {
       lines.push("첨부파일 목록: " + item.files.map(function (f) { return f.name; }).join(", "));
@@ -520,6 +520,7 @@
       else if (act === "cancel" && current && current.abort) current.abort.abort();
       else if (act === "redo") renderSetup();
       else if (act === "copy") copyMarkdown(el);
+      else if (act === "chat-copy") copyForChat(el);
       else if (act === "download") downloadMarkdown();
       else if (act === "save-settings") saveSettingsFromForm(el);
       else if (act === "pick-file") bodyEl.querySelector("#brief-file").click();
@@ -597,12 +598,12 @@
       "</section>" +
 
       '<details class="brief-section brief-settings"' + (s.apiKey ? "" : " open") + ">" +
-        "<summary><h4>2. ⚙️ AI 설정</h4><small>" + (s.apiKey ? "API 키 저장됨 · " + escapeHtml(MODELS[s.model].label.split(" (")[0]) : "처음 한 번만 설정") + "</small></summary>" +
+        "<summary><h4>2. ⚙️ AI 설정</h4><small>[분석 시작]용 · " + (s.apiKey ? "API 키 저장됨 · " + escapeHtml(MODELS[s.model].label.split(" (")[0]) : "처음 한 번만 설정") + "</small></summary>" +
         '<label class="brief-field"><span>Anthropic API 키</span>' +
           '<input type="password" id="brief-key" autocomplete="off" placeholder="sk-ant-..." value="' + escapeHtml(s.apiKey) + '" /></label>' +
         '<p class="brief-hint">키는 이 브라우저에만 저장되고 Anthropic 외 다른 곳으로 보내지 않습니다. ' +
-          '<a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">콘솔에서 키 만들기</a> · ' +
-          "이 도구 전용 키를 만들고 월 사용 한도를 걸어 두시길 권합니다.</p>" +
+          '<a href="https://platform.claude.com/settings/keys" target="_blank" rel="noopener">콘솔에서 키 만들기</a> · ' +
+          "API는 Claude Pro 구독과 별도로, 콘솔에 미리 충전한 크레딧에서 차감됩니다. 자동 충전을 꺼 두면 충전한 금액 이상은 쓰이지 않습니다.</p>" +
         '<label class="brief-field"><span>모델</span><select id="brief-model" class="select">' +
           Object.keys(MODELS).map(function (m) {
             return '<option value="' + m + '"' + (m === s.model ? " selected" : "") + ">" + MODELS[m].label + "</option>";
@@ -615,9 +616,14 @@
       "</details>" +
 
       '<p class="brief-error" id="brief-error" hidden></p>' +
+      '<p class="brief-info" id="brief-info" hidden></p>' +
       '<div class="brief-actions">' +
         '<button class="brief-primary" data-brief="start">분석 시작</button>' +
-        '<span class="brief-hint">보통 30초~1분 · 예상 비용 1건 약 50~300원(자료 분량에 따라)</span>' +
+        '<span class="brief-hint">API 키로 바로 분석 · 보통 30초~1분 · 1건 약 50~300원(콘솔 크레딧에서 차감)</span>' +
+      "</div>" +
+      '<div class="brief-actions brief-alt">' +
+        '<button class="mini-btn" data-brief="chat-copy">📋 claude.ai용으로 복사</button>' +
+        '<span class="brief-hint">API 키 없이, Claude Pro 채팅창에 붙여넣어 분석 (추가 비용 없음 · Pro 사용량에서 차감)</span>' +
       "</div>";
 
     setSource("auto");
@@ -860,19 +866,89 @@
       "</p>";
   }
 
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text).then(function () { return true; }, function () { return fallbackCopy(text); });
+    }
+    return Promise.resolve(fallbackCopy(text));
+  }
+
   function copyMarkdown(button) {
     var record = getBrief(current.type, current.item.id);
     if (!record) return;
-    var text = toMarkdown(current.type, current.item, record);
-    var done = function (ok) {
+    copyText(toMarkdown(current.type, current.item, record)).then(function (ok) {
       button.textContent = ok ? "✅ 복사됨" : "복사 실패";
       setTimeout(function () { button.textContent = "📋 복사"; }, 1600);
-    };
-    if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(fallbackCopy(text)); });
+    });
+  }
+
+  /* claude.ai(Pro 요금제) 채팅창에 붙여넣을 한 덩어리 지시문을 만듭니다. API 키·추가 비용 없음. */
+  var CHAT_TEMPLATE = [
+    "### [RFP 3분 의사결정 브리프]",
+    "1. **과업 핵심 요약 (3줄 이내)**: 본 사업의 진짜 목적 및 주요 실행 과업",
+    "2. **사업 난이도 및 리스크**:",
+    "   - 기술/운영 난이도: 상/중/하 (사유 요약)",
+    "   - 주요 위험 요소: (납기 촉박, 인력 상주 조건, 까다로운 검수 등)",
+    "3. **투입 리소스 및 예상 공수**:",
+    "   - 권장 투입 인력(M/M) 추정치 (산정 근거 한 줄)",
+    "   - 사업 예산 대비 수익성/공수 적정성 한 줄 평가",
+    "4. **필수 자격 및 핵심 준비사항 (Must-Have)**:",
+    "   - 입찰 참가 필수 자격(면허, 최근 유사 실적, 상주 인력 자격증 등)",
+    "   - 제안서 작성 시 가장 중요한 승부처(핵심 평가 요소)",
+    "5. **Go / No-Go 추천 의견**:",
+    "   - 최종 제안: [추진 적극 권장 / 조건부 추진 / 입찰 비권장] 중 택1 및 1문장 근거",
+    "> 확인 필요: 자료에서 확인할 수 없는 항목"
+  ].join("\n");
+
+  function buildChatPrompt(type, item, source, profile) {
+    var parts = [
+      // API용 필드 이름(check_items 등)은 채팅에 맞는 말로 바꿉니다.
+      SYSTEM_PROMPT.replace("check_items(확인 필요)", "'확인 필요'")
+        .replace("산정 근거를 basis에 한 줄로 적습니다", "산정 근거를 한 줄로 덧붙입니다")
+        .replace("decision.reason 에", "추천 근거에"),
+      "- 아래 [출력 형식]을 그대로 따르고, 짧은 불릿으로만 답합니다.",
+      "",
+      "[출력 형식]",
+      CHAT_TEMPLATE,
+      "",
+      "<공고정보>",
+      noticeFacts(type, item),
+      "</공고정보>"
+    ];
+    if (profile) parts.push("", "<회사프로필>", profile, "</회사프로필>");
+    if (source.kind === "text") {
+      parts.push("", "<원문 자료=\"" + source.label + "\">", source.text, "</원문>");
+    } else if (source.kind === "pdf") {
+      parts.push("", "원문은 함께 첨부한 PDF(" + source.name + ")입니다.");
     } else {
-      done(fallbackCopy(text));
+      parts.push("", "원문 첨부 없이 공고 정보만으로 판단합니다. 원문이 없어 확인할 수 없는 항목은 '확인 필요'에 적어 주세요.");
     }
+    return parts.join("\n");
+  }
+
+  function showInfo(html) {
+    var el = bodyEl.querySelector("#brief-info");
+    if (!el) return;
+    el.innerHTML = html;
+    el.hidden = !html;
+  }
+
+  function copyForChat(button) {
+    showError("");
+    showInfo("");
+    var source;
+    try { source = collectSource(); } catch (e) { showError(e.message); return; }
+    var profile = (bodyEl.querySelector("#brief-profile").value || "").trim();
+    var text = buildChatPrompt(current.type, current.item, source, profile);
+    copyText(text).then(function (ok) {
+      if (!ok) { showError("복사하지 못했습니다. 브라우저의 클립보드 권한을 확인해 주세요."); return; }
+      button.textContent = "✅ 복사됨";
+      setTimeout(function () { button.textContent = "📋 claude.ai용으로 복사"; }, 2000);
+      showInfo("✅ " + Math.round(text.length / 1000) + "천 자 분량을 복사했습니다. " +
+        '<a href="https://claude.ai/new" target="_blank" rel="noopener">claude.ai 새 채팅</a>을 열어 붙여넣기(Ctrl+V) 후 보내세요.' +
+        (source.kind === "pdf" ? "<br />PDF는 복사되지 않으니 채팅창에 파일을 직접 첨부해 주세요." : "") +
+        (text.length > 100000 ? "<br />분량이 많아 채팅창에서 첨부파일 형태로 바뀔 수 있습니다. 그대로 보내면 됩니다." : ""));
+    });
   }
 
   function fallbackCopy(text) {
@@ -909,6 +985,6 @@
       return record ? { verdict: record.brief.decision.verdict, cls: VERDICTS[record.brief.decision.verdict] || "cond" } : null;
     },
     // 시험용으로만 씁니다.
-    _internals: { readUpload: readUpload, toMarkdown: toMarkdown, buildContent: buildContent, BRIEF_SCHEMA: BRIEF_SCHEMA }
+    _internals: { buildChatPrompt: buildChatPrompt, readUpload: readUpload, toMarkdown: toMarkdown, buildContent: buildContent, BRIEF_SCHEMA: BRIEF_SCHEMA }
   };
 })();
