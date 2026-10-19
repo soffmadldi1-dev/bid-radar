@@ -1,0 +1,12 @@
+name: probe
+on:
+  push:
+    branches: [probe-api]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - env:
+          SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
+        run: python scripts/probe.py
