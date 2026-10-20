@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 19:08:54",
+  "updated_at": "2026-10-20 09:58:57",
   "keywords": [
     "취업",
     "관광",
@@ -8,7 +8,7 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3270,
+  "total_fetched": 3312,
   "count": 57,
   "prespecs": [
     {
@@ -926,7 +926,7 @@
       "close_ts": 1792335540,
       "delivery_date": "2027-01-29 00:00",
       "officer": "송영선",
-      "bid_nos": "",
+      "bid_nos": "R26BK01778049",
       "files": [
         {
           "name": "첨부파일 1",

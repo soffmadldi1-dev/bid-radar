@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 19:07:49",
+  "updated_at": "2026-10-20 09:58:11",
   "keywords": [
     "취업",
     "관광",
@@ -13,8 +13,8 @@
     "물품",
     "시스템 구축"
   ],
-  "total_fetched": 3443,
-  "count": 49,
+  "total_fetched": 3400,
+  "count": 50,
   "notices": [
     {
       "id": "R26BK01758489",
@@ -1647,6 +1647,51 @@
       ],
       "first_seen": "2026-10-19 19:00",
       "first_seen_ts": 1792404000
+    },
+    {
+      "id": "R26BK01778049",
+      "order": "000",
+      "title": "유원대학교 모듈형 및 융합교육과정 도입 컨설팅 용역",
+      "agency": "유원대학교",
+      "demand_agency": "유원대학교",
+      "region": "전국·기타",
+      "budget": 100000000,
+      "notice_no": "R26BK01778049",
+      "notice_date": "2026-10-20 09:50",
+      "close_date": "2026-11-02 12:00",
+      "close_ts": 1793588400,
+      "contract_method": "일반경쟁",
+      "kind": "등록공고",
+      "renotice": false,
+      "prespec_no": "R26BD00284128",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01778049&bidPbancOrd=000",
+      "files": [
+        {
+          "name": "붙임 2. 제안요청서 1부.hwpx",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01778049&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
+          "rfp": true
+        },
+        {
+          "name": "붙임 1. 입찰 공고문 1부.hwpx",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01778049&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03",
+          "rfp": false
+        },
+        {
+          "name": "붙임 1. 입찰 공고문 1부.pdf",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01778049&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
+          "rfp": false
+        },
+        {
+          "name": "붙임 3. 별지서식 각 1부.hwpx",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01778049&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=03",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-20 09:58",
+      "first_seen_ts": 1792457880
     },
     {
       "id": "R26BK01779323",
