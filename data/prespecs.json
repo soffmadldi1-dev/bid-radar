@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21 09:28:41",
+  "updated_at": "2026-10-22 09:30:41",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,215 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3326,
-  "count": 66,
+  "total_fetched": 3384,
+  "count": 73,
   "prespecs": [
+    {
+      "id": "R26BD00288630",
+      "title": "2027년 사이버보안관제센터 실시간관제 및 정보보안 컨설팅 용역",
+      "agency": "조달청 인천지방조달청",
+      "demand_agency": "경기도 군포시",
+      "region": "경기",
+      "budget": 253448430,
+      "notice_no": "R26BD00288630",
+      "notice_date": "2026-10-22 09:20",
+      "notice_ts": 1792628405,
+      "close_date": "2026-10-27 23:59",
+      "close_ts": 1793113140,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "김준권 070-4056-7872",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288630&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288630&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-22 09:30",
+      "first_seen_ts": 1792629000
+    },
+    {
+      "id": "R26BD00288626",
+      "title": "디지털트윈 통합플랫폼 정보보안경영시스템(ISO27001)컨설팅 및 인증 용역",
+      "agency": "(재)원주의료기기산업진흥원",
+      "demand_agency": "(재)원주의료기기산업진흥원",
+      "region": "강원",
+      "budget": 70000000,
+      "notice_no": "R26BD00288626",
+      "notice_date": "2026-10-22 09:17",
+      "notice_ts": 1792628250,
+      "close_date": "2026-10-26 23:59",
+      "close_ts": 1793026740,
+      "delivery_date": "",
+      "officer": "정현정 033-760-6105",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288626&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-22 09:30",
+      "first_seen_ts": 1792629000
+    },
+    {
+      "id": "R26BD00288265",
+      "title": "김해문화관광재단 통합정보관리시스템 개발 용역",
+      "agency": "(재)김해문화관광재단 김해문화의전당",
+      "demand_agency": "(재)김해문화관광재단 김해문화의전당",
+      "region": "경남",
+      "budget": 399975000,
+      "notice_no": "R26BD00288265",
+      "notice_date": "2026-10-21 15:32",
+      "notice_ts": 1792564321,
+      "close_date": "2026-10-26 23:59",
+      "close_ts": 1793026740,
+      "delivery_date": "",
+      "officer": "김효진",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288265&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-22 09:30",
+      "first_seen_ts": 1792629000
+    },
+    {
+      "id": "R26BD00288152",
+      "title": "레저케이션 관광스테이 조성사업 건설사업관리 용역",
+      "agency": "전남광주통합특별시 곡성군",
+      "demand_agency": "전남광주통합특별시 곡성군",
+      "region": "전남",
+      "budget": 1550416000,
+      "notice_no": "R26BD00288152",
+      "notice_date": "2026-10-21 14:14",
+      "notice_ts": 1792559685,
+      "close_date": "2026-10-25 23:59",
+      "close_ts": 1792940340,
+      "delivery_date": "",
+      "officer": "신소현 061-360-2822",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288152&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288152&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-22 09:30",
+      "first_seen_ts": 1792629000
+    },
+    {
+      "id": "R26BD00288134",
+      "title": "군장대학교 LUPIC사업「라오스 루앙프라방직업기술대학 호텔관광학부 자립운영체계 구축 및  사업성과 확산 지원」용역",
+      "agency": "군장대학산학협력단",
+      "demand_agency": "군장대학산학협력단",
+      "region": "전국·기타",
+      "budget": 76000000,
+      "notice_no": "R26BD00288134",
+      "notice_date": "2026-10-21 13:59",
+      "notice_ts": 1792558799,
+      "close_date": "2026-10-26 23:59",
+      "close_ts": 1793026740,
+      "delivery_date": "2027-02-15 00:00",
+      "officer": "전소영 063-450-8299",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288134&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-22 09:30",
+      "first_seen_ts": 1792629000
+    },
+    {
+      "id": "R26BD00288091",
+      "title": "[대림대학교]2026년 첨단산업인재양성부트캠프 해외 단기연수 프로그램(반도체) 용역",
+      "agency": "대림대학교 산학협력단",
+      "demand_agency": "대림대학교 산학협력단",
+      "region": "전국·기타",
+      "budget": 100000,
+      "notice_no": "R26BD00288091",
+      "notice_date": "2026-10-21 13:36",
+      "notice_ts": 1792557369,
+      "close_date": "2026-10-26 23:59",
+      "close_ts": 1793026740,
+      "delivery_date": "",
+      "officer": "조형조 031-467-4758",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288091&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-10-22 09:30",
+      "first_seen_ts": 1792629000
+    },
+    {
+      "id": "R26BD00287897",
+      "title": "KOICA 공공데이터 및 데이터기반 행정 활성화 컨설팅 용역",
+      "agency": "조달청 서울지방조달청",
+      "demand_agency": "한국국제협력단",
+      "region": "서울",
+      "budget": 292341460,
+      "notice_no": "R26BD00287897",
+      "notice_date": "2026-10-21 09:30",
+      "notice_ts": 1792542653,
+      "close_date": "2026-10-26 23:59",
+      "close_ts": 1793026740,
+      "delivery_date": "",
+      "officer": "허지숙 02-590-8891",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287897&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-22 09:30",
+      "first_seen_ts": 1792629000
+    },
     {
       "id": "R26BD00287864",
       "title": "’27~’28년 ICT 규제샌드박스 과제화 및 사후관리 컨설팅 지원 용역",
@@ -647,7 +853,7 @@
       "close_ts": 1792508340,
       "delivery_date": "2026-11-10 00:00",
       "officer": "박세리 02-410-6730",
-      "bid_nos": "",
+      "bid_nos": "R26BK01784267",
       "files": [
         {
           "name": "첨부파일 1",
@@ -741,7 +947,7 @@
       "close_ts": 1792508340,
       "delivery_date": "2027-01-31 00:00",
       "officer": "이호정 053-819-3118",
-      "bid_nos": "",
+      "bid_nos": "R26BK01772191",
       "files": [
         {
           "name": "첨부파일 1",
@@ -825,7 +1031,7 @@
       "close_ts": 1792421940,
       "delivery_date": "2027-12-31 00:00",
       "officer": "장성주 070-4056-6131",
-      "bid_nos": "",
+      "bid_nos": "R26BK01784053",
       "files": [
         {
           "name": "첨부파일 1",
@@ -934,7 +1140,7 @@
       "close_ts": 1792421940,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김채은",
-      "bid_nos": "",
+      "bid_nos": "R26BK01784650",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1122,7 +1328,7 @@
       "close_ts": 1792162740,
       "delivery_date": "",
       "officer": "이지주",
-      "bid_nos": "",
+      "bid_nos": "R26BK01784078",
       "files": [
         {
           "name": "첨부파일 1",
