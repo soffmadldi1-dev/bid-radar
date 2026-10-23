@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 09:30:41",
+  "updated_at": "2026-10-23 09:29:17",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,108 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3384,
-  "count": 73,
+  "total_fetched": 3392,
+  "count": 76,
   "prespecs": [
+    {
+      "id": "R26BD00289135",
+      "title": "개인정보 처리방침 평가지원 및 컨설팅",
+      "agency": "조달청 서울지방조달청",
+      "demand_agency": "개인정보보호위원회",
+      "region": "서울",
+      "budget": 816466000,
+      "notice_no": "R26BD00289135",
+      "notice_date": "2026-10-22 17:24",
+      "notice_ts": 1792657454,
+      "close_date": "2026-10-27 23:59",
+      "close_ts": 1793113140,
+      "delivery_date": "2027-12-20 00:00",
+      "officer": "장기순 02-590-8884",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289135&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-23 09:29",
+      "first_seen_ts": 1792715340
+    },
+    {
+      "id": "R26BD00288999",
+      "title": "관광숙박시설 안전 매뉴얼 개선 방안 연구",
+      "agency": "문화체육관광부",
+      "demand_agency": "문화체육관광부",
+      "region": "전국·기타",
+      "budget": 44000000,
+      "notice_no": "R26BD00288999",
+      "notice_date": "2026-10-22 17:14",
+      "notice_ts": 1792656878,
+      "close_date": "2026-10-27 23:59",
+      "close_ts": 1793113140,
+      "delivery_date": "",
+      "officer": "김가현 044-203-2145",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288999&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-23 09:29",
+      "first_seen_ts": 1792715340
+    },
+    {
+      "id": "R26BD00288692",
+      "title": "2027 서울 관광스타트업 육성 지원 및 입주공간 관리 운영",
+      "agency": "재단법인 서울관광재단",
+      "demand_agency": "재단법인 서울관광재단",
+      "region": "서울",
+      "budget": 620000000,
+      "notice_no": "R26BD00288692",
+      "notice_date": "2026-10-22 10:30",
+      "notice_ts": 1792632633,
+      "close_date": "2026-10-27 23:59",
+      "close_ts": 1793113140,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "김동찬 02-3788-0804",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288692&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288692&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288692&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 4",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288692&fileType=BFDTL&fileSeq=4",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-23 09:29",
+      "first_seen_ts": 1792715340
+    },
     {
       "id": "R26BD00288630",
       "title": "2027년 사이버보안관제센터 실시간관제 및 정보보안 컨설팅 용역",
@@ -642,7 +741,7 @@
       "close_ts": 1792594740,
       "delivery_date": "2027-01-31 00:00",
       "officer": "정민수",
-      "bid_nos": "",
+      "bid_nos": "R26BK01787076",
       "files": [
         {
           "name": "첨부파일 1",
@@ -769,7 +868,7 @@
       "close_ts": 1792594740,
       "delivery_date": "2027-12-10 00:00",
       "officer": "박찬도 070-4056-7652",
-      "bid_nos": "",
+      "bid_nos": "R26BK01786460",
       "files": [
         {
           "name": "첨부파일 1",
@@ -825,7 +924,7 @@
       "close_ts": 1792594740,
       "delivery_date": "2027-08-31 00:00",
       "officer": "박도연 053-850-3562",
-      "bid_nos": "",
+      "bid_nos": "R26BK01774788",
       "files": [
         {
           "name": "첨부파일 1",
@@ -919,7 +1018,7 @@
       "close_ts": 1792508340,
       "delivery_date": "2027-12-31 00:00",
       "officer": "이은주 02-590-8804",
-      "bid_nos": "",
+      "bid_nos": "R26BK01785854",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1102,7 +1201,7 @@
       "close_ts": 1792421940,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김채은",
-      "bid_nos": "",
+      "bid_nos": "R26BK01785189",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1569,7 +1668,7 @@
       "close_ts": 1792249140,
       "delivery_date": "2027-02-28 00:00",
       "officer": "추명지 02-3459-2779",
-      "bid_nos": "",
+      "bid_nos": "R26BK01785316",
       "files": [
         {
           "name": "첨부파일 1",
