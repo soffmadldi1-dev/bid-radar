@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 09:29:17",
+  "updated_at": "2026-10-24 09:21:54",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,309 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3392,
-  "count": 76,
+  "total_fetched": 3739,
+  "count": 86,
   "prespecs": [
+    {
+      "id": "R26BD00289841",
+      "title": "홍익대학교 세종캠퍼스 앵커사업단 디지털콘텐츠 취업박람회",
+      "agency": "홍익대학교세종캠퍼스산학협력단",
+      "demand_agency": "홍익대학교세종캠퍼스산학협력단",
+      "region": "전국·기타",
+      "budget": 50000000,
+      "notice_no": "R26BD00289841",
+      "notice_date": "2026-10-23 18:06",
+      "notice_ts": 1792746360,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "2026-12-31 00:00",
+      "officer": "임영은",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289841&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "취업"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289836",
+      "title": "금강권 역사문화관광 플랫폼 구축사업 영상 제작 용역",
+      "agency": "충청남도 부여군",
+      "demand_agency": "충청남도 부여군",
+      "region": "충남",
+      "budget": 220000000,
+      "notice_no": "R26BD00289836",
+      "notice_date": "2026-10-23 18:00",
+      "notice_ts": 1792746036,
+      "close_date": "2026-10-26 23:59",
+      "close_ts": 1793026740,
+      "delivery_date": "",
+      "officer": "이우섭 041-830-2182",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289836&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289836&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289758",
+      "title": "기획예산처 AI·데이터 기반 정보보호 고도화 전략계획 수립 컨설팅 사업",
+      "agency": "조달청",
+      "demand_agency": "기획예산처",
+      "region": "충남",
+      "budget": 302849000,
+      "notice_no": "R26BD00289758",
+      "notice_date": "2026-10-23 16:35",
+      "notice_ts": 1792740946,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "",
+      "officer": "노태규 042-724-7262",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289758&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289717",
+      "title": "선문대학교 산학협력단 충남 앵커 계약학과 2차년도 협약기업 컨설팅 운영 용역",
+      "agency": "선문대학교 산학협력단",
+      "demand_agency": "선문대학교 산학협력단",
+      "region": "전국·기타",
+      "budget": 87000000,
+      "notice_no": "R26BD00289717",
+      "notice_date": "2026-10-23 16:10",
+      "notice_ts": 1792739439,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "2027-02-12 00:00",
+      "officer": "김병조 041-530-8027",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289717&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289703",
+      "title": "2027년도 김해문화관광재단 웹진 제작",
+      "agency": "재단법인김해문화관광재단",
+      "demand_agency": "재단법인김해문화관광재단",
+      "region": "경남",
+      "budget": 60000000,
+      "notice_no": "R26BD00289703",
+      "notice_date": "2026-10-23 15:59",
+      "notice_ts": 1792738762,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "2026-12-31 00:00",
+      "officer": "김효진",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289703&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289675",
+      "title": "수원관광 홍보용 DOOH 콘텐츠 제작",
+      "agency": "경기도 수원시",
+      "demand_agency": "경기도 수원시",
+      "region": "경기",
+      "budget": 95000000,
+      "notice_no": "R26BD00289675",
+      "notice_date": "2026-10-23 15:43",
+      "notice_ts": 1792737793,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "2026-12-31 00:00",
+      "officer": "류한올 031-5191-3032",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289675&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289419",
+      "title": "정보보호 관리체계 인증 최초심사 지원 컨설팅 용역",
+      "agency": "중앙대학교",
+      "demand_agency": "중앙대학교",
+      "region": "전국·기타",
+      "budget": 60500000,
+      "notice_no": "R26BD00289419",
+      "notice_date": "2026-10-23 15:24",
+      "notice_ts": 1792736683,
+      "close_date": "2026-10-26 16:00",
+      "close_ts": 1792998000,
+      "delivery_date": "2027-01-29 00:00",
+      "officer": "조현국 02-820-6315",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289419&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289648",
+      "title": "2027년(2026년 실적) 경영실적 향상을 위한 컨설팅",
+      "agency": "(재)국가생명윤리정책원",
+      "demand_agency": "(재)국가생명윤리정책원",
+      "region": "전국·기타",
+      "budget": 50000000,
+      "notice_no": "R26BD00289648",
+      "notice_date": "2026-10-23 15:21",
+      "notice_ts": 1792736494,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "2027-05-30 00:00",
+      "officer": "임재현",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289648&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289511",
+      "title": "레저케이션 관광스테이 조성사업 감리 용역(전기, 통신)",
+      "agency": "전남광주통합특별시 곡성군",
+      "demand_agency": "전남광주통합특별시 곡성군",
+      "region": "전남",
+      "budget": 253570000,
+      "notice_no": "R26BD00289511",
+      "notice_date": "2026-10-23 13:41",
+      "notice_ts": 1792730500,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "",
+      "officer": "신소현 061-360-2822",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289511&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289511&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
+    {
+      "id": "R26BD00289447",
+      "title": "2026년 관광숙박 수급분석 데이터 조사.수집 및 정리",
+      "agency": "한국문화관광연구원",
+      "demand_agency": "한국문화관광연구원",
+      "region": "전국·기타",
+      "budget": 120000000,
+      "notice_no": "R26BD00289447",
+      "notice_date": "2026-10-23 11:24",
+      "notice_ts": 1792722278,
+      "close_date": "2026-10-28 23:59",
+      "close_ts": 1793199540,
+      "delivery_date": "2027-06-15 00:00",
+      "officer": "박상준 02-2669-6972",
+      "bid_nos": "R26BK01788414",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289447&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289447&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289447&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-24 09:21",
+      "first_seen_ts": 1792801260
+    },
     {
       "id": "R26BD00289135",
       "title": "개인정보 처리방침 평가지원 및 컨설팅",
@@ -663,7 +963,7 @@
       "close_ts": 1792681140,
       "delivery_date": "",
       "officer": "김재현",
-      "bid_nos": "R26BK01778307",
+      "bid_nos": "R26BK01778307,R26BK01787860",
       "files": [],
       "matched": [
         "컨설팅"
@@ -779,7 +1079,7 @@
       "close_ts": 1792594740,
       "delivery_date": "2027-01-31 00:00",
       "officer": "권은정",
-      "bid_nos": "",
+      "bid_nos": "R26BK01787814",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1309,7 +1609,7 @@
       "close_date": "2026-10-19 23:59",
       "close_ts": 1792421940,
       "delivery_date": "2027-12-15 00:00",
-      "officer": "김다은 062-975-5838",
+      "officer": "김다은 070-4056-8266",
       "bid_nos": "R26BK01779084",
       "files": [
         {
