@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25 09:04:45",
+  "updated_at": "2026-10-26 08:53:24",
   "keywords": [
     "취업",
     "관광",
@@ -13,49 +13,9 @@
     "물품",
     "시스템 구축"
   ],
-  "total_fetched": 3415,
-  "count": 82,
+  "total_fetched": 3399,
+  "count": 81,
   "notices": [
-    {
-      "id": "R26BK01767385",
-      "order": "000",
-      "title": "2026학년도 지산학 연계 실무 인재 양성 프로그램(국제표준 기반 실무역량강화) 운영 대행 입찰 건",
-      "agency": "대전대학교산학협력단",
-      "demand_agency": "대전대학교산학협력단",
-      "region": "대전",
-      "budget": 50000000,
-      "notice_no": "R26BK01767385",
-      "notice_date": "2026-10-13 13:36",
-      "close_date": "2026-10-24 10:00",
-      "close_ts": 1792803600,
-      "contract_method": "제한경쟁",
-      "kind": "재공고",
-      "renotice": true,
-      "prespec_no": "R26BD00277700",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01767385&bidPbancOrd=000",
-      "files": [
-        {
-          "name": "붙임2. (대전대 앵커 제2026-06호)제안요청서.hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01767385&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "붙임1. (대전대 앵커 제2026-06호)재입찰공고문.hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01767385&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "붙임1. (대전대 앵커 제2026-06호)재입찰공고문.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01767385&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "인재양성"
-      ],
-      "first_seen": "2026-10-13 13:36",
-      "first_seen_ts": 1791866160
-    },
     {
       "id": "R26BK01769103",
       "order": "000",
