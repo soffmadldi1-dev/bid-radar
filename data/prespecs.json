@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 10:07:53",
+  "updated_at": "2026-10-29 10:38:53",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,148 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3827,
-  "count": 99,
+  "total_fetched": 3849,
+  "count": 104,
   "prespecs": [
+    {
+      "id": "R26BD00292051",
+      "title": "2027년 창업이민인재양성 프로그램(지식재산 인재양성 및 창업발명대전)",
+      "agency": "조달청 서울지방조달청",
+      "demand_agency": "법무부 서울출입국.외국인청",
+      "region": "서울",
+      "budget": 492421840,
+      "notice_no": "R26BD00292051",
+      "notice_date": "2026-10-29 10:22",
+      "notice_ts": 1793236950,
+      "close_date": "2026-11-03 23:59",
+      "close_ts": 1793717940,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "조성은 02-590-8895",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00292051&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-10-29 10:38",
+      "first_seen_ts": 1793237880
+    },
+    {
+      "id": "R26BD00291904",
+      "title": "AI OCR 고도화 기술 개발 컨설팅",
+      "agency": "(주)리빗",
+      "demand_agency": "(주)리빗",
+      "region": "전국·기타",
+      "budget": 55000000,
+      "notice_no": "R26BD00291904",
+      "notice_date": "2026-10-28 20:42",
+      "notice_ts": 1793187747,
+      "close_date": "2026-11-02 23:59",
+      "close_ts": 1793631540,
+      "delivery_date": "2026-12-25 00:00",
+      "officer": "김재현",
+      "bid_nos": "R26BK01796540",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-29 10:38",
+      "first_seen_ts": 1793237880
+    },
+    {
+      "id": "R26BD00291761",
+      "title": "직지권역 휴양관광단지 조성 기본구상 및 타당성 조사 연구용역",
+      "agency": "경상북도 김천시",
+      "demand_agency": "경상북도 김천시",
+      "region": "경북",
+      "budget": 100000000,
+      "notice_no": "R26BD00291761",
+      "notice_date": "2026-10-28 16:35",
+      "notice_ts": 1793172931,
+      "close_date": "2026-11-01 23:59",
+      "close_ts": 1793545140,
+      "delivery_date": "",
+      "officer": "손민지 054-420-6834",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00291761&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-10-29 10:38",
+      "first_seen_ts": 1793237880
+    },
+    {
+      "id": "R26BD00291678",
+      "title": "한남대학교 정보보호 관리체계 ISMS 인증 컨설팅 제한경쟁입찰",
+      "agency": "한남대학교",
+      "demand_agency": "한남대학교",
+      "region": "전국·기타",
+      "budget": 93800000,
+      "notice_no": "R26BD00291678",
+      "notice_date": "2026-10-28 15:23",
+      "notice_ts": 1793168623,
+      "close_date": "2026-11-02 23:59",
+      "close_ts": 1793631540,
+      "delivery_date": "",
+      "officer": "정지연 042-629-7301",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00291678&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-29 10:38",
+      "first_seen_ts": 1793237880
+    },
+    {
+      "id": "R26BD00291384",
+      "title": "AI모빌리티 종합 실증 콤플렉스 조성(구축형 R&D) 심사 컨설팅",
+      "agency": "한국산업기술기획평가원",
+      "demand_agency": "한국산업기술기획평가원",
+      "region": "전국·기타",
+      "budget": 139000000,
+      "notice_no": "R26BD00291384",
+      "notice_date": "2026-10-28 10:22",
+      "notice_ts": 1793150537,
+      "close_date": "2026-11-02 23:59",
+      "close_ts": 1793631540,
+      "delivery_date": "",
+      "officer": "김주영 053-718-8745",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00291384&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00291384&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-10-29 10:38",
+      "first_seen_ts": 1793237880
+    },
     {
       "id": "R26BD00291163",
       "title": "한국데이터원 설립을 위한  기관 통합방안 수립 컨설팅 용역",
@@ -970,7 +1109,7 @@
       "close_ts": 1793026740,
       "delivery_date": "2027-02-15 00:00",
       "officer": "전소영 063-450-8299",
-      "bid_nos": "",
+      "bid_nos": "R26BK01797872",
       "files": [
         {
           "name": "첨부파일 1",
@@ -998,7 +1137,7 @@
       "close_ts": 1793026740,
       "delivery_date": "",
       "officer": "조형조 031-467-4758",
-      "bid_nos": "",
+      "bid_nos": "R26BK01797382",
       "files": [
         {
           "name": "첨부파일 1",
