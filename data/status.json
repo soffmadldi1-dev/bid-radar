@@ -1,13 +1,13 @@
 {
-  "ok": true,
-  "message": "정상 수집",
-  "count": 95,
-  "endpoint": "ad/BidPublicInfoService/getBidPblancListInfoServc",
+  "ok": false,
+  "message": "모든 API 주소 후보가 실패했습니다. 마지막 오류: BidPublicInfoService/getBidPblancListInfoServcPPSSrch -> HTTP 400 응답: {\n  \"OpenAPI_ServiceResponse\": {\n    \"cmmMsgHeader\": {\n      \"errMsg\": \"NO_OPENAPI_SERVICE_ERROR\",\n      \"returnAuthMsg\": \"해당 오픈API 서비스가 없거나 폐기됨\",\n      \"returnReasonCode\": \"12\"\n    }\n  }\n}\n",
+  "count": null,
+  "endpoint": "",
   "prespec": {
-    "ok": true,
-    "message": "정상 수집",
-    "count": 117,
-    "endpoint": "ao/HrcspSsstndrdInfoService/getPublicPrcureThngInfoServc"
+    "ok": false,
+    "message": "모든 API 주소 후보가 실패했습니다. 마지막 오류: ao/HrcspSsstndrdInfoService/getPublicPrcureThngInfoServcPPSSrch -> JSON이 아닌 응답을 받았습니다: <!DOCTYPE html>\r\n<html lang=\"ko\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>시스템 점검 안내</title>\r\n    <link rel=\"stylesheet\" href=\"/static/info/css/common.css\">\r\n",
+    "count": null,
+    "endpoint": ""
   },
-  "checked_at": "2026-10-30 10:40:58"
+  "checked_at": "2026-10-31 10:32:08"
 }
