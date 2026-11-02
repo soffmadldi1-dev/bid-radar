@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 10:40:58",
+  "updated_at": "2026-11-02 10:23:37",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,220 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3901,
-  "count": 117,
+  "total_fetched": 3871,
+  "count": 124,
   "prespecs": [
+    {
+      "id": "R26BD00293247",
+      "title": "충북 광역관광개발 기본구상 연구용역",
+      "agency": "충청북도",
+      "demand_agency": "충청북도",
+      "region": "충북",
+      "budget": 110000000,
+      "notice_no": "R26BD00293247",
+      "notice_date": "2026-11-02 09:12",
+      "notice_ts": 1793578321,
+      "close_date": "2026-11-05 23:59",
+      "close_ts": 1793890740,
+      "delivery_date": "",
+      "officer": "박선병 043-220-2824",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293247&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293247&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-02 10:23",
+      "first_seen_ts": 1793582580
+    },
+    {
+      "id": "R26BD00293105",
+      "title": "대학생 직무역량 강화 5주 단기 인턴십 운영 용역",
+      "agency": "홍익대학교세종캠퍼스산학협력단",
+      "demand_agency": "홍익대학교세종캠퍼스산학협력단",
+      "region": "전국·기타",
+      "budget": 40000000,
+      "notice_no": "R26BD00293105",
+      "notice_date": "2026-10-30 17:02",
+      "notice_ts": 1793347374,
+      "close_date": "2026-11-04 23:59",
+      "close_ts": 1793804340,
+      "delivery_date": "2027-02-14 00:00",
+      "officer": "임영은",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293105&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293105&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "직무역량"
+      ],
+      "first_seen": "2026-11-02 10:23",
+      "first_seen_ts": 1793582580
+    },
+    {
+      "id": "R26BD00293033",
+      "title": "SKAI Eyes 디지털의료기기 소프트웨어 수명주기(IEC 62304) 및 사이버보안 컨설팅·시험 용역",
+      "agency": "스카이엑스 주식회사",
+      "demand_agency": "스카이엑스 주식회사",
+      "region": "전국·기타",
+      "budget": 109890000,
+      "notice_no": "R26BD00293033",
+      "notice_date": "2026-10-30 16:25",
+      "notice_ts": 1793345101,
+      "close_date": "2026-11-04 18:00",
+      "close_ts": 1793782800,
+      "delivery_date": "2027-04-30 00:00",
+      "officer": "김민서 031-299-4642",
+      "bid_nos": "R26BK01801863",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293033&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-02 10:23",
+      "first_seen_ts": 1793582580
+    },
+    {
+      "id": "R26BD00292916",
+      "title": "2027년 상반기 KTV 외주 프로그램 제작 용역(관광문화)",
+      "agency": "조달청 대전지방조달청",
+      "demand_agency": "문화체육관광부 한국정책방송원",
+      "region": "대전",
+      "budget": 201830000,
+      "notice_no": "R26BD00292916",
+      "notice_date": "2026-10-30 14:41",
+      "notice_ts": 1793338872,
+      "close_date": "2026-11-04 23:59",
+      "close_ts": 1793804340,
+      "delivery_date": "2027-07-31 00:00",
+      "officer": "김고은 070-4056-8337",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00292916&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-02 10:23",
+      "first_seen_ts": 1793582580
+    },
+    {
+      "id": "R26BD00292904",
+      "title": "수원시 관광·공공시설 셔틀버스 기본계획 및 타당성조사 용역",
+      "agency": "경기도 수원시",
+      "demand_agency": "경기도 수원시",
+      "region": "경기",
+      "budget": 300000000,
+      "notice_no": "R26BD00292904",
+      "notice_date": "2026-10-30 14:27",
+      "notice_ts": 1793338023,
+      "close_date": "2026-11-04 23:59",
+      "close_ts": 1793804340,
+      "delivery_date": "",
+      "officer": "이가영 031-5191-3250",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00292904&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00292904&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-02 10:23",
+      "first_seen_ts": 1793582580
+    },
+    {
+      "id": "R26BD00292871",
+      "title": "[2026_앵커사업] AI창의융합 조기취업형 계약학과 교육과정 개발 및 운영체계 구축 용역",
+      "agency": "인덕대학 산학협력단",
+      "demand_agency": "인덕대학 산학협력단",
+      "region": "전국·기타",
+      "budget": 30000000,
+      "notice_no": "R26BD00292871",
+      "notice_date": "2026-10-30 13:57",
+      "notice_ts": 1793336258,
+      "close_date": "2026-11-04 23:59",
+      "close_ts": 1793804340,
+      "delivery_date": "2027-01-22 00:00",
+      "officer": "최낙진 02-950-7121",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00292871&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "취업"
+      ],
+      "first_seen": "2026-11-02 10:23",
+      "first_seen_ts": 1793582580
+    },
+    {
+      "id": "R26BD00292693",
+      "title": "2027년 취업정보시스템 유지관리 용역",
+      "agency": "국가보훈부",
+      "demand_agency": "국가보훈부",
+      "region": "전국·기타",
+      "budget": 40430000,
+      "notice_no": "R26BD00292693",
+      "notice_date": "2026-10-30 11:45",
+      "notice_ts": 1793328326,
+      "close_date": "2026-11-04 23:59",
+      "close_ts": 1793804340,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "이숙영",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00292693&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "취업"
+      ],
+      "first_seen": "2026-11-02 10:23",
+      "first_seen_ts": 1793582580
+    },
     {
       "id": "R26BD00292743",
       "title": "2027년 보건복지부 연간 정책 홍보 컨설팅 및 교육",
@@ -694,7 +905,7 @@
       "close_ts": 1793545140,
       "delivery_date": "2026-12-22 00:00",
       "officer": "윤보라 052-714-8104",
-      "bid_nos": "",
+      "bid_nos": "R26BK01799702",
       "files": [
         {
           "name": "첨부파일 1",
@@ -727,7 +938,7 @@
       "close_ts": 1793340000,
       "delivery_date": "2026-11-30 00:00",
       "officer": "황동민 052-203-9058",
-      "bid_nos": "",
+      "bid_nos": "R26BK01802386",
       "files": [
         {
           "name": "첨부파일 1",
@@ -755,7 +966,7 @@
       "close_ts": 1793332800,
       "delivery_date": "",
       "officer": "도현지 052-920-0265",
-      "bid_nos": "",
+      "bid_nos": "R26BK01801329",
       "files": [
         {
           "name": "첨부파일 1",
@@ -981,7 +1192,7 @@
       "close_ts": 1793199540,
       "delivery_date": "2026-12-31 00:00",
       "officer": "임영은",
-      "bid_nos": "",
+      "bid_nos": "R26BK01802214",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1126,7 +1337,7 @@
       "close_ts": 1793199540,
       "delivery_date": "2026-12-31 00:00",
       "officer": "류한올 031-5191-3032",
-      "bid_nos": "",
+      "bid_nos": "R26BK01800886",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1182,7 +1393,7 @@
       "close_ts": 1793199540,
       "delivery_date": "2027-05-30 00:00",
       "officer": "임재현",
-      "bid_nos": "",
+      "bid_nos": "R26BK01801162",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1281,7 +1492,7 @@
       "close_ts": 1793113140,
       "delivery_date": "2027-12-20 00:00",
       "officer": "장기순 02-590-8884",
-      "bid_nos": "",
+      "bid_nos": "R26BK01800625",
       "files": [
         {
           "name": "첨부파일 1",
