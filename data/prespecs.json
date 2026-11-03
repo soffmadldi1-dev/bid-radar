@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 10:23:37",
+  "updated_at": "2026-11-03 12:24:04",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,290 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3871,
-  "count": 124,
+  "total_fetched": 3828,
+  "count": 133,
   "prespecs": [
+    {
+      "id": "R26BD00294037",
+      "title": "국가망보안체계(N2SF) 변화대응 컨설팅",
+      "agency": "인천국제공항공사",
+      "demand_agency": "인천국제공항공사",
+      "region": "인천",
+      "budget": 1548000000,
+      "notice_no": "R26BD00294037",
+      "notice_date": "2026-11-03 11:10",
+      "notice_ts": 1793671831,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294037&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293907",
+      "title": "해외 안전관리 서비스 및 컨설팅 용역",
+      "agency": "한국도로공사",
+      "demand_agency": "한국도로공사",
+      "region": "전국·기타",
+      "budget": 72270000,
+      "notice_no": "R26BD00293907",
+      "notice_date": "2026-11-03 09:16",
+      "notice_ts": 1793665010,
+      "close_date": "2026-11-08 09:30",
+      "close_ts": 1794097800,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293829",
+      "title": "2026년 지역특화 분야 산업(해양바이오․머드 해양치유) 청소년 실무인재 양성 교육 프로그램 운영 용역",
+      "agency": "건양대학교 산학협력단",
+      "demand_agency": "건양대학교 산학협력단",
+      "region": "전국·기타",
+      "budget": 50000000,
+      "notice_no": "R26BD00293829",
+      "notice_date": "2026-11-02 18:38",
+      "notice_ts": 1793612318,
+      "close_date": "2026-11-07 23:59",
+      "close_ts": 1794063540,
+      "delivery_date": "2027-01-15 00:00",
+      "officer": "김봉환 041-730-5622",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293829&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293829&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293822",
+      "title": "2027~2028년 문화체육관광 사이버안전센터 보안관제 위탁운영",
+      "agency": "조달청",
+      "demand_agency": "문화체육관광부",
+      "region": "전국·기타",
+      "budget": 6527688200,
+      "notice_no": "R26BD00293822",
+      "notice_date": "2026-11-02 18:26",
+      "notice_ts": 1793611595,
+      "close_date": "2026-11-07 23:59",
+      "close_ts": 1794063540,
+      "delivery_date": "2028-12-31 00:00",
+      "officer": "정은희 070-4056-7161",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293822&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293773",
+      "title": "2027년 전북특별자치도 광고․홍보 컨설팅",
+      "agency": "한국언론진흥재단",
+      "demand_agency": "한국언론진흥재단",
+      "region": "전국·기타",
+      "budget": 90000000,
+      "notice_no": "R26BD00293773",
+      "notice_date": "2026-11-02 17:28",
+      "notice_ts": 1793608132,
+      "close_date": "2026-11-05 23:59",
+      "close_ts": 1793890740,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "원상숙 02-2001-7725",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293773&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293773&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293773&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 4",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293773&fileType=BFDTL&fileSeq=4",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293540",
+      "title": "도남지구 관광휴양기반시설 조성사업 건설폐기물 처리운반 용역",
+      "agency": "한국농어촌공사 경북지역본부 상주지사",
+      "demand_agency": "한국농어촌공사 경북지역본부 상주지사",
+      "region": "경북",
+      "budget": 326000000,
+      "notice_no": "R26BD00293540",
+      "notice_date": "2026-11-02 14:30",
+      "notice_ts": 1793597447,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "2027-06-30 00:00",
+      "officer": "김기태 054-531-3603",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293540&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293540&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293525",
+      "title": "2027 VISITKOREA SNS 채널 활용 한국관광 홍보 마케팅",
+      "agency": "한국관광공사",
+      "demand_agency": "한국관광공사",
+      "region": "전국·기타",
+      "budget": 337946000,
+      "notice_no": "R26BD00293525",
+      "notice_date": "2026-11-02 14:24",
+      "notice_ts": 1793597068,
+      "close_date": "2026-11-07 23:59",
+      "close_ts": 1794063540,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "김채은",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293525&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293525&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293525&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293410",
+      "title": "[긴급]2026학년도 협약형 우수인재양성 프로그램 학생국외현장연수 위탁 용역",
+      "agency": "경상북도교육청 포항흥해공업고등학교",
+      "demand_agency": "경상북도교육청 포항흥해공업고등학교",
+      "region": "경북",
+      "budget": 168600000,
+      "notice_no": "R26BD00293410",
+      "notice_date": "2026-11-02 11:46",
+      "notice_ts": 1793587590,
+      "close_date": "2026-11-05 23:59",
+      "close_ts": 1793890740,
+      "delivery_date": "2027-02-02 00:00",
+      "officer": "김종운 054-261-1121",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293410&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
+    {
+      "id": "R26BD00293324",
+      "title": "양산부산대학교병원 CAR-T 치료센터 시설 구축 컨설팅 용역",
+      "agency": "양산부산대학교병원",
+      "demand_agency": "양산부산대학교병원",
+      "region": "경남",
+      "budget": 116000000,
+      "notice_no": "R26BD00293324",
+      "notice_date": "2026-11-02 10:30",
+      "notice_ts": 1793583022,
+      "close_date": "2026-11-07 23:59",
+      "close_ts": 1794063540,
+      "delivery_date": "",
+      "officer": "임희영 055-360-1139",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00293324&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-03 12:24",
+      "first_seen_ts": 1793676240
+    },
     {
       "id": "R26BD00293247",
       "title": "충북 광역관광개발 기본구상 연구용역",
@@ -264,7 +545,7 @@
       "close_ts": 1793581200,
       "delivery_date": "2027-05-31 00:00",
       "officer": "주미희",
-      "bid_nos": "",
+      "bid_nos": "R26BK01804238",
       "files": [
         {
           "name": "첨부파일 1",
@@ -423,7 +704,7 @@
       "close_ts": 1793545140,
       "delivery_date": "2027-02-28 00:00",
       "officer": "김예지 ***********",
-      "bid_nos": "",
+      "bid_nos": "R26BK01804987",
       "files": [
         {
           "name": "첨부파일 1",
@@ -679,7 +960,7 @@
       "close_ts": 1793545140,
       "delivery_date": "",
       "officer": "손민지 054-420-6834",
-      "bid_nos": "",
+      "bid_nos": "R26BK01803514",
       "files": [
         {
           "name": "첨부파일 1",
@@ -707,7 +988,7 @@
       "close_ts": 1793631540,
       "delivery_date": "",
       "officer": "정지연 042-629-7301",
-      "bid_nos": "",
+      "bid_nos": "R26BK01805808",
       "files": [
         {
           "name": "첨부파일 1",
@@ -767,8 +1048,8 @@
       "close_date": "2026-11-01 23:59",
       "close_ts": 1793545140,
       "delivery_date": "2027-03-31 00:00",
-      "officer": "김수진",
-      "bid_nos": "",
+      "officer": "김수진 042-604-5802",
+      "bid_nos": "R26BK01806244",
       "files": [
         {
           "name": "첨부파일 1",
@@ -796,7 +1077,7 @@
       "close_ts": 1793545140,
       "delivery_date": "2028-01-31 00:00",
       "officer": "김현아",
-      "bid_nos": "",
+      "bid_nos": "R26BK01802849",
       "files": [
         {
           "name": "첨부파일 1",
@@ -834,7 +1115,7 @@
       "close_ts": 1793545140,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김채은",
-      "bid_nos": "",
+      "bid_nos": "R26BK01804229",
       "files": [
         {
           "name": "첨부파일 1",
