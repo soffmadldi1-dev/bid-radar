@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 12:24:04",
+  "updated_at": "2026-11-04 11:01:34",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,156 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3828,
-  "count": 133,
+  "total_fetched": 3850,
+  "count": 137,
   "prespecs": [
+    {
+      "id": "R26BD00294528",
+      "title": "2027년 문화체육관광부 언론스크랩 모니터링 대행 용역",
+      "agency": "조달청 대전지방조달청",
+      "demand_agency": "문화체육관광부",
+      "region": "대전",
+      "budget": 144699080,
+      "notice_no": "R26BD00294528",
+      "notice_date": "2026-11-03 18:33",
+      "notice_ts": 1793698388,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "정재민 070-4056-8385",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294528&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-04 11:01",
+      "first_seen_ts": 1793757660
+    },
+    {
+      "id": "R26BD00294435",
+      "title": "인도네시아 수마트라 팜유 부산물 자원화 시설 개발사업_성상조사 및 현지 기술 컨설팅",
+      "agency": "(주)포스코이앤씨",
+      "demand_agency": "(주)포스코이앤씨",
+      "region": "전국·기타",
+      "budget": 59950000,
+      "notice_no": "R26BD00294435",
+      "notice_date": "2026-11-03 17:13",
+      "notice_ts": 1793693612,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "2027-08-31 00:00",
+      "officer": "공병수",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294435&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294435&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294435&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 4",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294435&fileType=BFDTL&fileSeq=4",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 5",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294435&fileType=BFDTL&fileSeq=5",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-04 11:01",
+      "first_seen_ts": 1793757660
+    },
+    {
+      "id": "R26BD00294336",
+      "title": "2027 관광홍보관 하이커 운영 대행",
+      "agency": "한국관광공사",
+      "demand_agency": "한국관광공사",
+      "region": "전국·기타",
+      "budget": 2897562000,
+      "notice_no": "R26BD00294336",
+      "notice_date": "2026-11-03 16:09",
+      "notice_ts": 1793689748,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "김채은",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294336&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294336&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294336&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 4",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294336&fileType=BFDTL&fileSeq=4",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-04 11:01",
+      "first_seen_ts": 1793757660
+    },
+    {
+      "id": "R26BD00294322",
+      "title": "2027~2028 군위인재양성원 위탁운영",
+      "agency": "사단법인 군위군교육발전위원회",
+      "demand_agency": "사단법인 군위군교육발전위원회",
+      "region": "전국·기타",
+      "budget": 1300000000,
+      "notice_no": "R26BD00294322",
+      "notice_date": "2026-11-03 16:00",
+      "notice_ts": 1793689215,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "2028-12-31 00:00",
+      "officer": "채상진",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00294322&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-04 11:01",
+      "first_seen_ts": 1793757660
+    },
     {
       "id": "R26BD00294037",
       "title": "국가망보안체계(N2SF) 변화대응 컨설팅",
@@ -616,7 +763,7 @@
       "close_ts": 1793631540,
       "delivery_date": "2027-02-28 00:00",
       "officer": "곽윤영",
-      "bid_nos": "",
+      "bid_nos": "R26BK01807147",
       "files": [
         {
           "name": "첨부파일 1",
@@ -816,7 +963,7 @@
       "close_ts": 1793631540,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김정훈",
-      "bid_nos": "",
+      "bid_nos": "R26BK01806392",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1702,7 +1849,7 @@
       "close_ts": 1793199540,
       "delivery_date": "",
       "officer": "신소현 061-360-2822",
-      "bid_nos": "",
+      "bid_nos": "R26BK01807382",
       "files": [
         {
           "name": "첨부파일 1",
