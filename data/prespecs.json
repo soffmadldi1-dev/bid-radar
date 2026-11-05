@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 11:01:34",
+  "updated_at": "2026-11-05 11:11:36",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,279 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3850,
-  "count": 137,
+  "total_fetched": 3784,
+  "count": 148,
   "prespecs": [
+    {
+      "id": "R26BD00295265",
+      "title": "2026년 사법부 정보시스템 보안컨설팅 사업",
+      "agency": "조달청 서울지방조달청",
+      "demand_agency": "대법원",
+      "region": "서울",
+      "budget": 556955720,
+      "notice_no": "R26BD00295265",
+      "notice_date": "2026-11-05 09:20",
+      "notice_ts": 1793838000,
+      "close_date": "2026-11-10 23:59",
+      "close_ts": 1794322740,
+      "delivery_date": "",
+      "officer": "이혜민 070-4056-8738",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295265&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295238",
+      "title": "2027년도 LH 건설현장 안전컨설팅(경기북부1권-고양 등)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 942172000,
+      "notice_no": "R26BD00295238",
+      "notice_date": "2026-11-04 23:42",
+      "notice_ts": 1793803322,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295232",
+      "title": "2027년도 LH 건설현장 안전컨설팅(인천권)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 940467000,
+      "notice_no": "R26BD00295232",
+      "notice_date": "2026-11-04 23:41",
+      "notice_ts": 1793803297,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295231",
+      "title": "2027년도 LH 건설현장 안전컨설팅(호남권)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 444554000,
+      "notice_no": "R26BD00295231",
+      "notice_date": "2026-11-04 23:41",
+      "notice_ts": 1793803294,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295228",
+      "title": "2027년도 LH 건설현장 안전컨설팅(영남권)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 1066021000,
+      "notice_no": "R26BD00295228",
+      "notice_date": "2026-11-04 23:41",
+      "notice_ts": 1793803281,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295227",
+      "title": "2027년도 LH 건설현장 안전컨설팅(서울강원권)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 442673000,
+      "notice_no": "R26BD00295227",
+      "notice_date": "2026-11-04 23:41",
+      "notice_ts": 1793803278,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295224",
+      "title": "2027년도 LH 건설현장 안전컨설팅(경기남부권)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 1588345000,
+      "notice_no": "R26BD00295224",
+      "notice_date": "2026-11-04 23:41",
+      "notice_ts": 1793803268,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295222",
+      "title": "2027년도 LH 건설현장 안전컨설팅(충청권)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 985919000,
+      "notice_no": "R26BD00295222",
+      "notice_date": "2026-11-04 23:41",
+      "notice_ts": 1793803263,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295217",
+      "title": "2027년도 LH 건설현장 안전컨설팅(경기북부2권-남양주 등)",
+      "agency": "한국토지주택공사",
+      "demand_agency": "한국토지주택공사",
+      "region": "전국·기타",
+      "budget": 1329735000,
+      "notice_no": "R26BD00295217",
+      "notice_date": "2026-11-04 23:40",
+      "notice_ts": 1793803249,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "",
+      "bid_nos": "",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295113",
+      "title": "서천군 관광지 및 소규모 공공하수처리시설 관리대행 용역",
+      "agency": "충청남도 서천군 상하수도사업소",
+      "demand_agency": "충청남도 서천군 상하수도사업소",
+      "region": "충남",
+      "budget": 9364831270,
+      "notice_no": "R26BD00295113",
+      "notice_date": "2026-11-04 17:39",
+      "notice_ts": 1793781543,
+      "close_date": "2026-11-09 23:59",
+      "close_ts": 1794236340,
+      "delivery_date": "2031-12-31 00:00",
+      "officer": "서지우",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295113&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295113&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295113&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
+    {
+      "id": "R26BD00295007",
+      "title": "대구 지역성장 인재양성체계(앵커) 실행체계 및 성과관리 고도화 용역",
+      "agency": "재단법인 대구테크노파크",
+      "demand_agency": "재단법인 대구테크노파크",
+      "region": "대구",
+      "budget": 159053000,
+      "notice_no": "R26BD00295007",
+      "notice_date": "2026-11-04 16:11",
+      "notice_ts": 1793776279,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "이정혁 053-757-4145",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295007&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-05 11:11",
+      "first_seen_ts": 1793844660
+    },
     {
       "id": "R26BD00294528",
       "title": "2027년 문화체육관광부 언론스크랩 모니터링 대행 용역",
@@ -608,7 +878,7 @@
       "close_ts": 1793804340,
       "delivery_date": "2027-01-22 00:00",
       "officer": "최낙진 02-950-7121",
-      "bid_nos": "",
+      "bid_nos": "R26BK01809407",
       "files": [
         {
           "name": "첨부파일 1",
@@ -935,7 +1205,7 @@
       "close_ts": 1793717940,
       "delivery_date": "2027-12-31 00:00",
       "officer": "임정빈",
-      "bid_nos": "",
+      "bid_nos": "R26BK01811356",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1163,7 +1433,7 @@
       "close_ts": 1793631540,
       "delivery_date": "",
       "officer": "김주영 053-718-8745",
-      "bid_nos": "",
+      "bid_nos": "R26BK01809534",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1521,7 +1791,7 @@
       "close_ts": 1793350800,
       "delivery_date": "2027-12-31 00:00",
       "officer": "조윤정 02-590-8873",
-      "bid_nos": "",
+      "bid_nos": "R26BK01809772",
       "files": [
         {
           "name": "첨부파일 1",
