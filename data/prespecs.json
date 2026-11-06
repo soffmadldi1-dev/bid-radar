@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 11:11:36",
+  "updated_at": "2026-11-06 11:15:48",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,306 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3784,
-  "count": 148,
+  "total_fetched": 3781,
+  "count": 150,
   "prespecs": [
+    {
+      "id": "R26BD00296016",
+      "title": "한기대와 함께하는 천안시 AI 인재양성 프로젝트 운영",
+      "agency": "한국기술교육대학교산학협력단",
+      "demand_agency": "한국기술교육대학교산학협력단",
+      "region": "전국·기타",
+      "budget": 65000000,
+      "notice_no": "R26BD00296016",
+      "notice_date": "2026-11-06 10:31",
+      "notice_ts": 1793928686,
+      "close_date": "2026-11-09 23:59",
+      "close_ts": 1794236340,
+      "delivery_date": "2027-02-12 00:00",
+      "officer": "노신희",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00296016&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00296016&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295989",
+      "title": "2027년 서울시 민간위탁 종합성과평가 및 성과관리 컨설팅 지원 용역",
+      "agency": "서울특별시",
+      "demand_agency": "서울특별시",
+      "region": "서울",
+      "budget": 317400000,
+      "notice_no": "R26BD00295989",
+      "notice_date": "2026-11-06 10:07",
+      "notice_ts": 1793927261,
+      "close_date": "2026-11-09 23:59",
+      "close_ts": 1794236340,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "고나현 02-2133-5785",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295989&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295989&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295960",
+      "title": "디지털트윈 통합플랫폼 정보보안경영시스템(ISO27001) 컨설팅 및 인증 용역",
+      "agency": "(재)원주의료기기산업진흥원",
+      "demand_agency": "(재)원주의료기기산업진흥원",
+      "region": "강원",
+      "budget": 70000000,
+      "notice_no": "R26BD00295960",
+      "notice_date": "2026-11-06 09:20",
+      "notice_ts": 1793924423,
+      "close_date": "2026-11-09 23:59",
+      "close_ts": 1794236340,
+      "delivery_date": "2026-12-22 00:00",
+      "officer": "정현정 033-760-6105",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295960&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295750",
+      "title": "수원시 관광·공공시설 셔틀버스 기본계획 및 타당성조사 용역(협상)",
+      "agency": "경기도 수원시",
+      "demand_agency": "경기도 수원시",
+      "region": "경기",
+      "budget": 300000000,
+      "notice_no": "R26BD00295750",
+      "notice_date": "2026-11-05 17:23",
+      "notice_ts": 1793867028,
+      "close_date": "2026-11-08 23:59",
+      "close_ts": 1794149940,
+      "delivery_date": "",
+      "officer": "이가영 031-5191-3250",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295750&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295750&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295748",
+      "title": "2027년 세종시문화관광재단 전산·정보보안 시스템 통합유지보수 용역",
+      "agency": "재단법인세종시문화관광재단",
+      "demand_agency": "재단법인세종시문화관광재단",
+      "region": "세종",
+      "budget": 70000000,
+      "notice_no": "R26BD00295748",
+      "notice_date": "2026-11-05 17:21",
+      "notice_ts": 1793866896,
+      "close_date": "2026-11-11 23:59",
+      "close_ts": 1794409140,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "최혜미 044-850-0582",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295748&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295748&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295737",
+      "title": "2027 음식관광 디지털 정보 제공 및 홍보·마케팅",
+      "agency": "한국관광공사",
+      "demand_agency": "한국관광공사",
+      "region": "전국·기타",
+      "budget": 289790000,
+      "notice_no": "R26BD00295737",
+      "notice_date": "2026-11-05 17:13",
+      "notice_ts": 1793866407,
+      "close_date": "2026-11-10 23:59",
+      "close_ts": 1794322740,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "김채은",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295737&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295737&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295737&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295731",
+      "title": "베트남 하이퐁시 통합하수처리시설 개발사업 공정컨설팅 부문 사전규격",
+      "agency": "주식회사 유신",
+      "demand_agency": "주식회사 유신",
+      "region": "전국·기타",
+      "budget": 77000000,
+      "notice_no": "R26BD00295731",
+      "notice_date": "2026-11-05 17:07",
+      "notice_ts": 1793866035,
+      "close_date": "2026-11-10 23:59",
+      "close_ts": 1794322740,
+      "delivery_date": "2027-09-30 00:00",
+      "officer": "송종원",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295731&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295731&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295731&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295620",
+      "title": "2027학년도 상반기 공기업 취업준비반 프로그램 위탁 용역",
+      "agency": "국민대학교",
+      "demand_agency": "국민대학교",
+      "region": "전국·기타",
+      "budget": 61000000,
+      "notice_no": "R26BD00295620",
+      "notice_date": "2026-11-05 15:46",
+      "notice_ts": 1793861180,
+      "close_date": "2026-11-10 23:59",
+      "close_ts": 1794322740,
+      "delivery_date": "2027-06-30 00:00",
+      "officer": "김수현",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295620&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295620&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "취업"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
+    {
+      "id": "R26BD00295561",
+      "title": "민간 주도 인바운드 관광산업 생태계 기초 연구",
+      "agency": "문화체육관광부",
+      "demand_agency": "문화체육관광부",
+      "region": "전국·기타",
+      "budget": 55000000,
+      "notice_no": "R26BD00295561",
+      "notice_date": "2026-11-05 14:48",
+      "notice_ts": 1793857696,
+      "close_date": "2026-11-09 23:59",
+      "close_ts": 1794236340,
+      "delivery_date": "",
+      "officer": "김가현 044-203-2145",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00295561&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-06 11:15",
+      "first_seen_ts": 1793931300
+    },
     {
       "id": "R26BD00295265",
       "title": "2026년 사법부 정보시스템 보안컨설팅 사업",
@@ -553,7 +850,7 @@
       "close_ts": 1793890740,
       "delivery_date": "2027-12-31 00:00",
       "officer": "원상숙 02-2001-7725",
-      "bid_nos": "",
+      "bid_nos": "R26BK01805023",
       "files": [
         {
           "name": "첨부파일 1",
@@ -817,7 +1114,7 @@
       "close_ts": 1793804340,
       "delivery_date": "2027-07-31 00:00",
       "officer": "김고은 070-4056-8337",
-      "bid_nos": "",
+      "bid_nos": "R26BK01812363",
       "files": [
         {
           "name": "첨부파일 1",
@@ -934,7 +1231,7 @@
       "close_ts": 1793804340,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김고은 070-4056-8337",
-      "bid_nos": "",
+      "bid_nos": "R26BK01811727",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1261,7 +1558,7 @@
       "close_ts": 1793717940,
       "delivery_date": "2026-12-18 00:00",
       "officer": "박민호 051-860-3051",
-      "bid_nos": "R26BK01798415",
+      "bid_nos": "R26BK01812573,R26BK01798415",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1697,7 +1994,7 @@
       "close_ts": 1793458740,
       "delivery_date": "",
       "officer": "홍형섭",
-      "bid_nos": "",
+      "bid_nos": "R26BK01814368",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1819,7 +2116,7 @@
       "close_ts": 1793804340,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김동찬 02-3788-0804",
-      "bid_nos": "",
+      "bid_nos": "R26BK01812475",
       "files": [
         {
           "name": "첨부파일 1",
@@ -4318,213 +4615,6 @@
         {
           "name": "첨부파일 1",
           "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281979&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00281866",
-      "title": "WATER KOREA 2027 취업박람회 운영",
-      "agency": "한국상하수도협회",
-      "demand_agency": "한국상하수도협회",
-      "region": "전국·기타",
-      "budget": 80000000,
-      "notice_no": "R26BD00281866",
-      "notice_date": "2026-10-07 10:35",
-      "notice_ts": 1791336947,
-      "close_date": "2026-10-12 23:59",
-      "close_ts": 1791817140,
-      "delivery_date": "2027-06-30 00:00",
-      "officer": "윤혜진 02-3156-7723",
-      "bid_nos": "R26BK01766986",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281866&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00281573",
-      "title": "2026년 취업역량진단 취업컨설팅 및 인적성진로역량강화 프로그램 위탁 운영",
-      "agency": "동남보건대학 산학협력단",
-      "demand_agency": "동남보건대학 산학협력단",
-      "region": "전국·기타",
-      "budget": 100000000,
-      "notice_no": "R26BD00281573",
-      "notice_date": "2026-10-06 17:20",
-      "notice_ts": 1791274834,
-      "close_date": "2026-10-11 23:59",
-      "close_ts": 1791730740,
-      "delivery_date": "2027-01-31 00:00",
-      "officer": "조원배 031-249-6282",
-      "bid_nos": "R26BK01764531",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281573&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업",
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00281453",
-      "title": "첨단 AI 기반 디지털의료기기 신속제품화 지원사업(AX-Sprint 300) - 식약처 허가를 위한 개발 문서 및 GMP 컨설팅",
-      "agency": "주식회사 알에스리햅",
-      "demand_agency": "주식회사 알에스리햅",
-      "region": "전국·기타",
-      "budget": 313500000,
-      "notice_no": "R26BD00281453",
-      "notice_date": "2026-10-06 15:53",
-      "notice_ts": 1791269631,
-      "close_date": "2026-10-11 23:59",
-      "close_ts": 1791730740,
-      "delivery_date": "2027-05-31 00:00",
-      "officer": "이혜원",
-      "bid_nos": "R26BK01764812",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281453&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00281384",
-      "title": "[52896]2026 중소기업 장기 정보화 전략 수립 컨설팅 운영 용역",
-      "agency": "포항공과대학교 산학협력단",
-      "demand_agency": "포항공과대학교 산학협력단",
-      "region": "경북",
-      "budget": 10000000,
-      "notice_no": "R26BD00281384",
-      "notice_date": "2026-10-06 14:48",
-      "notice_ts": 1791265707,
-      "close_date": "2026-10-11 23:59",
-      "close_ts": 1791730740,
-      "delivery_date": "2027-05-07 00:00",
-      "officer": "이부용",
-      "bid_nos": "R26BK01765891",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281384&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281384&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00281369",
-      "title": "미래내일 일경험 ESG 사업 성과공유회 및 취업박람회 행사 위탁운영",
-      "agency": "(주)이스트소프트",
-      "demand_agency": "(주)이스트소프트",
-      "region": "전국·기타",
-      "budget": 55000000,
-      "notice_no": "R26BD00281369",
-      "notice_date": "2026-10-06 14:38",
-      "notice_ts": 1791265132,
-      "close_date": "2026-10-11 23:59",
-      "close_ts": 1791730740,
-      "delivery_date": "2026-11-09 00:00",
-      "officer": "한상원",
-      "bid_nos": "",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281369&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00281246",
-      "title": "장흥군 계획공모형 지역관광개발사업 기본계획 수립 용역",
-      "agency": "전남광주통합특별시 장흥군",
-      "demand_agency": "전남광주통합특별시 장흥군",
-      "region": "전남",
-      "budget": 200000000,
-      "notice_no": "R26BD00281246",
-      "notice_date": "2026-10-06 11:37",
-      "notice_ts": 1791254251,
-      "close_date": "2026-10-11 23:59",
-      "close_ts": 1791730740,
-      "delivery_date": "",
-      "officer": "진은정 061-860-5736",
-      "bid_nos": "R26BK01769459",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281246&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281246&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00281235",
-      "title": "[52895]소규모 중소기업 혁신 도약 지원을 위한 단기 컨설팅 운영 용역",
-      "agency": "포항공과대학교 산학협력단",
-      "demand_agency": "포항공과대학교 산학협력단",
-      "region": "경북",
-      "budget": 40000000,
-      "notice_no": "R26BD00281235",
-      "notice_date": "2026-10-06 11:21",
-      "notice_ts": 1791253282,
-      "close_date": "2026-10-11 23:59",
-      "close_ts": 1791730740,
-      "delivery_date": "2027-05-07 00:00",
-      "officer": "박수연 054-279-2468",
-      "bid_nos": "R26BK01764698",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00281235&fileType=BFDTL&fileSeq=1",
           "rfp": false
         }
       ],
