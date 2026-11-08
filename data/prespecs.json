@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07 10:44:06",
+  "updated_at": "2026-11-08 10:12:53",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,37 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3777,
-  "count": 148,
+  "total_fetched": 3767,
+  "count": 142,
   "prespecs": [
+    {
+      "id": "R26BD00296603",
+      "title": "2027년 관광문화누리집 유지관리 용역(협상에 의한 계약)",
+      "agency": "전남광주통합특별시 여수시",
+      "demand_agency": "전남광주통합특별시 여수시",
+      "region": "전남",
+      "budget": 101365000,
+      "notice_no": "R26BD00296603",
+      "notice_date": "2026-11-07 16:16",
+      "notice_ts": 1794035766,
+      "close_date": "2026-11-10 23:59",
+      "close_ts": 1794322740,
+      "delivery_date": "",
+      "officer": "정지영",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00296603&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-08 10:12",
+      "first_seen_ts": 1794100320
+    },
     {
       "id": "R26BD00296569",
       "title": "삼사해상공원 관광기반시설 확충사업 기본 및 실시설계용역",
@@ -4323,217 +4351,6 @@
       ],
       "matched": [
         "인재양성"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00282904",
-      "title": "[충남앵커]외국인 지역사회 정주 및 취업지원 플랫폼 고도화 구축",
-      "agency": "중부대학교",
-      "demand_agency": "중부대학교",
-      "region": "전국·기타",
-      "budget": 90000000,
-      "notice_no": "R26BD00282904",
-      "notice_date": "2026-10-08 16:05",
-      "notice_ts": 1791443122,
-      "close_date": "2026-10-13 23:59",
-      "close_ts": 1791903540,
-      "delivery_date": "2026-12-28 00:00",
-      "officer": "이종승",
-      "bid_nos": "R26BK01772003",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282904&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00282780",
-      "title": "지역 농가 맞춤형 스마트팜 현장 컨설팅 운영 용역",
-      "agency": "국립공주대학교산학협력단",
-      "demand_agency": "국립공주대학교산학협력단",
-      "region": "충남",
-      "budget": 50000000,
-      "notice_no": "R26BD00282780",
-      "notice_date": "2026-10-08 14:52",
-      "notice_ts": 1791438773,
-      "close_date": "2026-10-13 11:00",
-      "close_ts": 1791856800,
-      "delivery_date": "2027-01-31 00:00",
-      "officer": "장윤영",
-      "bid_nos": "R26BK01775616",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282780&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00282733",
-      "title": "해양 환경 및 레저‧관광 산업  고도화 전략 연구",
-      "agency": "해양수산과학기술진흥원",
-      "demand_agency": "해양수산과학기술진흥원",
-      "region": "전국·기타",
-      "budget": 70000000,
-      "notice_no": "R26BD00282733",
-      "notice_date": "2026-10-08 14:21",
-      "notice_ts": 1791436865,
-      "close_date": "2026-10-13 23:59",
-      "close_ts": 1791903540,
-      "delivery_date": "2027-08-31 00:00",
-      "officer": "이찬영 02-3460-0382",
-      "bid_nos": "R26BK01771711,R26BK01770917",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282733&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00282732",
-      "title": "KIMST AX 중장기 로드맵 수립 컨설팅 용역",
-      "agency": "해양수산과학기술진흥원",
-      "demand_agency": "해양수산과학기술진흥원",
-      "region": "전국·기타",
-      "budget": 2786,
-      "notice_no": "R26BD00282732",
-      "notice_date": "2026-10-08 14:19",
-      "notice_ts": 1791436790,
-      "close_date": "2026-10-13 23:59",
-      "close_ts": 1791903540,
-      "delivery_date": "2027-02-26 00:00",
-      "officer": "이찬영 02-3460-0382",
-      "bid_nos": "R26BK01771330,R26BK01771584",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282732&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00282702",
-      "title": "「2026년 동계 외국인 유학생 취업연계형 인턴십」 운영 용역",
-      "agency": "강원대학교",
-      "demand_agency": "강원대학교",
-      "region": "강원",
-      "budget": 200000000,
-      "notice_no": "R26BD00282702",
-      "notice_date": "2026-10-08 13:52",
-      "notice_ts": 1791435175,
-      "close_date": "2026-10-13 23:59",
-      "close_ts": 1791903540,
-      "delivery_date": "2027-02-26 00:00",
-      "officer": "진보라",
-      "bid_nos": "R26BK01778953",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282702&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00282669",
-      "title": "2027 문화관광해설사 통합시스템 운영 및 유지관리",
-      "agency": "한국관광공사",
-      "demand_agency": "한국관광공사",
-      "region": "전국·기타",
-      "budget": 139396000,
-      "notice_no": "R26BD00282669",
-      "notice_date": "2026-10-08 13:26",
-      "notice_ts": 1791433619,
-      "close_date": "2026-10-13 23:59",
-      "close_ts": 1791903540,
-      "delivery_date": "2027-12-31 00:00",
-      "officer": "김채은",
-      "bid_nos": "R26BK01770583",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282669&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282669&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 3",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282669&fileType=BFDTL&fileSeq=3",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00282598",
-      "title": "관광명소 주변 정비사업 공모 대응 기본구상 및 타당성 조사 용역",
-      "agency": "전북특별자치도 정읍시",
-      "demand_agency": "전북특별자치도 정읍시",
-      "region": "전북",
-      "budget": 70000000,
-      "notice_no": "R26BD00282598",
-      "notice_date": "2026-10-08 11:09",
-      "notice_ts": 1791425385,
-      "close_date": "2026-10-13 23:59",
-      "close_ts": 1791903540,
-      "delivery_date": "",
-      "officer": "이경훈 063-539-5314",
-      "bid_nos": "R26BK01769479",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282598&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00282598&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
       ],
       "first_seen": "2026-10-19 13:40",
       "first_seen_ts": 1792384800
