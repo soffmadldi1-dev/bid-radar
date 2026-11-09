@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08 10:11:37",
+  "updated_at": "2026-11-09 10:32:56",
   "keywords": [
     "취업",
     "관광",
@@ -13,8 +13,8 @@
     "물품",
     "시스템 구축"
   ],
-  "total_fetched": 3979,
-  "count": 94,
+  "total_fetched": 3986,
+  "count": 95,
   "notices": [
     {
       "id": "R26BK01794301",
@@ -1922,6 +1922,51 @@
       ],
       "first_seen": "2026-11-04 11:00",
       "first_seen_ts": 1793757600
+    },
+    {
+      "id": "R26BK01750676",
+      "order": "001",
+      "title": "여신포트폴리오 체계 개편 및 시스템 재구축을 위한 컨설팅",
+      "agency": "중소기업은행",
+      "demand_agency": "중소기업은행",
+      "region": "전국·기타",
+      "budget": 1364260000,
+      "notice_no": "R26BK01750676",
+      "notice_date": "2026-11-09 09:31",
+      "close_date": "2026-11-16 10:00",
+      "close_ts": 1794790800,
+      "contract_method": "제한경쟁",
+      "kind": "변경공고",
+      "renotice": false,
+      "prespec_no": "R26BD00277268",
+      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01750676&bidPbancOrd=001",
+      "files": [
+        {
+          "name": "(20261109) (제안요청서)여신포트폴리오 체계 개편 및 시스템 재구축을 위한 컨설팅.pdf",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01750676&bidPbancOrd=001&fileType=&fileSeq=3&prcmBsneSeCd=03",
+          "rfp": true
+        },
+        {
+          "name": "(20261109) (제안요청서)여신포트폴리오 체계 개편 및 시스템 재구축을 위한 컨설팅.hwp",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01750676&bidPbancOrd=001&fileType=&fileSeq=4&prcmBsneSeCd=03",
+          "rfp": true
+        },
+        {
+          "name": "(20261109) (입찰공고)여신포트폴리오 체계개편 및 시스템 재구축을 위한 컨설팅.pdf",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01750676&bidPbancOrd=001&fileType=&fileSeq=1&prcmBsneSeCd=03",
+          "rfp": false
+        },
+        {
+          "name": "(20261109) (입찰공고)여신포트폴리오 체계개편 및 시스템 재구축을 위한 컨설팅.hwp",
+          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01750676&bidPbancOrd=001&fileType=&fileSeq=2&prcmBsneSeCd=03",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-09 10:32",
+      "first_seen_ts": 1794187920
     },
     {
       "id": "R26BK01786829",
