@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 10:34:19",
+  "updated_at": "2026-11-10 13:05:57",
   "keywords": [
     "취업",
     "관광",
@@ -8,9 +8,192 @@
     "교육훈련",
     "컨설팅"
   ],
-  "total_fetched": 3732,
-  "count": 142,
+  "total_fetched": 3771,
+  "count": 148,
   "prespecs": [
+    {
+      "id": "R26BD00297569",
+      "title": "2027~2028년 소방 교육훈련 관리시스템 SW유지관리 용역",
+      "agency": "조달청 인천지방조달청",
+      "demand_agency": "경기도 경기도소방학교",
+      "region": "경기",
+      "budget": 927185170,
+      "notice_no": "R26BD00297569",
+      "notice_date": "2026-11-10 11:27",
+      "notice_ts": 1794277624,
+      "close_date": "2026-11-15 23:59",
+      "close_ts": 1794754740,
+      "delivery_date": "2028-12-31 00:00",
+      "officer": "최찬수 070-4056-7867",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00297569&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "교육훈련"
+      ],
+      "first_seen": "2026-11-10 13:05",
+      "first_seen_ts": 1794283500
+    },
+    {
+      "id": "R26BD00297317",
+      "title": "2026학년도 글로벌 반도체 인재양성 프로젝트 국외연수(대만) 용역",
+      "agency": "전남대학교 산학협력단",
+      "demand_agency": "전남대학교 산학협력단",
+      "region": "전남",
+      "budget": 92980000,
+      "notice_no": "R26BD00297317",
+      "notice_date": "2026-11-09 19:00",
+      "notice_ts": 1794218423,
+      "close_date": "2026-11-14 23:59",
+      "close_ts": 1794668340,
+      "delivery_date": "2027-01-29 00:00",
+      "officer": "손명희 062-530-1143",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00297317&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-10 13:05",
+      "first_seen_ts": 1794283500
+    },
+    {
+      "id": "R26BD00297095",
+      "title": "지속가능성 법정공시 대응체계 수립 및 지속가능경영보고서 발간 컨설팅",
+      "agency": "중소기업은행",
+      "demand_agency": "중소기업은행",
+      "region": "전국·기타",
+      "budget": 550000000,
+      "notice_no": "R26BD00297095",
+      "notice_date": "2026-11-09 16:14",
+      "notice_ts": 1794208455,
+      "close_date": "2026-11-16 23:59",
+      "close_ts": 1794841140,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "박준우",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00297095&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00297095&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00297095&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 4",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00297095&fileType=BFDTL&fileSeq=4",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-10 13:05",
+      "first_seen_ts": 1794283500
+    },
+    {
+      "id": "R26BD00297009",
+      "title": "도계 농어촌관광휴양단지 조성 기본 및 실시설계 용역",
+      "agency": "강원특별자치도 삼척시",
+      "demand_agency": "강원특별자치도 삼척시",
+      "region": "강원",
+      "budget": 3978733000,
+      "notice_no": "R26BD00297009",
+      "notice_date": "2026-11-09 15:24",
+      "notice_ts": 1794205460,
+      "close_date": "2026-11-14 23:59",
+      "close_ts": 1794668340,
+      "delivery_date": "",
+      "officer": "이병민 033-0705-3272",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00297009&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-10 13:05",
+      "first_seen_ts": 1794283500
+    },
+    {
+      "id": "R26BD00296900",
+      "title": "2027년 영주문화관광재단 선비세상 청소 및 경비 용역",
+      "agency": "(재)영주문화관광재단",
+      "demand_agency": "(재)영주문화관광재단",
+      "region": "경북",
+      "budget": 766141000,
+      "notice_no": "R26BD00296900",
+      "notice_date": "2026-11-09 14:04",
+      "notice_ts": 1794200689,
+      "close_date": "2026-11-12 23:59",
+      "close_ts": 1794495540,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "박시영 054-630-8703",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00296900&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-10 13:05",
+      "first_seen_ts": 1794283500
+    },
+    {
+      "id": "R26BD00296791",
+      "title": "전자제어부품 전자기 적합성 분야 공신력 확보를 위한 컨설팅 용역",
+      "agency": "재단법인 경북아이티융합 산업기술원",
+      "demand_agency": "재단법인 경북아이티융합 산업기술원",
+      "region": "경북",
+      "budget": 62000000,
+      "notice_no": "R26BD00296791",
+      "notice_date": "2026-11-09 11:38",
+      "notice_ts": 1794191920,
+      "close_date": "2026-11-14 23:59",
+      "close_ts": 1794668340,
+      "delivery_date": "",
+      "officer": "김태준 053-245-5006",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00296791&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-10 13:05",
+      "first_seen_ts": 1794283500
+    },
     {
       "id": "R26BD00296603",
       "title": "2027년 관광문화누리집 유지관리 용역(협상에 의한 계약)",
@@ -742,7 +925,7 @@
       "close_ts": 1794149940,
       "delivery_date": "",
       "officer": "이정혁 053-757-4145",
-      "bid_nos": "",
+      "bid_nos": "R26BK01817448",
       "files": [
         {
           "name": "첨부파일 1",
@@ -798,7 +981,7 @@
       "close_ts": 1794149940,
       "delivery_date": "2027-08-31 00:00",
       "officer": "공병수",
-      "bid_nos": "",
+      "bid_nos": "R26BK01818520",
       "files": [
         {
           "name": "첨부파일 1",
@@ -846,7 +1029,7 @@
       "close_ts": 1794149940,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김채은",
-      "bid_nos": "",
+      "bid_nos": "R26BK01817902",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1104,7 +1287,7 @@
       "close_ts": 1794063540,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김채은",
-      "bid_nos": "",
+      "bid_nos": "R26BK01817986",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1170,7 +1353,7 @@
       "close_ts": 1794063540,
       "delivery_date": "",
       "officer": "임희영 055-360-1139",
-      "bid_nos": "",
+      "bid_nos": "R26BK01816786",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1320,7 +1503,7 @@
       "close_ts": 1793804340,
       "delivery_date": "",
       "officer": "이가영 031-5191-3250",
-      "bid_nos": "",
+      "bid_nos": "R26BK01818826",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1381,7 +1564,7 @@
       "close_ts": 1793804340,
       "delivery_date": "2027-12-31 00:00",
       "officer": "이숙영",
-      "bid_nos": "",
+      "bid_nos": "R26BK01815959",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1769,7 +1952,7 @@
       "close_ts": 1793977140,
       "delivery_date": "2027-12-31 00:00",
       "officer": "김동찬 02-3788-0804",
-      "bid_nos": "",
+      "bid_nos": "R26BK01817763",
       "files": [
         {
           "name": "첨부파일 1",
