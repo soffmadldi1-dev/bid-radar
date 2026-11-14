@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 11:28:29",
+  "updated_at": "2026-11-14 10:59:37",
   "keywords": [
     "취업",
     "관광",
@@ -9,8 +9,130 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 154,
+  "count": 153,
   "prespecs": [
+    {
+      "id": "R26BD00298782",
+      "title": "[긴급]공동주택 재정비 컨설팅 용역(럭키, 토평한일아파트)",
+      "agency": "경기도 구리시",
+      "demand_agency": "경기도 구리시",
+      "region": "경기",
+      "budget": 193875000,
+      "notice_no": "R26BD00298782",
+      "notice_date": "2026-11-13 15:33",
+      "notice_ts": 1794551594,
+      "close_date": "2026-11-16 23:59",
+      "close_ts": 1794841140,
+      "delivery_date": "",
+      "officer": "황상기 031-550-2737",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00298782&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-14 10:59",
+      "first_seen_ts": 1794621540
+    },
+    {
+      "id": "R26BD00300014",
+      "title": "2027년 과기정통부 데이터 품질관리 및 이용활성화 컨설팅 사업 발주 의뢰",
+      "agency": "조달청 대전지방조달청",
+      "demand_agency": "과학기술정보통신부",
+      "region": "대전",
+      "budget": 136336000,
+      "notice_no": "R26BD00300014",
+      "notice_date": "2026-11-13 14:18",
+      "notice_ts": 1794547105,
+      "close_date": "2026-11-18 23:59",
+      "close_ts": 1795013940,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "차도빈 070-4056-8393",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00300014&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-14 10:59",
+      "first_seen_ts": 1794621540
+    },
+    {
+      "id": "R26BD00299970",
+      "title": "사무업무 인사 및 보수체계 통합 컨설팅 용역",
+      "agency": "코레일네트웍스주식회사",
+      "demand_agency": "코레일네트웍스주식회사",
+      "region": "전국·기타",
+      "budget": 104698620,
+      "notice_no": "R26BD00299970",
+      "notice_date": "2026-11-13 13:55",
+      "notice_ts": 1794545722,
+      "close_date": "2026-11-18 23:59",
+      "close_ts": 1795013940,
+      "delivery_date": "",
+      "officer": "박소정",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00299970&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00299970&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00299970&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-14 10:59",
+      "first_seen_ts": 1794621540
+    },
+    {
+      "id": "R26BD00299878",
+      "title": "KLID 개인정보 보호 관리체계 구축 컨설팅 용역",
+      "agency": "조달청 서울지방조달청",
+      "demand_agency": "한국지역정보개발원",
+      "region": "서울",
+      "budget": 164292260,
+      "notice_no": "R26BD00299878",
+      "notice_date": "2026-11-13 13:01",
+      "notice_ts": 1794542505,
+      "close_date": "2026-11-18 23:59",
+      "close_ts": 1795013940,
+      "delivery_date": "",
+      "officer": "정채윤 070-4056-8690",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00299878&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-14 10:59",
+      "first_seen_ts": 1794621540
+    },
     {
       "id": "R26BD00299694",
       "title": "2027 외래관광객조사 현장조사 용역",
@@ -838,7 +960,7 @@
       "close_ts": 1794495540,
       "delivery_date": "2027-12-31 00:00",
       "officer": "박시영 054-630-8703",
-      "bid_nos": "",
+      "bid_nos": "R26BK01828875",
       "files": [
         {
           "name": "첨부파일 1",
@@ -983,7 +1105,7 @@
       "close_ts": 1794409140,
       "delivery_date": "2027-09-30 00:00",
       "officer": "차은희 063-919-1255",
-      "bid_nos": "",
+      "bid_nos": "R26BK01830212",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1199,7 +1321,7 @@
       "close_ts": 1794409140,
       "delivery_date": "2027-12-31 00:00",
       "officer": "최혜미 044-850-0582",
-      "bid_nos": "",
+      "bid_nos": "R26BK01828741",
       "files": [
         {
           "name": "첨부파일 1",
@@ -4537,161 +4659,6 @@
       ],
       "matched": [
         "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285110",
-      "title": "염색 암묵지 AI모델 및 제조데이터 수집 컨설팅 용역",
-      "agency": "（재）한국섬유기계융합연구원",
-      "demand_agency": "（재）한국섬유기계융합연구원",
-      "region": "전국·기타",
-      "budget": 99000000,
-      "notice_no": "R26BD00285110",
-      "notice_date": "2026-10-15 09:29",
-      "notice_ts": 1792024154,
-      "close_date": "2026-10-20 23:59",
-      "close_ts": 1792508340,
-      "delivery_date": "2027-01-31 00:00",
-      "officer": "이호정 053-819-3118",
-      "bid_nos": "R26BK01772191",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285110&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285026",
-      "title": "진로취업지원팀 2026학년도 2학기 글로벌 역량 강화 프로그램 국외연수 용역",
-      "agency": "계명대학교",
-      "demand_agency": "계명대학교",
-      "region": "전국·기타",
-      "budget": 393484000,
-      "notice_no": "R26BD00285026",
-      "notice_date": "2026-10-14 20:13",
-      "notice_ts": 1791976436,
-      "close_date": "2026-10-19 23:59",
-      "close_ts": 1792421940,
-      "delivery_date": "2027-02-04 00:00",
-      "officer": "김예지 ***********",
-      "bid_nos": "R26BK01782302",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285026&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00284958",
-      "title": "AI 기반 통합 학생·취업지원 챗봇 서비스 구축 고도화",
-      "agency": "인하대학교 산학협력단",
-      "demand_agency": "인하대학교 산학협력단",
-      "region": "전국·기타",
-      "budget": 100000000,
-      "notice_no": "R26BD00284958",
-      "notice_date": "2026-10-14 17:37",
-      "notice_ts": 1791967057,
-      "close_date": "2026-10-19 23:59",
-      "close_ts": 1792421940,
-      "delivery_date": "",
-      "officer": "서효선 032-860-8097",
-      "bid_nos": "R26BK01774755",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00284958&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00284893",
-      "title": "기업인력애로센터 활용 취업지원을 위한 매칭지원센터 운영 민간위탁 용역",
-      "agency": "조달청",
-      "demand_agency": "중소벤처기업진흥공단",
-      "region": "전국·기타",
-      "budget": 1007895296,
-      "notice_no": "R26BD00284893",
-      "notice_date": "2026-10-14 16:40",
-      "notice_ts": 1791963601,
-      "close_date": "2026-10-19 23:59",
-      "close_ts": 1792421940,
-      "delivery_date": "2027-12-31 00:00",
-      "officer": "장성주 070-4056-6131",
-      "bid_nos": "R26BK01784053",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00284893&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00284620",
-      "title": "교육발전특구시범지역사업 스마트팜 전문인재 양성 및 실습프로그램 현장견학 위탁용역(부산-김해)",
-      "agency": "전남과학대학교 산학협력단",
-      "demand_agency": "전남과학대학교 산학협력단",
-      "region": "전남",
-      "budget": 26000000,
-      "notice_no": "R26BD00284620",
-      "notice_date": "2026-10-14 11:39",
-      "notice_ts": 1791945559,
-      "close_date": "2026-10-19 23:59",
-      "close_ts": 1792421940,
-      "delivery_date": "2026-12-11 00:00",
-      "officer": "이지웅 061-360-5028",
-      "bid_nos": "R26BK01781539",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00284620&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00284620&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 3",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00284620&fileType=BFDTL&fileSeq=3",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 4",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00284620&fileType=BFDTL&fileSeq=4",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "인재양성"
       ],
       "first_seen": "2026-10-19 13:40",
       "first_seen_ts": 1792384800
