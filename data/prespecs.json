@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14 10:59:37",
+  "updated_at": "2026-11-15 10:33:20",
   "keywords": [
     "취업",
     "관광",
@@ -9,7 +9,7 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 153,
+  "count": 147,
   "prespecs": [
     {
       "id": "R26BD00298782",
@@ -4476,184 +4476,6 @@
         {
           "name": "첨부파일 1",
           "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285952&fileType=BFDTL&fileSeq=4",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285788",
-      "title": "27년 사이버보안인력양성 교육(수료)생 취업지원 프로그램 운영·고도화",
-      "agency": "조달청",
-      "demand_agency": "한국인터넷진흥원",
-      "region": "전국·기타",
-      "budget": 277400000,
-      "notice_no": "R26BD00285788",
-      "notice_date": "2026-10-16 09:56",
-      "notice_ts": 1792112183,
-      "close_date": "2026-10-21 23:59",
-      "close_ts": 1792594740,
-      "delivery_date": "2027-12-10 00:00",
-      "officer": "박찬도 070-4056-7652",
-      "bid_nos": "R26BK01786460",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285788&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285711",
-      "title": "2027년 IoT 제품 보안성 컨설팅 및 시험 지원",
-      "agency": "조달청 광주지방조달청",
-      "demand_agency": "한국인터넷진흥원",
-      "region": "광주",
-      "budget": 333099800,
-      "notice_no": "R26BD00285711",
-      "notice_date": "2026-10-16 08:34",
-      "notice_ts": 1792107281,
-      "close_date": "2026-10-21 23:59",
-      "close_ts": 1792594740,
-      "delivery_date": "2027-12-31 00:00",
-      "officer": "박채원 070-4056-8282",
-      "bid_nos": "",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285711&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00283152",
-      "title": "대구가톨릭대학교 정보보호관리체계(ISMS) 인증 컨설팅 사업자 선정",
-      "agency": "대구가톨릭대학교",
-      "demand_agency": "대구가톨릭대학교",
-      "region": "대구",
-      "budget": 0,
-      "notice_no": "R26BD00283152",
-      "notice_date": "2026-10-16 08:19",
-      "notice_ts": 1792106399,
-      "close_date": "2026-10-21 23:59",
-      "close_ts": 1792594740,
-      "delivery_date": "2027-08-31 00:00",
-      "officer": "박도연 053-850-3562",
-      "bid_nos": "R26BK01774788",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00283152&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285586",
-      "title": "2026학년도 한국체육대학교 국립대학육성사업 글로벌 학술교류 기반 연구인재 양성-난양공과대학 프로그램 용역",
-      "agency": "한국체육대학교",
-      "demand_agency": "한국체육대학교",
-      "region": "전국·기타",
-      "budget": 70000000,
-      "notice_no": "R26BD00285586",
-      "notice_date": "2026-10-15 17:19",
-      "notice_ts": 1792052351,
-      "close_date": "2026-10-20 23:59",
-      "close_ts": 1792508340,
-      "delivery_date": "2026-11-10 00:00",
-      "officer": "박세리 02-410-6730",
-      "bid_nos": "R26BK01784267",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285586&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285586&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "인재양성"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285493",
-      "title": "GKL 카지노 연계 AI 관광 플랫폼 앱 구축 감리",
-      "agency": "그랜드코리아레저(주)",
-      "demand_agency": "그랜드코리아레저(주)",
-      "region": "전국·기타",
-      "budget": 113000000,
-      "notice_no": "R26BD00285493",
-      "notice_date": "2026-10-15 16:20",
-      "notice_ts": 1792048827,
-      "close_date": "2026-10-20 23:59",
-      "close_ts": 1792508340,
-      "delivery_date": "",
-      "officer": "이지주",
-      "bid_nos": "",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285493&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285493&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285468",
-      "title": "2027년 공공기관 폭력예방교육 현장점검 및 컨설팅 운영",
-      "agency": "조달청 서울지방조달청",
-      "demand_agency": "성평등가족부",
-      "region": "서울",
-      "budget": 281430400,
-      "notice_no": "R26BD00285468",
-      "notice_date": "2026-10-15 16:02",
-      "notice_ts": 1792047761,
-      "close_date": "2026-10-20 23:59",
-      "close_ts": 1792508340,
-      "delivery_date": "2027-12-31 00:00",
-      "officer": "이은주 02-590-8804",
-      "bid_nos": "R26BK01785854",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285468&fileType=BFDTL&fileSeq=1",
           "rfp": false
         }
       ],
