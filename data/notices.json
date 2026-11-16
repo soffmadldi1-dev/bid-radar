@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 10:31:32",
+  "updated_at": "2026-11-16 10:35:50",
   "keywords": [
     "취업",
     "관광",
@@ -14,63 +14,8 @@
     "시스템 구축"
   ],
   "total_fetched": 0,
-  "count": 63,
+  "count": 62,
   "notices": [
-    {
-      "id": "R26BK01807147",
-      "order": "001",
-      "title": "강진 로컬테마상권 스토리텔링 및 관광상품개발",
-      "agency": "주식회사 로컬365",
-      "demand_agency": "주식회사 로컬365",
-      "region": "전국·기타",
-      "budget": 150000000,
-      "notice_no": "R26BK01807147",
-      "notice_date": "2026-11-03 15:59",
-      "close_date": "2026-11-14 18:00",
-      "close_ts": 1794646800,
-      "contract_method": "제한경쟁",
-      "kind": "변경공고",
-      "renotice": false,
-      "prespec_no": "R26BD00292380",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01807147&bidPbancOrd=001",
-      "files": [
-        {
-          "name": "과업지시서_스토리텔링 및 관광상품개발.hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01807147&bidPbancOrd=001&fileType=&fileSeq=2&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "제안요청서_스토리텔링 및 관광상품개발.hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01807147&bidPbancOrd=001&fileType=&fileSeq=3&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "과업지시서_스토리텔링 및 관광상품개발.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01807147&bidPbancOrd=001&fileType=&fileSeq=5&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "제안요청서_스토리텔링 및 관광상품개발.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01807147&bidPbancOrd=001&fileType=&fileSeq=6&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "공고문_스토리텔링 및 관광상품개발.hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01807147&bidPbancOrd=001&fileType=&fileSeq=1&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "공고문_스토리텔링 및 관광상품개발.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01807147&bidPbancOrd=001&fileType=&fileSeq=4&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-11-04 11:00",
-      "first_seen_ts": 1793757600
-    },
     {
       "id": "R26BK01805974",
       "order": "001",

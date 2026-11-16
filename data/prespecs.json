@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 10:33:20",
+  "updated_at": "2026-11-16 10:37:48",
   "keywords": [
     "취업",
     "관광",
@@ -9,7 +9,7 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 147,
+  "count": 142,
   "prespecs": [
     {
       "id": "R26BD00298782",
@@ -988,7 +988,7 @@
       "close_ts": 1794668340,
       "delivery_date": "",
       "officer": "김태준 053-245-5006",
-      "bid_nos": "",
+      "bid_nos": "R26BK01831236",
       "files": [
         {
           "name": "첨부파일 1",
@@ -4326,161 +4326,6 @@
       ],
       "matched": [
         "인재양성"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00286247",
-      "title": "2027년도 충청북도 관광누리집 유지보수관리 용역",
-      "agency": "충청북도",
-      "demand_agency": "충청북도",
-      "region": "충북",
-      "budget": 69000000,
-      "notice_no": "R26BD00286247",
-      "notice_date": "2026-10-16 16:48",
-      "notice_ts": 1792136881,
-      "close_date": "2026-10-19 23:59",
-      "close_ts": 1792421940,
-      "delivery_date": "",
-      "officer": "박선병 043-220-2824",
-      "bid_nos": "R26BK01792187",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286247&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00286240",
-      "title": "2026학년도 이차전지 글로벌 인재양성 캠프(USB-GT캠프) 참가 위탁 용역",
-      "agency": "울산대학교 산학협력단",
-      "demand_agency": "울산대학교 산학협력단",
-      "region": "울산",
-      "budget": 175930000,
-      "notice_no": "R26BD00286240",
-      "notice_date": "2026-10-16 16:38",
-      "notice_ts": 1792136302,
-      "close_date": "2026-10-21 23:59",
-      "close_ts": 1792594740,
-      "delivery_date": "2027-01-31 00:00",
-      "officer": "정민수",
-      "bid_nos": "R26BK01787076",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286240&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286240&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 3",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286240&fileType=BFDTL&fileSeq=3",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "인재양성"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00286022",
-      "title": "울산과학기술원 딥테크 전략 정밀 컨설팅 프로그램",
-      "agency": "울산과학기술원",
-      "demand_agency": "울산과학기술원",
-      "region": "울산",
-      "budget": 170969000,
-      "notice_no": "R26BD00286022",
-      "notice_date": "2026-10-16 14:26",
-      "notice_ts": 1792128366,
-      "close_date": "2026-10-21 23:59",
-      "close_ts": 1792594740,
-      "delivery_date": "2027-01-31 00:00",
-      "officer": "권은정",
-      "bid_nos": "R26BK01787814",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286022&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286022&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285979",
-      "title": "평택호관광단지 개발사업 실시설계용역",
-      "agency": "조달청",
-      "demand_agency": "평택도시공사",
-      "region": "경기",
-      "budget": 2475718300,
-      "notice_no": "R26BD00285979",
-      "notice_date": "2026-10-16 13:56",
-      "notice_ts": 1792126572,
-      "close_date": "2026-10-21 23:59",
-      "close_ts": 1792594740,
-      "delivery_date": "",
-      "officer": "이용범 042-724-7515",
-      "bid_nos": "",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285979&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
-    },
-    {
-      "id": "R26BD00285952",
-      "title": "「AICC 도입방안 수립 컨설팅」",
-      "agency": "국민연금공단",
-      "demand_agency": "국민연금공단",
-      "region": "전국·기타",
-      "budget": 251000000,
-      "notice_no": "R26BD00285952",
-      "notice_date": "2026-10-16 13:50",
-      "notice_ts": 1792126250,
-      "close_date": "2026-10-23 18:00",
-      "close_ts": 1792746000,
-      "delivery_date": "2026-10-23 00:00",
-      "officer": "이우림",
-      "bid_nos": "",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00285952&fileType=BFDTL&fileSeq=4",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
       ],
       "first_seen": "2026-10-19 13:40",
       "first_seen_ts": 1792384800
