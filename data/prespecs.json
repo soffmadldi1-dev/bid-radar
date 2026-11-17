@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 10:37:48",
+  "updated_at": "2026-11-17 13:21:55",
   "keywords": [
     "취업",
     "관광",
@@ -9,8 +9,69 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 142,
+  "count": 144,
   "prespecs": [
+    {
+      "id": "R26BD00300517",
+      "title": "K-관광섬 육성사업 글로벌 수용태세 구축 용역",
+      "agency": "경상북도 울릉군",
+      "demand_agency": "경상북도 울릉군",
+      "region": "경북",
+      "budget": 300000000,
+      "notice_no": "R26BD00300517",
+      "notice_date": "2026-11-15 20:44",
+      "notice_ts": 1794743061,
+      "close_date": "2026-11-18 23:59",
+      "close_ts": 1795013940,
+      "delivery_date": "",
+      "officer": "황병우",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00300517&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00300517&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-17 13:21",
+      "first_seen_ts": 1794889260
+    },
+    {
+      "id": "R26BD00300411",
+      "title": "중앙대학교 교수창업 기업 IR 컨설팅 및 IR deck 프로그램 운영 용역",
+      "agency": "중앙대학교 산학협력단",
+      "demand_agency": "중앙대학교 산학협력단",
+      "region": "전국·기타",
+      "budget": 45000000,
+      "notice_no": "R26BD00300411",
+      "notice_date": "2026-11-13 18:32",
+      "notice_ts": 1794562332,
+      "close_date": "2026-11-18 23:59",
+      "close_ts": 1795013940,
+      "delivery_date": "",
+      "officer": "문재원 02-820-6318",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00300411&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-17 13:21",
+      "first_seen_ts": 1794889260
+    },
     {
       "id": "R26BD00298782",
       "title": "[긴급]공동주택 재정비 컨설팅 용역(럭키, 토평한일아파트)",
@@ -340,7 +401,7 @@
       "close_ts": 1794798000,
       "delivery_date": "2026-12-18 00:00",
       "officer": "윤선주 055-772-4709",
-      "bid_nos": "",
+      "bid_nos": "R26BK01832883",
       "files": [
         {
           "name": "첨부파일 1",
@@ -622,7 +683,7 @@
       "close_ts": 1794841140,
       "delivery_date": "2027-02-12 00:00",
       "officer": "김혜림 055-213-4549",
-      "bid_nos": "",
+      "bid_nos": "R26BK01834502",
       "files": [
         {
           "name": "첨부파일 1",
@@ -650,7 +711,7 @@
       "close_ts": 1794841140,
       "delivery_date": "",
       "officer": "권지영",
-      "bid_nos": "",
+      "bid_nos": "R26BK01835517",
       "files": [
         {
           "name": "첨부파일 1",
@@ -678,7 +739,7 @@
       "close_ts": 1794754740,
       "delivery_date": "2026-12-31 00:00",
       "officer": "김동찬 02-3788-0804",
-      "bid_nos": "",
+      "bid_nos": "R26BK01832027",
       "files": [
         {
           "name": "첨부파일 1",
@@ -795,7 +856,7 @@
       "close_ts": 1794754740,
       "delivery_date": "2027-03-10 00:00",
       "officer": "김규원",
-      "bid_nos": "",
+      "bid_nos": "R26BK01832657",
       "files": [
         {
           "name": "첨부파일 1",
@@ -889,7 +950,7 @@
       "close_ts": 1794841140,
       "delivery_date": "2027-12-31 00:00",
       "officer": "박준우",
-      "bid_nos": "",
+      "bid_nos": "R26BK01834699",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1044,7 +1105,7 @@
       "close_ts": 1794409140,
       "delivery_date": "",
       "officer": "김찬미",
-      "bid_nos": "",
+      "bid_nos": "R26BK01834394",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1463,7 +1524,7 @@
       "close_ts": 1794236340,
       "delivery_date": "",
       "officer": "김가현 044-203-2145",
-      "bid_nos": "",
+      "bid_nos": "R26BK01833145",
       "files": [
         {
           "name": "첨부파일 1",
@@ -1789,7 +1850,7 @@
       "close_ts": 1794149940,
       "delivery_date": "2027-08-31 00:00",
       "officer": "공병수",
-      "bid_nos": "R26BK01818520",
+      "bid_nos": "R26BK01818520,R26BK01832190",
       "files": [
         {
           "name": "첨부파일 1",
