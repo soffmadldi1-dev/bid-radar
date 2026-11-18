@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 13:21:55",
+  "updated_at": "2026-11-18 12:21:26",
   "keywords": [
     "취업",
     "관광",
@@ -9,8 +9,206 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 144,
+  "count": 150,
   "prespecs": [
+    {
+      "id": "R26BD00301587",
+      "title": "투자유치를 위한 IR 컨설팅 프로그램 운영",
+      "agency": "한국기술교육대학교산학협력단",
+      "demand_agency": "한국기술교육대학교산학협력단",
+      "region": "전국·기타",
+      "budget": 33100000,
+      "notice_no": "R26BD00301587",
+      "notice_date": "2026-11-17 14:06",
+      "notice_ts": 1794892011,
+      "close_date": "2026-11-20 18:00",
+      "close_ts": 1795165200,
+      "delivery_date": "2027-01-29 00:00",
+      "officer": "노신희",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301587&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301587&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-18 12:21",
+      "first_seen_ts": 1794972060
+    },
+    {
+      "id": "R26BD00301501",
+      "title": "AI헬스케어과 교원 AI뷰티테크 직무역량 강화 연수 위탁 운영 용역",
+      "agency": "전남광주통합특별시교육청 동일미래과학고등학교",
+      "demand_agency": "전남광주통합특별시교육청 동일미래과학고등학교",
+      "region": "전남",
+      "budget": 34000000,
+      "notice_no": "R26BD00301501",
+      "notice_date": "2026-11-17 12:37",
+      "notice_ts": 1794886627,
+      "close_date": "2026-11-22 23:59",
+      "close_ts": 1795359540,
+      "delivery_date": "2027-01-21 00:00",
+      "officer": "류지용 062-650-6355",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301501&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301501&fileType=BFDTL&fileSeq=4",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301501&fileType=BFDTL&fileSeq=5",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "직무역량"
+      ],
+      "first_seen": "2026-11-18 12:21",
+      "first_seen_ts": 1794972060
+    },
+    {
+      "id": "R26BD00301380",
+      "title": "한림대학교 글로컬대학 메가프로젝트 AIDC 특화인재 양성 해외현장학습 운영 업체 선정",
+      "agency": "한림대학교",
+      "demand_agency": "한림대학교",
+      "region": "전국·기타",
+      "budget": 154000000,
+      "notice_no": "R26BD00301380",
+      "notice_date": "2026-11-17 10:15",
+      "notice_ts": 1794878147,
+      "close_date": "2026-11-22 23:59",
+      "close_ts": 1795359540,
+      "delivery_date": "2027-02-28 00:00",
+      "officer": "문희성 033-248-1171",
+      "bid_nos": "R26BK01835011",
+      "files": [],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-18 12:21",
+      "first_seen_ts": 1794972060
+    },
+    {
+      "id": "R26BD00301360",
+      "title": "백두대간 관광권역 관광개발 기본구상 및 타당성조사 용역",
+      "agency": "경상북도문화관광공사",
+      "demand_agency": "경상북도문화관광공사",
+      "region": "경북",
+      "budget": 140000000,
+      "notice_no": "R26BD00301360",
+      "notice_date": "2026-11-17 09:54",
+      "notice_ts": 1794876853,
+      "close_date": "2026-11-22 23:59",
+      "close_ts": 1795359540,
+      "delivery_date": "",
+      "officer": "최준한 054-740-7318",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301360&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301360&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-18 12:21",
+      "first_seen_ts": 1794972060
+    },
+    {
+      "id": "R26BD00301322",
+      "title": "지역관광 안테나숍 미화 및 시설관리 용역",
+      "agency": "서울특별시",
+      "demand_agency": "서울특별시",
+      "region": "서울",
+      "budget": 737103000,
+      "notice_no": "R26BD00301322",
+      "notice_date": "2026-11-17 09:29",
+      "notice_ts": 1794875352,
+      "close_date": "2026-11-22 23:59",
+      "close_ts": 1795359540,
+      "delivery_date": "2028-12-31 00:00",
+      "officer": "하민주",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301322&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-18 12:21",
+      "first_seen_ts": 1794972060
+    },
+    {
+      "id": "R26BD00301121",
+      "title": "한림대학교 글로컬대학 메가프로젝트 AIDC 특화인재 양성 해외현장학습 운영 업체 선정",
+      "agency": "한림대학교 산학협력단",
+      "demand_agency": "한림대학교 산학협력단",
+      "region": "전국·기타",
+      "budget": 154000000,
+      "notice_no": "R26BD00301121",
+      "notice_date": "2026-11-16 17:18",
+      "notice_ts": 1794817096,
+      "close_date": "2026-11-21 23:59",
+      "close_ts": 1795273140,
+      "delivery_date": "2027-02-28 00:00",
+      "officer": "문희성 033-248-1171",
+      "bid_nos": "R26BK01833856",
+      "files": [],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-18 12:21",
+      "first_seen_ts": 1794972060
+    },
+    {
+      "id": "R26BD00301076",
+      "title": "한림대학교 지역성장 인재양성체계(앵커) GB튜터 교육과정 해외 연수 운영 업체 선정",
+      "agency": "한림대학교 산학협력단",
+      "demand_agency": "한림대학교 산학협력단",
+      "region": "전국·기타",
+      "budget": 42000000,
+      "notice_no": "R26BD00301076",
+      "notice_date": "2026-11-16 16:52",
+      "notice_ts": 1794815526,
+      "close_date": "2026-11-21 23:59",
+      "close_ts": 1795273140,
+      "delivery_date": "2027-01-29 00:00",
+      "officer": "문희성 033-248-1171",
+      "bid_nos": "R26BK01833674",
+      "files": [],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-18 12:21",
+      "first_seen_ts": 1794972060
+    },
     {
       "id": "R26BD00300517",
       "title": "K-관광섬 육성사업 글로벌 수용태세 구축 용역",
@@ -472,7 +670,7 @@
       "close_ts": 1794927540,
       "delivery_date": "",
       "officer": "정선미 031-481-3077",
-      "bid_nos": "",
+      "bid_nos": "R26BK01837614",
       "files": [
         {
           "name": "첨부파일 1",
@@ -566,7 +764,7 @@
       "close_ts": 1794841140,
       "delivery_date": "2027-02-12 00:00",
       "officer": "김종실",
-      "bid_nos": "",
+      "bid_nos": "R26BK01835399",
       "files": [
         {
           "name": "첨부파일 1",
@@ -594,7 +792,7 @@
       "close_ts": 1794841140,
       "delivery_date": "2027-04-30 00:00",
       "officer": "한규택 054-830-6553",
-      "bid_nos": "",
+      "bid_nos": "R26BK01836385",
       "files": [
         {
           "name": "첨부파일 1",
@@ -655,7 +853,7 @@
       "close_ts": 1794841140,
       "delivery_date": "",
       "officer": "최정혁 032-835-9387",
-      "bid_nos": "",
+      "bid_nos": "R26BK01836582",
       "files": [
         {
           "name": "첨부파일 1",
@@ -683,7 +881,7 @@
       "close_ts": 1794841140,
       "delivery_date": "2027-02-12 00:00",
       "officer": "김혜림 055-213-4549",
-      "bid_nos": "R26BK01834502",
+      "bid_nos": "R26BK01834502,R26BK01837309",
       "files": [
         {
           "name": "첨부파일 1",
@@ -772,7 +970,7 @@
       "close_ts": 1794754740,
       "delivery_date": "2027-01-29 00:00",
       "officer": "김승연",
-      "bid_nos": "",
+      "bid_nos": "R26BK01823232",
       "files": [
         {
           "name": "첨부파일 1",
@@ -922,7 +1120,7 @@
       "close_ts": 1794668340,
       "delivery_date": "2027-01-29 00:00",
       "officer": "손명희 062-530-1143",
-      "bid_nos": "",
+      "bid_nos": "R26BK01837357",
       "files": [
         {
           "name": "첨부파일 1",
@@ -993,7 +1191,7 @@
       "close_ts": 1794668340,
       "delivery_date": "",
       "officer": "이병민 033-0705-3272",
-      "bid_nos": "",
+      "bid_nos": "R26BK01836268",
       "files": [
         {
           "name": "첨부파일 1",
@@ -4362,34 +4560,6 @@
       ],
       "first_seen": "2026-10-19 19:01",
       "first_seen_ts": 1792404060
-    },
-    {
-      "id": "R26BD00286541",
-      "title": "인재양성사업 성과분석 및 발전방안 수립",
-      "agency": "한국농업기술진흥원",
-      "demand_agency": "한국농업기술진흥원",
-      "region": "전국·기타",
-      "budget": 70000000,
-      "notice_no": "R26BD00286541",
-      "notice_date": "2026-10-19 10:39",
-      "notice_ts": 1792373982,
-      "close_date": "2026-10-24 23:59",
-      "close_ts": 1792853940,
-      "delivery_date": "2027-05-31 00:00",
-      "officer": "차은희 063-919-1255",
-      "bid_nos": "R26BK01792268",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286541&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "인재양성"
-      ],
-      "first_seen": "2026-10-19 13:40",
-      "first_seen_ts": 1792384800
     }
   ]
 }
