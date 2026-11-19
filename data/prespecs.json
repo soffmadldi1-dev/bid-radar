@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 12:21:26",
+  "updated_at": "2026-11-19 11:59:14",
   "keywords": [
     "취업",
     "관광",
@@ -9,8 +9,106 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 150,
+  "count": 148,
   "prespecs": [
+    {
+      "id": "R26BD00302195",
+      "title": "글로벌혁신 규제자유특구 기술안보 및 기술보호 법률 컨설팅",
+      "agency": "한국산업기술진흥원",
+      "demand_agency": "한국산업기술진흥원",
+      "region": "전국·기타",
+      "budget": 50000000,
+      "notice_no": "R26BD00302195",
+      "notice_date": "2026-11-18 10:38",
+      "notice_ts": 1794965912,
+      "close_date": "2026-11-23 23:59",
+      "close_ts": 1795445940,
+      "delivery_date": "",
+      "officer": "황성원 02-6009-3381",
+      "bid_nos": "R26BK01838363",
+      "files": [],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-19 11:59",
+      "first_seen_ts": 1795057140
+    },
+    {
+      "id": "R26BD00302015",
+      "title": "청천호 관광기반시설 조성사업(4지구) 기본 및 실시설계용역",
+      "agency": "충청남도 보령시",
+      "demand_agency": "충청남도 보령시",
+      "region": "충남",
+      "budget": 31900000,
+      "notice_no": "R26BD00302015",
+      "notice_date": "2026-11-17 20:58",
+      "notice_ts": 1794916688,
+      "close_date": "2026-11-20 23:59",
+      "close_ts": 1795186740,
+      "delivery_date": "",
+      "officer": "이혁재 041-930-3573",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00302015&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00302015&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00302015&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-19 11:59",
+      "first_seen_ts": 1795057140
+    },
+    {
+      "id": "R26BD00301680",
+      "title": "2026 경주 황리단길 글로컬상권 점포 스케일업 컨설팅 용역",
+      "agency": "(주)핀연구소",
+      "demand_agency": "(주)핀연구소",
+      "region": "전국·기타",
+      "budget": 150000000,
+      "notice_no": "R26BD00301680",
+      "notice_date": "2026-11-17 15:17",
+      "notice_ts": 1794896220,
+      "close_date": "2026-11-22 23:59",
+      "close_ts": 1795359540,
+      "delivery_date": "2027-03-10 00:00",
+      "officer": "김규원",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301680&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301680&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00301680&fileType=BFDTL&fileSeq=4",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-19 11:59",
+      "first_seen_ts": 1795057140
+    },
     {
       "id": "R26BD00301587",
       "title": "투자유치를 위한 IR 컨설팅 프로그램 운영",
@@ -477,7 +575,7 @@
       "close_ts": 1795013940,
       "delivery_date": "2027-01-31 00:00",
       "officer": "서상진",
-      "bid_nos": "",
+      "bid_nos": "R26BK01841240",
       "files": [
         {
           "name": "첨부파일 1",
@@ -698,7 +796,7 @@
       "close_ts": 1794927540,
       "delivery_date": "",
       "officer": "권은정",
-      "bid_nos": "",
+      "bid_nos": "R26BK01841507",
       "files": [
         {
           "name": "첨부파일 1",
@@ -4416,150 +4514,6 @@
       ],
       "first_seen": "2026-10-21 09:28",
       "first_seen_ts": 1792542480
-    },
-    {
-      "id": "R26BD00283668",
-      "title": "에너지ISAC 서비스 모델 개발 컨설팅",
-      "agency": "한전KDN(주)",
-      "demand_agency": "한전KDN(주)",
-      "region": "전국·기타",
-      "budget": 34569700,
-      "notice_no": "R26BD00283668",
-      "notice_date": "2026-10-20 11:06",
-      "notice_ts": 1792461977,
-      "close_date": "2026-10-23 23:59",
-      "close_ts": 1792767540,
-      "delivery_date": "",
-      "officer": "",
-      "bid_nos": "",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00283668&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-21 09:28",
-      "first_seen_ts": 1792542480
-    },
-    {
-      "id": "R26BD00287307",
-      "title": "2027년 교육훈련정보시스템 통합 유지관리",
-      "agency": "재단법인 한국건설인정책연구원",
-      "demand_agency": "재단법인 한국건설인정책연구원",
-      "region": "전국·기타",
-      "budget": 250000000,
-      "notice_no": "R26BD00287307",
-      "notice_date": "2026-10-20 10:48",
-      "notice_ts": 1792460907,
-      "close_date": "2026-10-25 23:59",
-      "close_ts": 1792940340,
-      "delivery_date": "2027-12-31 00:00",
-      "officer": "백형일 070-7611-4434",
-      "bid_nos": "R26BK01789994",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287307&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "교육훈련"
-      ],
-      "first_seen": "2026-10-21 09:28",
-      "first_seen_ts": 1792542480
-    },
-    {
-      "id": "R26BD00287092",
-      "title": "2027~2028 서울 등산관광센터 3개소 관리 용역",
-      "agency": "재단법인 서울관광재단",
-      "demand_agency": "재단법인 서울관광재단",
-      "region": "서울",
-      "budget": 2150280000,
-      "notice_no": "R26BD00287092",
-      "notice_date": "2026-10-19 18:10",
-      "notice_ts": 1792401033,
-      "close_date": "2026-10-24 23:59",
-      "close_ts": 1792853940,
-      "delivery_date": "2028-12-31 00:00",
-      "officer": "김동찬 02-3788-0804",
-      "bid_nos": "R26BK01790294",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287092&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 2",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287092&fileType=BFDTL&fileSeq=2",
-          "rfp": false
-        },
-        {
-          "name": "첨부파일 3",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00287092&fileType=BFDTL&fileSeq=3",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 19:01",
-      "first_seen_ts": 1792404060
-    },
-    {
-      "id": "R26BD00286758",
-      "title": "금강 국가관광도로 조성사업 기본 및 실시설계용역",
-      "agency": "조달청",
-      "demand_agency": "충청남도 공주시",
-      "region": "충남",
-      "budget": 300000000,
-      "notice_no": "R26BD00286758",
-      "notice_date": "2026-10-19 14:41",
-      "notice_ts": 1792388501,
-      "close_date": "2026-10-24 23:59",
-      "close_ts": 1792853940,
-      "delivery_date": "",
-      "officer": "이종웅 042-724-7356",
-      "bid_nos": "",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00286758&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-19 19:01",
-      "first_seen_ts": 1792404060
-    },
-    {
-      "id": "R26BD00286688",
-      "title": "AI OCR 고도화 기술 컨설팅 용역",
-      "agency": "(주)리빗",
-      "demand_agency": "(주)리빗",
-      "region": "전국·기타",
-      "budget": 55000000,
-      "notice_no": "R26BD00286688",
-      "notice_date": "2026-10-19 13:50",
-      "notice_ts": 1792385440,
-      "close_date": "2026-10-22 23:59",
-      "close_ts": 1792681140,
-      "delivery_date": "",
-      "officer": "김재현",
-      "bid_nos": "R26BK01778307,R26BK01787860",
-      "files": [],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-19 19:01",
-      "first_seen_ts": 1792404060
     }
   ]
 }
