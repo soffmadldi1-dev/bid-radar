@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 11:59:20",
+  "updated_at": "2026-11-22 10:55:08",
   "keywords": [
     "취업",
     "관광",
@@ -14,128 +14,8 @@
     "시스템 구축"
   ],
   "total_fetched": 0,
-  "count": 25,
+  "count": 22,
   "notices": [
-    {
-      "id": "R26BK01816786",
-      "order": "000",
-      "title": "양산부산대학교병원 CAR-T 치료센터 시설 구축 컨설팅 용역",
-      "agency": "양산부산대학교병원",
-      "demand_agency": "양산부산대학교병원",
-      "region": "경남",
-      "budget": 116000000,
-      "notice_no": "R26BK01816786",
-      "notice_date": "2026-11-09 10:44",
-      "close_date": "2026-11-20 15:00",
-      "close_ts": 1795154400,
-      "contract_method": "제한경쟁",
-      "kind": "등록공고",
-      "renotice": false,
-      "prespec_no": "R26BD00293324",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01816786&bidPbancOrd=000",
-      "files": [
-        {
-          "name": "2. 제안요청서_수정본.hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01816786&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "1. 공고문(CAR-T).hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01816786&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "1. 공고문(CAR-T).pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01816786&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-11-10 13:03",
-      "first_seen_ts": 1794283380
-    },
-    {
-      "id": "R26BK01818826",
-      "order": "000",
-      "title": "수원시 관광·공공시설 셔틀버스 기본계획 및 타당성조사 용역(협상)",
-      "agency": "경기도 수원시",
-      "demand_agency": "경기도 수원시",
-      "region": "경기",
-      "budget": 300000000,
-      "notice_no": "R26BK01818826",
-      "notice_date": "2026-11-09 18:44",
-      "close_date": "2026-11-20 16:00",
-      "close_ts": 1795158000,
-      "contract_method": "일반경쟁",
-      "kind": "등록공고",
-      "renotice": false,
-      "prespec_no": "R26BD00292904",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01818826&bidPbancOrd=000",
-      "files": [
-        {
-          "name": "1 과업지시서 수원시 관광공공시설 셔틀버스 기본계획 및 타당성조사 용역.hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01818826&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=05",
-          "rfp": true
-        },
-        {
-          "name": "2 제안요청서 수원시 관광공공시설 셔틀버스 기본계획 및 타당성조사 용역(수정).hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01818826&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=05",
-          "rfp": true
-        },
-        {
-          "name": "(1109공고문 최종)수원시 관광공공시설 셔틀버스 기본계획 및 타당성조사 용역.hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01818826&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=05",
-          "rfp": false
-        },
-        {
-          "name": "(1109공고문 최종)수원시 관광공공시설 셔틀버스 기본계획 및 타당성조사 용역.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01818826&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=05",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-11-10 13:03",
-      "first_seen_ts": 1794283380
-    },
-    {
-      "id": "R26BK01817896",
-      "order": "000",
-      "title": "정보보호 관리체계 인증 최초심사 지원 컨설팅 용역",
-      "agency": "중앙대학교",
-      "demand_agency": "중앙대학교",
-      "region": "전국·기타",
-      "budget": 60500000,
-      "notice_no": "R26BK01817896",
-      "notice_date": "2026-11-09 14:20",
-      "close_date": "2026-11-20 17:00",
-      "close_ts": 1795161600,
-      "contract_method": "일반경쟁",
-      "kind": "재공고",
-      "renotice": true,
-      "prespec_no": "R26BD00289419",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01817896&bidPbancOrd=000",
-      "files": [
-        {
-          "name": "#붙임1-2. 제안요청서(안)_정보보호 관리체계 인증 최초심사 지원 컨설팅 용역.hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01817896&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "#붙임1-1. 입찰재공고문(안)_정보보호 관리체계 인증 최초심사 지원 컨설팅 용역.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01817896&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-11-10 13:03",
-      "first_seen_ts": 1794283380
-    },
     {
       "id": "R26BK01764812",
       "order": "000",

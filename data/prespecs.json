@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 12:01:22",
+  "updated_at": "2026-11-22 10:56:38",
   "keywords": [
     "취업",
     "관광",
@@ -9,7 +9,7 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 142,
+  "count": 140,
   "prespecs": [
     {
       "id": "R26BD00303279",
@@ -4300,62 +4300,6 @@
       ],
       "first_seen": "2026-10-24 09:21",
       "first_seen_ts": 1792801260
-    },
-    {
-      "id": "R26BD00289135",
-      "title": "개인정보 처리방침 평가지원 및 컨설팅",
-      "agency": "조달청 서울지방조달청",
-      "demand_agency": "개인정보보호위원회",
-      "region": "서울",
-      "budget": 816466000,
-      "notice_no": "R26BD00289135",
-      "notice_date": "2026-10-22 17:24",
-      "notice_ts": 1792657454,
-      "close_date": "2026-10-27 23:59",
-      "close_ts": 1793113140,
-      "delivery_date": "2027-12-20 00:00",
-      "officer": "장기순 02-590-8884",
-      "bid_nos": "R26BK01800625",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00289135&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-23 09:29",
-      "first_seen_ts": 1792715340
-    },
-    {
-      "id": "R26BD00288999",
-      "title": "관광숙박시설 안전 매뉴얼 개선 방안 연구",
-      "agency": "문화체육관광부",
-      "demand_agency": "문화체육관광부",
-      "region": "전국·기타",
-      "budget": 44000000,
-      "notice_no": "R26BD00288999",
-      "notice_date": "2026-10-22 17:14",
-      "notice_ts": 1792656878,
-      "close_date": "2026-10-27 23:59",
-      "close_ts": 1793113140,
-      "delivery_date": "",
-      "officer": "김가현 044-203-2145",
-      "bid_nos": "R26BK01795318",
-      "files": [
-        {
-          "name": "첨부파일 1",
-          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00288999&fileType=BFDTL&fileSeq=1",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-23 09:29",
-      "first_seen_ts": 1792715340
     }
   ]
 }

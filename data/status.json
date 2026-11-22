@@ -1,13 +1,13 @@
 {
   "ok": true,
   "message": "정상 수집",
-  "count": 25,
+  "count": 22,
   "endpoint": "ad/BidPublicInfoService/getBidPblancListInfoServc",
   "prespec": {
     "ok": true,
     "message": "정상 수집",
-    "count": 142,
+    "count": 140,
     "endpoint": "ao/HrcspSsstndrdInfoService/getPublicPrcureThngInfoServc"
   },
-  "checked_at": "2026-11-21 12:01:22"
+  "checked_at": "2026-11-22 10:56:38"
 }
