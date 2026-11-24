@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23 11:18:04",
+  "updated_at": "2026-11-24 14:45:04",
   "keywords": [
     "취업",
     "관광",
@@ -14,53 +14,8 @@
     "시스템 구축"
   ],
   "total_fetched": 0,
-  "count": 22,
+  "count": 21,
   "notices": [
-    {
-      "id": "R26BK01764812",
-      "order": "000",
-      "title": "첨단 AI 기반 디지털의료기기 신속제품화 지원사업(AX-Sprint 300) - 식약처 허가를 위한 개발 문서 및 디지털의료기기 GMP 컨설팅 용역",
-      "agency": "주식회사 알에스리햅",
-      "demand_agency": "주식회사 알에스리햅",
-      "region": "전국·기타",
-      "budget": 313500000,
-      "notice_no": "R26BK01764812",
-      "notice_date": "2026-10-12 14:30",
-      "close_date": "2026-11-23 10:00",
-      "close_ts": 1795395600,
-      "contract_method": "일반경쟁",
-      "kind": "등록공고",
-      "renotice": false,
-      "prespec_no": "R26BD00281453",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01764812&bidPbancOrd=000",
-      "files": [
-        {
-          "name": "02_제안요청서_RSREHAB_GMP컨설팅_V2.docx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01764812&bidPbancOrd=000&fileType=&fileSeq=5&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "01_입찰공고문_RSREHAB_GMP컨설팅(일반)_V2.docx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01764812&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "03_첨부 양식(청렴서약,보안서약,결격사유)_V2.docx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01764812&bidPbancOrd=000&fileType=&fileSeq=3&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "04_입찰 참가 신청서 양식.hwp",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01764812&bidPbancOrd=000&fileType=&fileSeq=4&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-10-12 14:30",
-      "first_seen_ts": 1791783000
-    },
     {
       "id": "R26BK01800241",
       "order": "000",

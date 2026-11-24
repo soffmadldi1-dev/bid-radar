@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23 11:19:00",
+  "updated_at": "2026-11-24 14:47:15",
   "keywords": [
     "취업",
     "관광",
@@ -9,8 +9,158 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 131,
+  "count": 136,
   "prespecs": [
+    {
+      "id": "R26BD00304310",
+      "title": "『한동대학교 앵커사업단 2026년 동계방학 AI 활용 자기소개서 및 면접 대비 취업 캠프』운영 용역",
+      "agency": "한동대학교 산학협력단",
+      "demand_agency": "한동대학교 산학협력단",
+      "region": "전국·기타",
+      "budget": 43000000,
+      "notice_no": "R26BD00304310",
+      "notice_date": "2026-11-20 17:59",
+      "notice_ts": 1795165177,
+      "close_date": "2026-11-23 23:59",
+      "close_ts": 1795445940,
+      "delivery_date": "2026-12-31 00:00",
+      "officer": "박지령 054-260-1144",
+      "bid_nos": "R26BK01848735",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304310&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "취업"
+      ],
+      "first_seen": "2026-11-24 14:47",
+      "first_seen_ts": 1795499220
+    },
+    {
+      "id": "R26BD00304117",
+      "title": "2027~2029 김해문화관광재단 결산 및 세무 회계 용역",
+      "agency": "재단법인김해문화관광재단",
+      "demand_agency": "재단법인김해문화관광재단",
+      "region": "경남",
+      "budget": 148500000,
+      "notice_no": "R26BD00304117",
+      "notice_date": "2026-11-20 16:10",
+      "notice_ts": 1795158617,
+      "close_date": "2026-11-25 23:59",
+      "close_ts": 1795618740,
+      "delivery_date": "2029-12-31 00:00",
+      "officer": "김효진",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304117&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304117&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-24 14:47",
+      "first_seen_ts": 1795499220
+    },
+    {
+      "id": "R26BD00303883",
+      "title": "2026년도 외국인 유학생 대상 취업교육 컨텐츠 제작 용역",
+      "agency": "동아대학교",
+      "demand_agency": "동아대학교",
+      "region": "전국·기타",
+      "budget": 35000000,
+      "notice_no": "R26BD00303883",
+      "notice_date": "2026-11-20 14:07",
+      "notice_ts": 1795151275,
+      "close_date": "2026-11-25 23:59",
+      "close_ts": 1795618740,
+      "delivery_date": "2027-01-29 00:00",
+      "officer": "조규동 051-200-6712",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00303883&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "취업"
+      ],
+      "first_seen": "2026-11-24 14:47",
+      "first_seen_ts": 1795499220
+    },
+    {
+      "id": "R26BD00303776",
+      "title": "[앵커사업단] 첨단 바이오 인재양성 부트캠프 용역",
+      "agency": "충북대학교산학협력단",
+      "demand_agency": "충북대학교산학협력단",
+      "region": "충북",
+      "budget": 95000000,
+      "notice_no": "R26BD00303776",
+      "notice_date": "2026-11-20 11:37",
+      "notice_ts": 1795142231,
+      "close_date": "2026-11-25 23:59",
+      "close_ts": 1795618740,
+      "delivery_date": "2027-02-05 00:00",
+      "officer": "하현지",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00303776&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00303776&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "인재양성"
+      ],
+      "first_seen": "2026-11-24 14:47",
+      "first_seen_ts": 1795499220
+    },
+    {
+      "id": "R26BD00303759",
+      "title": "2027년 무역장벽 대응 심층 컨설팅 사업",
+      "agency": "대한무역투자진흥공사",
+      "demand_agency": "대한무역투자진흥공사",
+      "region": "전국·기타",
+      "budget": 556092000,
+      "notice_no": "R26BD00303759",
+      "notice_date": "2026-11-20 11:24",
+      "notice_ts": 1795141499,
+      "close_date": "2026-11-25 23:59",
+      "close_ts": 1795618740,
+      "delivery_date": "2027-12-31 00:00",
+      "officer": "박영희",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00303759&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-24 14:47",
+      "first_seen_ts": 1795499220
+    },
     {
       "id": "R26BD00303361",
       "title": "2027년 충남관광 홈페이지 기능고도화 및 유지관리사업",
@@ -25,7 +175,7 @@
       "close_ts": 1795359540,
       "delivery_date": "2027-12-31 00:00",
       "officer": "가한철 041-635-3673",
-      "bid_nos": "",
+      "bid_nos": "R26BK01848224",
       "files": [
         {
           "name": "첨부파일 1",
@@ -91,7 +241,7 @@
       "close_ts": 1795399200,
       "delivery_date": "",
       "officer": "송나리 044-203-2823",
-      "bid_nos": "",
+      "bid_nos": "R26BK01848277",
       "files": [
         {
           "name": "첨부파일 1",
@@ -322,7 +472,7 @@
       "close_ts": 1795273140,
       "delivery_date": "2027-12-31 00:00",
       "officer": "박효선",
-      "bid_nos": "",
+      "bid_nos": "R26BK01846801",
       "files": [
         {
           "name": "첨부파일 1",
@@ -415,7 +565,7 @@
       "close_ts": 1795359540,
       "delivery_date": "2027-03-10 00:00",
       "officer": "김규원",
-      "bid_nos": "",
+      "bid_nos": "R26BK01846258",
       "files": [
         {
           "name": "첨부파일 1",
@@ -546,7 +696,7 @@
       "close_ts": 1795359540,
       "delivery_date": "",
       "officer": "최준한 054-740-7318",
-      "bid_nos": "",
+      "bid_nos": "R26BK01849640",
       "files": [
         {
           "name": "첨부파일 1",
@@ -806,7 +956,7 @@
       "close_ts": 1795013940,
       "delivery_date": "",
       "officer": "정채윤 070-4056-8690",
-      "bid_nos": "",
+      "bid_nos": "R26BK01842378",
       "files": [
         {
           "name": "첨부파일 1",
