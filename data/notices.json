@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 14:45:04",
+  "updated_at": "2026-11-25 13:47:28",
   "keywords": [
     "취업",
     "관광",
@@ -14,88 +14,8 @@
     "시스템 구축"
   ],
   "total_fetched": 0,
-  "count": 21,
+  "count": 19,
   "notices": [
-    {
-      "id": "R26BK01800241",
-      "order": "000",
-      "title": "2027년 IoT 제품 보안성 컨설팅 및 시험 지원",
-      "agency": "조달청 광주지방조달청",
-      "demand_agency": "한국인터넷진흥원",
-      "region": "광주",
-      "budget": 333099800,
-      "notice_no": "R26BK01800241",
-      "notice_date": "2026-10-30 10:55",
-      "close_date": "2026-11-24 10:00",
-      "close_ts": 1795482000,
-      "contract_method": "일반경쟁",
-      "kind": "등록공고",
-      "renotice": false,
-      "prespec_no": "R26BD00285711",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01800241&bidPbancOrd=000",
-      "files": [
-        {
-          "name": "공고서(국가_제한_협상_수요기관 자체평가).hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01800241&bidPbancOrd=000&fileType=&fileSeq=1&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "공고서(국가_제한_협상_수요기관 자체평가).pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01800241&bidPbancOrd=000&fileType=&fileSeq=2&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "컨설팅"
-      ],
-      "first_seen": "2026-11-02 10:22",
-      "first_seen_ts": 1793582520
-    },
-    {
-      "id": "R26BK01763165",
-      "order": "001",
-      "title": "27~28년 취업 후 학자금 상환 전산시스템 운영 및 유지관리",
-      "agency": "조달청",
-      "demand_agency": "국세청",
-      "region": "전국·기타",
-      "budget": 4599561160,
-      "notice_no": "R26BK01763165",
-      "notice_date": "2026-11-10 09:07",
-      "close_date": "2026-11-24 10:00",
-      "close_ts": 1795482000,
-      "contract_method": "일반경쟁",
-      "kind": "변경공고",
-      "renotice": false,
-      "prespec_no": "R26BD00276386",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763165&bidPbancOrd=001",
-      "files": [
-        {
-          "name": "Summary Notice.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01763165&bidPbancOrd=001&fileType=&fileSeq=2&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "네트워크 장비 구축·운영사업 추가특수조건(조달청지침)(제8258호)(20210615).hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01763165&bidPbancOrd=001&fileType=&fileSeq=3&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "(정정공고서_학자금) 용역_협상_SWO_국가_일반_국제_개발_0036,1468_40억미만_공동이행_하도급적정성_차등3점_온발.hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01763165&bidPbancOrd=001&fileType=&fileSeq=4&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "(정정공고서_학자금) 용역_협상_SWO_국가_일반_국제_개발_0036,1468_40억미만_공동이행_하도급적정성_차등3점_온발.pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01763165&bidPbancOrd=001&fileType=&fileSeq=5&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "취업"
-      ],
-      "first_seen": "2026-11-10 13:03",
-      "first_seen_ts": 1794283380
-    },
     {
       "id": "R26BK01770583",
       "order": "001",

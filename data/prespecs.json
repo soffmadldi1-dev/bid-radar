@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 14:47:15",
+  "updated_at": "2026-11-25 13:49:02",
   "keywords": [
     "취업",
     "관광",
@@ -9,8 +9,254 @@
     "컨설팅"
   ],
   "total_fetched": 4000,
-  "count": 136,
+  "count": 143,
   "prespecs": [
+    {
+      "id": "R26BD00304950",
+      "title": "대학행정시스템 운영진단 및 개선 컨설팅 용역",
+      "agency": "서울특별시 서울시립대학교",
+      "demand_agency": "서울특별시 서울시립대학교",
+      "region": "서울",
+      "budget": 200000000,
+      "notice_no": "R26BD00304950",
+      "notice_date": "2026-11-23 16:19",
+      "notice_ts": 1795418361,
+      "close_date": "2026-11-26 23:59",
+      "close_ts": 1795705140,
+      "delivery_date": "",
+      "officer": "여울",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304950&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304950&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304950&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-25 13:49",
+      "first_seen_ts": 1795582140
+    },
+    {
+      "id": "R26BD00304900",
+      "title": "[앵커-지역현안] G-TIZEN 내·외국인 글로컬 리더십·취업 캠프(심화과정) 용역(2차년도)",
+      "agency": "영남대학교",
+      "demand_agency": "영남대학교",
+      "region": "전국·기타",
+      "budget": 40000000,
+      "notice_no": "R26BD00304900",
+      "notice_date": "2026-11-23 15:53",
+      "notice_ts": 1795416819,
+      "close_date": "2026-11-28 23:59",
+      "close_ts": 1795877940,
+      "delivery_date": "2027-02-12 00:00",
+      "officer": "여민정 053-810-1286",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304900&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "취업"
+      ],
+      "first_seen": "2026-11-25 13:49",
+      "first_seen_ts": 1795582140
+    },
+    {
+      "id": "R26BD00304792",
+      "title": "대운산 경관광장 및 힐링여가녹지 조성사업 통합건설사업관리용역",
+      "agency": "조달청",
+      "demand_agency": "울산광역시 울주군",
+      "region": "울산",
+      "budget": 1306103000,
+      "notice_no": "R26BD00304792",
+      "notice_date": "2026-11-23 14:37",
+      "notice_ts": 1795412241,
+      "close_date": "2026-11-28 23:59",
+      "close_ts": 1795877940,
+      "delivery_date": "",
+      "officer": "이용범 042-724-7515",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304792&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-25 13:49",
+      "first_seen_ts": 1795582140
+    },
+    {
+      "id": "R26BD00304760",
+      "title": "교동 글로컬상권 특화 관광 프로그램 개발 및 상품화 용역",
+      "agency": "재단법인 대구전통시장진흥재단",
+      "demand_agency": "재단법인 대구전통시장진흥재단",
+      "region": "대구",
+      "budget": 200000000,
+      "notice_no": "R26BD00304760",
+      "notice_date": "2026-11-23 14:17",
+      "notice_ts": 1795411059,
+      "close_date": "2026-11-26 23:59",
+      "close_ts": 1795705140,
+      "delivery_date": "2027-03-15 00:00",
+      "officer": "채지희 053-951-6660",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304760&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304760&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304760&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "관광"
+      ],
+      "first_seen": "2026-11-25 13:49",
+      "first_seen_ts": 1795582140
+    },
+    {
+      "id": "R26BD00304473",
+      "title": "(2026/27 KSP-EBRD 공동컨설팅) 이집트 수에즈운하 경제구역(SCZone) 발전을 위한 디지털화 및 제도 개혁",
+      "agency": "한국수출입은행",
+      "demand_agency": "한국수출입은행",
+      "region": "전국·기타",
+      "budget": 396331706,
+      "notice_no": "R26BD00304473",
+      "notice_date": "2026-11-23 13:53",
+      "notice_ts": 1795409582,
+      "close_date": "2026-11-26 23:59",
+      "close_ts": 1795705140,
+      "delivery_date": "2027-08-31 00:00",
+      "officer": "김유민 ***********",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304473&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304473&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304473&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-25 13:49",
+      "first_seen_ts": 1795582140
+    },
+    {
+      "id": "R26BD00304491",
+      "title": "(2026/27 KSP-AfDB 공동컨설팅) 탄자니아 깨끗한 잔지바르를 위한 폐기물 분리 체계 강화",
+      "agency": "한국수출입은행",
+      "demand_agency": "한국수출입은행",
+      "region": "전국·기타",
+      "budget": 387476606,
+      "notice_no": "R26BD00304491",
+      "notice_date": "2026-11-23 10:44",
+      "notice_ts": 1795398293,
+      "close_date": "2026-11-26 23:59",
+      "close_ts": 1795705140,
+      "delivery_date": "2027-08-31 00:00",
+      "officer": "장예린",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304491&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304491&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304491&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-25 13:49",
+      "first_seen_ts": 1795582140
+    },
+    {
+      "id": "R26BD00304568",
+      "title": "(2026/27 KSP-CAF 공동컨설팅) 아르헨티나 네우켄 지역의 지속 가능한 스마트 위생관리 모델 구축: 폐기물 제로 슬러지 전환",
+      "agency": "한국수출입은행",
+      "demand_agency": "한국수출입은행",
+      "region": "전국·기타",
+      "budget": 422022134,
+      "notice_no": "R26BD00304568",
+      "notice_date": "2026-11-23 10:29",
+      "notice_ts": 1795397381,
+      "close_date": "2026-11-26 23:59",
+      "close_ts": 1795705140,
+      "delivery_date": "2027-08-31 00:00",
+      "officer": "조재동 ***********",
+      "bid_nos": "",
+      "files": [
+        {
+          "name": "첨부파일 1",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304568&fileType=BFDTL&fileSeq=1",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 2",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304568&fileType=BFDTL&fileSeq=2",
+          "rfp": false
+        },
+        {
+          "name": "첨부파일 3",
+          "url": "https://www.g2b.go.kr/pn/pnz/pnza/UntyAtchFile/downloadFile.do?bfSpecRegNo=R26BD00304568&fileType=BFDTL&fileSeq=3",
+          "rfp": false
+        }
+      ],
+      "matched": [
+        "컨설팅"
+      ],
+      "first_seen": "2026-11-25 13:49",
+      "first_seen_ts": 1795582140
+    },
     {
       "id": "R26BD00304310",
       "title": "『한동대학교 앵커사업단 2026년 동계방학 AI 활용 자기소개서 및 면접 대비 취업 캠프』운영 용역",
@@ -269,7 +515,7 @@
       "close_ts": 1795532340,
       "delivery_date": "2027-12-31 00:00",
       "officer": "최재혁 043-200-9132",
-      "bid_nos": "",
+      "bid_nos": "R26BK01854822",
       "files": [
         {
           "name": "첨부파일 1",
@@ -297,7 +543,7 @@
       "close_ts": 1795532340,
       "delivery_date": "2027-12-10 00:00",
       "officer": "최현이 02-3011-2126",
-      "bid_nos": "",
+      "bid_nos": "R26BK01854309",
       "files": [
         {
           "name": "첨부파일 1",
@@ -345,7 +591,7 @@
       "close_ts": 1795445940,
       "delivery_date": "2027-12-31 00:00",
       "officer": "조정윤",
-      "bid_nos": "",
+      "bid_nos": "R26BK01853467",
       "files": [
         {
           "name": "첨부파일 1",
@@ -527,7 +773,7 @@
       "close_ts": 1795186740,
       "delivery_date": "",
       "officer": "이혁재 041-930-3573",
-      "bid_nos": "",
+      "bid_nos": "R26BK01852936",
       "files": [
         {
           "name": "첨부파일 1",
