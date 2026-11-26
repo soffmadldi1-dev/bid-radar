@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 13:47:28",
+  "updated_at": "2026-11-26 12:58:00",
   "keywords": [
     "취업",
     "관광",
@@ -14,48 +14,8 @@
     "시스템 구축"
   ],
   "total_fetched": 0,
-  "count": 19,
+  "count": 18,
   "notices": [
-    {
-      "id": "R26BK01770583",
-      "order": "001",
-      "title": "2027 문화관광해설사 통합시스템 운영 및 유지관리",
-      "agency": "한국관광공사",
-      "demand_agency": "한국관광공사",
-      "region": "전국·기타",
-      "budget": 139396000,
-      "notice_no": "R26BK01770583",
-      "notice_date": "2026-10-14 14:19",
-      "close_date": "2026-11-24 15:00",
-      "close_ts": 1795500000,
-      "contract_method": "제한경쟁",
-      "kind": "변경공고",
-      "renotice": false,
-      "prespec_no": "R26BD00282669",
-      "link": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01770583&bidPbancOrd=001",
-      "files": [
-        {
-          "name": "2. 제안요청서(2027 문화관광해설사 통합시스템 운영 및 유지관리).hwpx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01770583&bidPbancOrd=001&fileType=&fileSeq=2&prcmBsneSeCd=03",
-          "rfp": true
-        },
-        {
-          "name": "1. 입찰공고문(2027 문화관광해설사 통합시스템 운영 및 유지관리).pdf",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01770583&bidPbancOrd=001&fileType=&fileSeq=1&prcmBsneSeCd=03",
-          "rfp": false
-        },
-        {
-          "name": "상생결제시스템안내문.pptx",
-          "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01770583&bidPbancOrd=001&fileType=&fileSeq=3&prcmBsneSeCd=03",
-          "rfp": false
-        }
-      ],
-      "matched": [
-        "관광"
-      ],
-      "first_seen": "2026-10-14 14:19",
-      "first_seen_ts": 1791955140
-    },
     {
       "id": "R26BK01784053",
       "order": "000",
