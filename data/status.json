@@ -6,8 +6,8 @@
   "prespec": {
     "ok": true,
     "message": "정상 수집",
-    "count": 141,
+    "count": 138,
     "endpoint": "ao/HrcspSsstndrdInfoService/getPublicPrcureThngInfoServc"
   },
-  "checked_at": "2026-11-27 12:59:18"
+  "checked_at": "2026-11-28 12:45:01"
 }
